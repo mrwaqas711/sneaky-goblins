@@ -1,16 +1,87 @@
-html,
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Henny+Penny&family=Lexend+Deca&family=Notable&family=Podkova&family=Sarabun&family=Share&family=Wire+One&display=swap");
+
+
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Poppins", sans-serif !important;
 }
 
-a {
-  color: inherit;
+
+
+/*Header CSS Start*/
+.banner {
+  background: url(../public/images/banner-bg.png);
+  height: 100vh;
+  background-size: 100% 100%;
+}
+.header{
+  display: flex;
+  justify-content: space-evenly;
+  padding-right: 4rem;
+  padding-left: 4rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+.left-side-header {
+  display: flex;
+
+}
+.left-side-header > a {
+  margin-right: 2.27em;
+  transition: all 500ms ease;
+  font-family: Outfit, sans-serif;
+  color: #fff;
+  font-size: 1.37em;
+  line-height: 1.26em;
+  font-weight: 600;
   text-decoration: none;
+  padding: 10px 0;
+}
+.left-side-header > a:hover {
+  color: #00c555;
+}
+.logo{
+  margin-top: 10px;
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+  margin-right: 2.27em;
+}
+.right-side-header {
+  display: flex;
+}
+.right-side-header > a {
+  margin-right: 2.27em;
+  transition: all 500ms ease;
+  font-family: Outfit, sans-serif;
+  color: #fff;
+  font-size: 1.37em;
+  line-height: 1.26em;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 10px 0;
+}
+.right-side-header > a:hover {
+  color: #00c555;
+}
+.social-links {
+
+  margin-right: 20px;
+  padding: 15px 0;
+  cursor: pointer;
+  transition: top ease 1s;
+}
+.social-links:hover{
+  position: relative;
+  top: -3px;
+  transition: top ease 5s;
+}
+.header-btn{
+  position: relative;
+  width: 100%;
+  margin-left: 20px;
 }
 
-* {
-  box-sizing: border-box;
-}
+/*Header CSS end*/
