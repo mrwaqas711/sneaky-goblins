@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import CustomButton from '../Common/CustomButton';
 
 const intro = () => {
   return (
@@ -26,7 +27,7 @@ const intro = () => {
             <div className='left-image-side'>
                 <Image src='/avatar2.png' width={724} height={700} layout='fixed' alt='' />
             </div>
-        <div className='left-text-side'>
+        <div className='right-text-side'>
             <h1 className='h1-text'>
                 WHY DO YOU NEED A <br/> <span className="text-green">SNEAKY GOBLIN</span>?
             </h1>
