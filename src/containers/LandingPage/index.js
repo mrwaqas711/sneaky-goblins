@@ -4,7 +4,6 @@ import Intro from '../../components/Intro/intro'
 import Design from '../../components/Design/design'
 import Artist from '../../components/Artist/artist'
 import Vision from '../../components/Vision/vision';
-//dep
 const LandingPage = () => {
 
     return (
