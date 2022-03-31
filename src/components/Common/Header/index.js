@@ -4,6 +4,9 @@ import CustomButton from "../CustomButton";
 import btnIcon from "../../../../public/images/btn-icon.svg";
 
 const Header = () => {
+    function myFunction(x) {
+        // x.classList.toggle("change");
+    }
     return (
         <>
             <div className="header">
@@ -51,7 +54,30 @@ const Header = () => {
                 </div>
             </div>
             <div className="mobile-header">
-                mobile header
+                <div className='mobile-nav-content'>
+                    <div className="">
+                        <Image width={100} height={1} layout='fixed' src="/images/border.png" alt="plus image" />
+                        <div className="menu-btn-left">
+                            <div className="container" onClick={myFunction(this)}>
+                                <div className="bar1"></div>
+                                <div className="bar2"></div>
+                                <div className="bar3"></div>
+                            </div>
+                        </div>
+                        <Image width={100} height={1} layout='fixed' src="/images/border.png" alt="plus image" />
+                    </div>
+                    <div className="mobile-logo">
+                        <Image width={71} height={53} layout='fixed' objectFit="cover" src="/images/sneaky_goblin_logo 3 copy.png" alt="plus image"/>
+                    </div>
+                    <div className="">
+                        <Image width={100} height={1} layout='fixed' src="/images/BorderR.png" alt="plus image" />
+                        <div className="menu-btn-right">
+                            dssd
+                        </div>
+                        <Image width={100} height={1} layout='fixed' src="/images/BorderR.png" alt="plus image" />
+                    </div>
+                </div>
+
             </div>
         </>
     );
