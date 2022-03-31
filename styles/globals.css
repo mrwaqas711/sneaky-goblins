@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=rubik-dirt:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Outfit:300,regular,500,600,700,800,900");
 @import url("https://fonts.googleapis.com/css2?family=Henny+Penny&family=Lexend+Deca&family=Notable&family=Podkova&family=Sarabun&family=Share&family=Wire+One&display=swap");
 
 
@@ -7,7 +8,10 @@ body {
   margin: 0;
   font-family: "Poppins", sans-serif !important;
 }
-
+a {
+  /*padding: 0 !important;*/
+  margin: 0;
+}
 
 
 /*Header CSS Start*/
@@ -19,8 +23,8 @@ body {
 .header{
   display: flex;
   justify-content: space-evenly;
-  padding-right: 4rem;
-  padding-left: 4rem;
+  padding-right: 10%;
+  padding-left: 10%;
   margin-right: auto;
   margin-left: auto;
 }
@@ -33,11 +37,11 @@ body {
   transition: all 500ms ease;
   font-family: Outfit, sans-serif;
   color: #fff;
-  font-size: 1.37em;
+  font-size: 1.2em;
   line-height: 1.26em;
   font-weight: 600;
   text-decoration: none;
-  padding: 10px 0;
+  padding: 10px 0 5px 0;
 }
 .left-side-header > a:hover {
   color: #00c555;
@@ -57,19 +61,18 @@ body {
   transition: all 500ms ease;
   font-family: Outfit, sans-serif;
   color: #fff;
-  font-size: 1.37em;
+  font-size: 1.2em;
   line-height: 1.26em;
   font-weight: 600;
   text-decoration: none;
-  padding: 10px 0;
+  padding: 9px 0 5px 0;
 }
 .right-side-header > a:hover {
   color: #00c555;
 }
 .social-links {
-
   margin-right: 20px;
-  padding: 15px 0;
+  padding-top: 10px;
   cursor: pointer;
   transition: top ease 1s;
 }
@@ -80,8 +83,108 @@ body {
 }
 .header-btn{
   position: relative;
-  width: 100%;
   margin-left: 20px;
 }
-
+@media only screen and (max-width: 500px) {
+  .header {
+    display: none;
+  }
+}
+.mobile-header{
+  display: none;
+}
+@media only screen and (max-width: 500px) {
+  .mobile-header {
+    display: block;
+  }
+}
 /*Header CSS end*/
+/*custom button*/
+.btn-container{
+  position: absolute;
+  top: -5px;
+  margin-bottom: 0;
+}
+.custom-btn {
+  display: flex;
+  width: 280px;
+  font-family: Outfit, sans-serif;
+  color: #000;
+  vertical-align: middle;
+  font-size: 16px;
+  font-weight: 600;
+  border: 2px solid #ffc748;
+  border-radius: 6px;
+  padding: 1em 1.1em;
+  background-image: linear-gradient(84.07deg, #00c555 17%, #00e75e);
+  box-shadow: 0 0 10px 1px rgb(0 231 94);
+}
+.custom-btn:hover{
+  background-image: linear-gradient(84.07deg,#ffc748 17%, #ffc748);
+  cursor: pointer;
+}
+.btn-icon{
+  margin-right: 20px;
+}
+/*custom button*/
+
+/*Main Heading paragraph start*/
+.main-heading {
+  margin-top: 0px;
+  margin-bottom: 0.6em;
+  opacity: 1;
+  direction: ltr;
+  font-family: 'Rubik dirt', sans-serif;
+  color: #ececec;
+  font-size: 3.43em;
+  line-height: 1.27em;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}
+.main-heading > p > span {
+  color: #00c555;
+}
+/*Main Heading paragraph end*/
+/*Join Sneaky Goblin button start*/
+.join-btn-container{
+  display: flex;
+  justify-content: center;
+}
+.join-button {
+  font-family: Outfit, sans-serif;
+  color: #000;
+  vertical-align: middle;
+  font-size: 16px;
+  font-weight: 600;
+  border: 2px solid #ffc748;
+  border-radius: 6px;
+  padding: 1.2em 1.6em;
+  background-image: linear-gradient(84.07deg, #00c555 17%, #00e75e);
+  box-shadow: 0 0 10px 1px rgb(0 231 94);
+}
+.join-button:hover{
+  background-image: linear-gradient(84.07deg,#ffc748 17%, #ffc748);
+  cursor: pointer;
+}
+/*MJoin Sneaky Goblin button end*/
+/* main container footer start*/
+.main-container-footer {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-container-footer > p {
+  padding: 0 1em;
+  margin: 0;
+  font-family: Outfit, sans-serif;
+  color: #ececec;
+  font-size: 1.75em;
+
+  font-weight: 600;
+  text-align: center;
+}
+/*main container footer end*/
