@@ -44,7 +44,7 @@ const Header = () => {
                             <Image width='25' height="20" layout='fixed' src="/images/socialIcon4.png" alt="plus image"/>
                         </div>
                         <div className="header-btn">
-                            <CustomButton Icon={btnIcon}/>
+                            <CustomButton/>
                         </div>
                     </div>
                     <Image width={500} height={1} layout='fixed' src="/images/BorderR.png" alt="plus image"/>

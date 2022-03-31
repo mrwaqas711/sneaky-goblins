@@ -1,11 +1,13 @@
 import React from "react";
 import Image from "next/image";
 
-const CustomButton = ({Icon}) => {
+const CustomButton = () => {
     return (
         <div className="btn-container">
             <button className='custom-btn'>
-                {Icon && <Image width={60} height={20} layout='fixed' src={Icon} alt="plus image"/>}
+                <span className="btn-icon">
+                <Image width={20} height={20} layout='fixed' src='/images/btn-icon.svg' alt="plus image"/>
+                </span>
                 Join us on Discord</button>
         </div>
 
