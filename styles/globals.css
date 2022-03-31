@@ -90,15 +90,23 @@ a {
   .header {
     display: none;
   }
+  .mobile-header {
+    display: block;
+  }
+  .banner {
+    background: url(../public/images/mobile-banner.jpg);
+    background-size: 100% 100%;
+  }
 }
 .mobile-header {
   display: none;
+  color: #fff;
 }
 @media only screen and (max-width: 500px) {
   .mobile-header {
     display: block;
   }
-}
+  }
 /*Header CSS end*/
 /*custom button*/
 .btn-container {
@@ -134,8 +142,7 @@ a {
 
 /*Main Heading paragraph start*/
 .main-heading {
-  margin-top: 0px;
-  margin-bottom: 0.6em;
+  margin: 0 !important;
   opacity: 1;
   direction: ltr;
   font-family: "Rubik dirt", sans-serif;
@@ -148,6 +155,11 @@ a {
 }
 .main-heading > p > span {
   color: #00c555;
+}
+@media only screen and (max-width: 500px) {
+  .main-heading {
+    font-size: 1.65em;
+  }
 }
 /*Main Heading paragraph end*/
 /*Join Sneaky Goblin button start*/
@@ -187,9 +199,14 @@ a {
   font-family: Outfit, sans-serif;
   color: #ececec;
   font-size: 1.75em;
-
   font-weight: 600;
   text-align: center;
+}
+@media only screen and (max-width: 500px) {
+  .main-container-footer > p {
+    font-size: 0.87em;
+    font-weight: 400;
+  }
 }
 /*main container footer end*/
 
@@ -210,7 +227,6 @@ a {
   padding-left: 10%;
   padding-right: 10%;
 }
-
 .left-text-side {
   text-align: left;
   width: 49%;
@@ -254,19 +270,7 @@ a {
   background-image: linear-gradient(84.07deg, #ffc748 17%, #ffc748);
   cursor: pointer;
 }
-@media (max-width: 768px) {
-  .second-container {
-    display: flex;
-  }
-  .inner-container {
-    display: flex;
-    flex-direction: column;
-  }
-  .left-text-side {
-  }
-  .right-image-side {
-  }
-}
+
 
 .third-container {
   background: #141514;
@@ -284,6 +288,19 @@ a {
   padding-left: 6%;
   padding-right: 10%;
 }
+@media only screen and (max-width: 500px) {
+  .inner-container {
+    display: block;
+  }
+  .left-text-side {
+    text-align: center;
+    width: 100%;
+  }
+  .inner-second-container{
+    display: block;
+  }
+}
+
 .p-second-text {
   margin-bottom: 1.5em;
   font-family: Outfit, sans-serif;
