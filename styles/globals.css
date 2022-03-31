@@ -10,6 +10,7 @@ body {
   margin: 0;
   font-family: "Poppins", sans-serif !important;
   background: #141514;
+  z-index: -1;
 }
 a {
   /*padding: 0 !important;*/
@@ -293,6 +294,10 @@ a {
   font-weight: 300;
   text-align: justify;
 }
+.right-text-side {
+  width: 49%;
+  margin-left: 50px;
+}
 .left-image-side {
   text-align: left;
 }
@@ -305,14 +310,19 @@ a {
 
 .main-div {
   background: url(../public/background-line.png);
-  height: 100vh;
+  text-align: center;
 }
 .stone-icon {
   position: relative;
-  bottom: 250px;
 }
+
 .inner-text {
-  text-align: center;
+  position: relative;
+  bottom: 24em;
+  font-family: Outfit, sans-serif;
+  font-size: 1.62em;
+  line-height: 1.27em;
+  font-weight: 600;
 }
 .h1-design {
   color: #00c555;
@@ -322,5 +332,80 @@ a {
   font-weight: bolder;
   text-transform: uppercase;
 }
+.p-design {
+  color: white;
+}
+.image-show {
+  display: flex;
+  flex-direction: row;
+}
 
 /* design page css end */
+
+/* artist page css */
+
+.artist-main-div {
+  display: flex;
+  align-items: center;
+  color: white;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.artist-text {
+  width: 50%;
+}
+.artist-image {
+  background: url(../public/stick.png) no-repeat;
+  height: 90vh;
+  width: 50%;
+  margin-left: 30px;
+}
+.icon-image {
+  background: url(../public/dots.png) no-repeat;
+  /* height: 100%; */
+  margin-left: 40px;
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+}
+/* artist page css end */
+
+/* vision page css start */
+
+.vision-main-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+}
+.vision-h1 {
+  color: white;
+  font-family: "Rubik dirt", sans-serif;
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.vision-p {
+  color: white;
+  margin-bottom: 0;
+  font-family: Outfit, sans-serif;
+  color: #ececec;
+  font-size: 1.75em;
+  line-height: 2.14em;
+  font-weight: 400;
+  text-align: center;
+}
+.key-div {
+}
+
+.key {
+}
+
+/* vision page css end */

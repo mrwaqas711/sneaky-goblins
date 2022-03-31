@@ -15,8 +15,8 @@ const Header = () => {
                     <div className="left-side-header">
                         <a href="#intro">Intro</a>
                         <a href="#design">Designs</a>
-                        <a href="#">Artist</a>
-                        <a href="#">TheVision</a>
+                        <a href="#artist">Artist</a>
+                        <a href="#vision">TheVision</a>
                         <a href="#">Roadmap</a>
                     </div>
                     <Image width={510} height={1} layout='fixed' src="/images/border.png" alt="plus image"/>
