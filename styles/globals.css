@@ -2,17 +2,19 @@
 @import url("https://fonts.googleapis.com/css?family=Outfit:300,regular,500,600,700,800,900");
 @import url("https://fonts.googleapis.com/css2?family=Henny+Penny&family=Lexend+Deca&family=Notable&family=Podkova&family=Sarabun&family=Share&family=Wire+One&display=swap");
 
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   padding: 0;
   margin: 0;
   font-family: "Poppins", sans-serif !important;
+  background: #141514;
 }
 a {
   /*padding: 0 !important;*/
   margin: 0;
 }
-
 
 /*Header CSS Start*/
 .banner {
@@ -20,7 +22,7 @@ a {
   height: 100vh;
   background-size: 100% 100%;
 }
-.header{
+.header {
   display: flex;
   justify-content: space-evenly;
   padding-right: 10%;
@@ -30,7 +32,6 @@ a {
 }
 .left-side-header {
   display: flex;
-
 }
 .left-side-header > a {
   margin-right: 2.27em;
@@ -46,7 +47,7 @@ a {
 .left-side-header > a:hover {
   color: #00c555;
 }
-.logo{
+.logo {
   margin-top: 10px;
   max-width: 100%;
   vertical-align: middle;
@@ -76,12 +77,12 @@ a {
   cursor: pointer;
   transition: top ease 1s;
 }
-.social-links:hover{
+.social-links:hover {
   position: relative;
   top: -3px;
   transition: top ease 5s;
 }
-.header-btn{
+.header-btn {
   position: relative;
   margin-left: 20px;
 }
@@ -90,7 +91,7 @@ a {
     display: none;
   }
 }
-.mobile-header{
+.mobile-header {
   display: none;
 }
 @media only screen and (max-width: 500px) {
@@ -100,7 +101,7 @@ a {
 }
 /*Header CSS end*/
 /*custom button*/
-.btn-container{
+.btn-container {
   position: absolute;
   top: -5px;
   margin-bottom: 0;
@@ -122,11 +123,11 @@ a {
   background-image: linear-gradient(84.07deg, #00c555 17%, #00e75e);
   box-shadow: 0 0 10px 1px rgb(0 231 94);
 }
-.custom-btn:hover{
-  background-image: linear-gradient(84.07deg,#ffc748 17%, #ffc748);
+.custom-btn:hover {
+  background-image: linear-gradient(84.07deg, #ffc748 17%, #ffc748);
   cursor: pointer;
 }
-.btn-icon{
+.btn-icon {
   margin-right: 12px;
 }
 /*custom button*/
@@ -137,7 +138,7 @@ a {
   margin-bottom: 0.6em;
   opacity: 1;
   direction: ltr;
-  font-family: 'Rubik dirt', sans-serif;
+  font-family: "Rubik dirt", sans-serif;
   color: #ececec;
   font-size: 3.43em;
   line-height: 1.27em;
@@ -150,7 +151,7 @@ a {
 }
 /*Main Heading paragraph end*/
 /*Join Sneaky Goblin button start*/
-.join-btn-container{
+.join-btn-container {
   display: flex;
   justify-content: center;
 }
@@ -166,8 +167,8 @@ a {
   background-image: linear-gradient(84.07deg, #00c555 17%, #00e75e);
   box-shadow: 0 0 10px 1px rgb(0 231 94);
 }
-.join-button:hover{
-  background-image: linear-gradient(84.07deg,#ffc748 17%, #ffc748);
+.join-button:hover {
+  background-image: linear-gradient(84.07deg, #ffc748 17%, #ffc748);
   cursor: pointer;
 }
 /*MJoin Sneaky Goblin button end*/
@@ -191,3 +192,135 @@ a {
   text-align: center;
 }
 /*main container footer end*/
+
+/* intro page css  start*/
+.second-container {
+  background: #141514;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+  margin: 50px 0;
+}
+.inner-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.left-text-side {
+  text-align: left;
+  width: 49%;
+}
+.right-image-side {
+}
+.h1-text {
+  color: white;
+  font-family: "Rubik dirt", sans-serif;
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+.text-green {
+  color: #00c555;
+}
+.p-text {
+  margin-bottom: 1.5em;
+  font-family: Outfit, sans-serif;
+  color: #ececec;
+  font-size: 1.569em;
+  line-height: 2.14em;
+  font-weight: 300;
+  text-align: justify;
+}
+.btn-discord {
+  /* margin-bottom: 0px; */
+  font-family: Outfit, sans-serif;
+  color: #000;
+  font-size: 1.25em;
+  line-height: 1.26em;
+  font-weight: 600;
+  border: 2px solid #ffc748;
+  border-radius: 6px;
+  padding: 1em 2em;
+  background-image: linear-gradient(84.07deg, #00c555 17%, #00e75e);
+  box-shadow: 0 0 10px 1px rgb(0 231 94);
+}
+.btn-discord:hover {
+  background-image: linear-gradient(84.07deg, #ffc748 17%, #ffc748);
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .second-container {
+    display: flex;
+  }
+  .inner-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .left-text-side {
+  }
+  .right-image-side {
+  }
+}
+
+.third-container {
+  background: #141514;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+  margin: 50px 0;
+}
+.inner-second-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 6%;
+  padding-right: 10%;
+}
+.p-second-text {
+  margin-bottom: 1.5em;
+  font-family: Outfit, sans-serif;
+  color: #ececec;
+  font-size: 1.569em;
+  line-height: 2.14em;
+  font-weight: 300;
+  text-align: justify;
+}
+.left-image-side {
+  text-align: left;
+}
+.text-margin {
+}
+
+/* intro page css end */
+
+/* design page css start */
+
+.main-div {
+  background: url(../public/background-line.png);
+  height: 100vh;
+}
+.stone-icon {
+  position: relative;
+  bottom: 250px;
+}
+.inner-text {
+  text-align: center;
+}
+.h1-design {
+  color: #00c555;
+  font-family: "Rubik dirt", sans-serif;
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+/* design page css end */

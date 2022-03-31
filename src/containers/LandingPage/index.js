@@ -1,27 +1,15 @@
 import React from 'react';
-import Header from '../../components/Common/Header'
-import Image from "next/image";
+import Home from '../../components/Home'
+import Intro from '../../components/Intro/intro'
+import Design from '../../components/Design/design'
 
 const LandingPage = () => {
 
     return (
         <div>
-            <div className="banner">
-                <Header/>
-                <div className="main-heading">
-                    <p>Ready to build the future of
-                        <span>Gamified<br/> NFT</span> & <span>Metaverse integration</span> ?</p>
-                </div>
-                <div className="join-btn-container">
-                    <button className="join-button">
-                        Join Sneaky Goblin</button>
-                </div>
-                <div className="main-container-footer">
-                    <Image width={13} height={13} layout='fixed' src="/images/green-dot.svg" alt="plus image"/>
-                    <p>Stake - Yield - Upgrade - Mutate</p>
-                    <Image width={13} height={13} layout='fixed' src="/images/green-dot.svg" alt="plus image"/>
-                </div>
-            </div>
+           <Home />
+            <Intro/>
+            <Design/>
         </div>
 
     );

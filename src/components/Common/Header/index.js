@@ -13,8 +13,8 @@ const Header = () => {
                     </div>
                     {/*<img src={BorderRtl} alt="logo" />*/}
                     <div className="left-side-header">
-                        <a href="#">Intro</a>
-                        <a href="#">Designs</a>
+                        <a href="#intro">Intro</a>
+                        <a href="#design">Designs</a>
                         <a href="#">Artist</a>
                         <a href="#">TheVision</a>
                         <a href="#">Roadmap</a>
