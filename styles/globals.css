@@ -94,6 +94,7 @@ a {
   .banner {
     background: url(../public/images/mobile-banner.jpg);
     background-size: 100% 100%;
+    height: 90vh;
   }
 }
 
@@ -102,8 +103,8 @@ a {
 
 /*mobile header start*/
 .menu-btn-left{
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
@@ -116,13 +117,15 @@ a {
   border-radius: 50%;
 }
 .menu-btn-right{
-  float: right;
-  width: 40px;
-  height: 40px;
+  margin-left: auto;
+  width: 60px;
+  height: 60px;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
-  justify-content: end;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   -webkit-box-ordinal-group: 0;
   -webkit-order: -1;
   -ms-flex-order: -1;
@@ -130,19 +133,34 @@ a {
   border: 1.5px solid #ffc748;
   border-radius: 50%;
 }
+.upper-border-mobile{
+  margin-bottom: -5px;
+}
+.bottom-border-mobile{
+  margin-top: -12px;
+}
 .mobile-logo{
   padding: 0 15px;
   display:flex;
   justify-content: center;
   align-items: center;
 }
-
+.nav{
+  z-index: 60;
+  display: none;
+  overflow: hidden;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  padding-top: 0.3em;
+  padding-bottom: 1em;
+  padding-left: 1.5em;
+  backdrop-filter: blur(5px);
+}
 .mobile-header {
   display: none;
   color: #fff;
-  padding-top: 15px;
-  padding-right: 10%;
-  padding-left: 10%;
   margin-right: auto;
   margin-left: auto;
 }
@@ -153,13 +171,11 @@ a {
 
 .container {
   display: inline-block;
-  margin: auto;
+  margin: 20px;
   cursor: pointer;
 }
 
 .bar1, .bar2, .bar3 {
-
-
   width: 15px;
   height: 1px;
   background-color: #fff;
@@ -179,14 +195,13 @@ a {
   transform: rotate(45deg) translate(-8px, -8px);
 }
 
-
-
-
-
-
-
 @media only screen and (max-width: 500px) {
   .mobile-header {
+    display: block;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .nav {
     display: block;
   }
 }
@@ -227,7 +242,7 @@ a {
 /*Main Heading paragraph start*/
 .main-heading {
   margin: 0 !important;
-  opacity: 1;
+  z-index: 1;
   direction: ltr;
   font-family: "Rubik dirt", sans-serif;
   color: #ececec;
@@ -242,7 +257,8 @@ a {
 }
 @media only screen and (max-width: 500px) {
   .main-heading {
-    font-size: 1.65em;
+    font-size: 1.5em;
+    padding-top: 100px;
   }
 }
 /*Main Heading paragraph end*/
@@ -277,6 +293,11 @@ a {
   justify-content: center;
   align-items: center;
 }
+.home-btm-border{
+  display: none;
+  margin-top: 10px;
+  border-bottom: 1px solid #ccc;
+}
 .main-container-footer > p {
   padding: 0 1em;
   margin: 0;
@@ -290,6 +311,12 @@ a {
   .main-container-footer > p {
     font-size: 0.87em;
     font-weight: 400;
+  }
+  .main-container-footer{
+    bottom: 10%;
+  }
+  .home-btm-border{
+    display: block;
   }
 }
 /*main container footer end*/
@@ -382,6 +409,9 @@ a {
   }
   .inner-second-container{
     display: block;
+  }
+  .right-text-side {
+    width: 100%;
   }
 }
 
@@ -509,3 +539,71 @@ a {
 }
 
 /* vision page css end */
+
+
+/*SideBar css start*/
+.sideBar{
+  position: fixed !important;
+  right: 0;
+  height: 100%;
+  z-index: 50;
+  width: 100%;
+  background: #000000;
+  overflow: hidden;
+}
+.sideBar-container{
+  height:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.sidebar-links > a {
+  display: block;
+  font-size: 1.2em;
+  margin-top: 2em;
+  text-align: center;
+  transition: all 500ms ease;
+  font-family: Outfit, sans-serif;
+  color: #fff;
+  line-height: 1.26em;
+  font-weight: 600;
+  text-decoration: none;
+}
+.hideSideBar{
+  display: none;
+}
+.social-media{
+  margin-top: 6px;
+  display: flex;
+  justify-content: center;
+}
+.sideBar-SlideIn {
+  animation-name: sideBar_SlideIn;
+  animation-duration: 1s;
+  animation-delay: 0s;
+  position: relative;
+}
+@keyframes sideBar_SlideIn{
+  0% {
+    right:-1000px;
+  }
+  100% {
+    right:0px;
+  }
+}
+.sideBar-SlideOut{
+  animation-name: anime-sideBar-SlideOut;
+  animation-duration: 1s;
+  animation-delay: 0s;
+  position: relative;
+}
+@keyframes anime-sideBar-SlideOut{
+  0% {
+    right:0px;
+  }
+  100% {
+    right: -480px;
+  }
+}
+/*SideBar css end*/

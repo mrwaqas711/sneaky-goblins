@@ -1,10 +1,25 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Image from "next/image";
 import CustomButton from "../CustomButton";
+import Sidebar from "../Sidebar";
 import btnIcon from "../../../../public/images/btn-icon.svg";
 
 const Header = () => {
-    function myFunction(x) {
+    const [isSidebar, setIsSidebar] = useState(false);
+    const handleSidebarClick = () => {
+        if(!isSidebar){
+            setIsSidebar(true)
+        }else{
+            let element = document.getElementById('sidebar');
+            element && element.classList.add('sideBar-SlideOut')
+            setTimeout( () => {setIsSidebar(false)}, 1000)
+        }
+
+    }
+    const myFunction = () => {
+        let element = document.getElementById("menuIcon")
+        // let element = document.getElementById('menu');
+        // element && element.classList.add('change')
         // x.classList.toggle("change");
     }
     return (
@@ -53,32 +68,45 @@ const Header = () => {
                     <Image width={500} height={1} layout='fixed' src="/images/BorderR.png" alt="plus image"/>
                 </div>
             </div>
-            <div className="mobile-header">
-                <div className='mobile-nav-content'>
-                    <div className="">
-                        <Image width={100} height={1} layout='fixed' src="/images/border.png" alt="plus image" />
-                        <div className="menu-btn-left">
-                            <div className="container" onClick={myFunction(this)}>
-                                <div className="bar1"></div>
-                                <div className="bar2"></div>
-                                <div className="bar3"></div>
+            <div className="nav">
+                <div className="mobile-header ">
+                    <div className='mobile-nav-content'>
+                        <div className="">
+                            <div className="upper-border-mobile">
+                                <Image width={100} height={1} layout='fixed' src="/images/border.png" alt="plus image" />
+                            </div>
+
+                            <div className="menu-btn-left" onClick={()=> {handleSidebarClick()}}>
+                                <div id='menuIcon' className="container" onClick={myFunction()}>
+                                    <div className="bar1"></div>
+                                    <div className="bar2"></div>
+                                    <div className="bar3"></div>
+                                </div>
+                            </div>
+                            <div className="bottom-border-mobile">
+                                <Image width={100} height={1} layout='fixed' src="/images/border.png" alt="plus image" />
+                            </div>
+
+                        </div>
+                        <div className="mobile-logo">
+                            <Image width={105} height={70} layout='fixed' objectFit="cover" src="/images/sneaky_goblin_logo 3 copy.png" alt="plus image"/>
+                        </div>
+                        <div className="">
+                            <div className="upper-border-mobile">
+                                <Image width={100} height={1} layout='fixed' src="/images/BorderR.png" alt="plus image" />
+                            </div>
+
+                            <div className="menu-btn-right">
+                                <Image width='20' height="15" layout='fixed' src="/images/socialIcon1.png" alt="plus image"/>
+                            </div>
+                            <div className="bottom-border-mobile">
+                                <Image width={100} height={1} layout='fixed' src="/images/BorderR.png" alt="plus image" />
                             </div>
                         </div>
-                        <Image width={100} height={1} layout='fixed' src="/images/border.png" alt="plus image" />
-                    </div>
-                    <div className="mobile-logo">
-                        <Image width={71} height={53} layout='fixed' objectFit="cover" src="/images/sneaky_goblin_logo 3 copy.png" alt="plus image"/>
-                    </div>
-                    <div className="">
-                        <Image width={100} height={1} layout='fixed' src="/images/BorderR.png" alt="plus image" />
-                        <div className="menu-btn-right">
-                            dssd
-                        </div>
-                        <Image width={100} height={1} layout='fixed' src="/images/BorderR.png" alt="plus image" />
                     </div>
                 </div>
-
             </div>
+            <Sidebar isSidebar={isSidebar}/>
         </>
     );
 }
