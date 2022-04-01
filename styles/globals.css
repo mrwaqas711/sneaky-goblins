@@ -341,7 +341,7 @@ a {
   justify-content: space-between;
   padding-left: 10%;
   padding-right: 10%;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 .left-text-side {
   text-align: left;
@@ -399,7 +399,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   padding-left: 6%;
   padding-right: 10%;
 }
@@ -530,10 +530,12 @@ a {
 }
 .artist-text {
   width: 49%;
+  align-items: center;
 }
 .artist-image {
   text-align: left;
   background: url(../public/dots.png) no-repeat;
+  background-size: 100% 100%;
   height: 50vh;
   width: 48%;
   position: relative;
@@ -743,7 +745,7 @@ a {
   padding: 1.5em 0.9em;
   text-align: center;
   width: 100%;
-  height: 22.9em;
+  height: 26em;
   margin-left: 15px;
   margin-right: 15px;
   position: relative;
