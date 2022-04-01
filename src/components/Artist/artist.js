@@ -14,11 +14,8 @@ const artist = () => {
         <button className='btn-discord'> <span className='btn-icon'><Image src="/images/btn-icon.svg"  width={24} height={18} alt='' /></span>Join us on Discord</button>
         </div>
         <div className='artist-image'>
-            <div className='icon-image'>
-                <div className='avatar-icon'>
-                    <Image src="/avatar3.png" width={610} height={430} alt='' />
-                </div>
-            </div>
+                <Image className='stick-image' src="/stick.png" width={466} height={850}  alt='' />
+                {/* <Image className='avatar-set' src="/avatar3.png" width={400} height={300} alt='' /> */}
         </div>
     </div>
   )

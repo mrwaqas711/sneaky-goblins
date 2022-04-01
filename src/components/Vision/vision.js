@@ -5,7 +5,7 @@ const vision = () => {
   return (
     <div className='vision-main-div' id='vision'>
         <h1 className='vision-h1'>
-            THE VISI<span><Image src='/ring.png' width={60} height={80} /></span>N
+            THE&nbsp;<span className='text-green'>VISI</span><span className='ring'><Image src='/ring.png' width={60} height={80} /></span><span className='text-green'>N</span>
         </h1>
         <p className='vision-p'>
             Our vision for the Sneaky Goblins is to be the Genesis collection of a larger upcoming ecosystem. Over time, we are building the components of an NFT & Metaverse Studio to empower our community.

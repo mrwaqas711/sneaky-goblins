@@ -4,6 +4,8 @@ import Intro from '../../components/Intro/intro'
 import Design from '../../components/Design/design'
 import Artist from '../../components/Artist/artist'
 import Vision from '../../components/Vision/vision';
+import Features from '../../components/KeyFeatures/features';
+
 const LandingPage = () => {
 
     return (
@@ -13,6 +15,7 @@ const LandingPage = () => {
             <Design/>
             <Artist/>
             <Vision/>
+            <Features/>
         </div>
 
     );
