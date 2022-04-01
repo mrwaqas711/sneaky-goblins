@@ -25,14 +25,14 @@ return (
     <div className='third-container'>
         <div className='inner-second-container'>
             <div className='left-image-side'>
-                <Image src='/avatar2.png' width={723} height={710} alt='avatar2' />
+                <Image src='/avatar2.png' width={700} height={670} alt='avatar2' />
             </div>
         <div className='right-text-side'>
             <h1 className='h1-text'>
                 WHY DO YOU NEED A <br/> <span className="text-green">SNEAKY GOBLIN</span>?
             </h1>
             <p className='p-second-text text-margin'>
-                Sneaky Goblins are the best looking 3D sculpted NFTs available. A creative combination of storytelling, community and exclusive ownership benefits wrapped up in the long-term vision to build an NFT & Metaverse Studio.<br/>
+                Sneaky Goblins are the best looking 3D sculpted NFTs available.A creative combination of storytelling, community and exclusive ownership benefits wrapped up in the long-term vision to build an NFT & Metaverse Studio.<br/>
                 The Sneaky Goblins represent a new generation of NFT utility.
             </p>
         </div>
