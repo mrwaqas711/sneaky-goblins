@@ -20,12 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16f8f06a-1320-4197-8268-5a2a58fab14c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Footer/footer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Common/Header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Common/Header/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/KeyFeatures/features.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/KeyFeatures/features.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/LandingPage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/LandingPage/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Artist/artist.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Artist/artist.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Design/design.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Design/design.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Intro/intro.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Intro/intro.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Vision/vision.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Vision/vision.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +74,7 @@
       <workItem from="1648662462552" duration="21524000" />
       <workItem from="1648690342608" duration="1015000" />
       <workItem from="1648726538481" duration="29322000" />
-      <workItem from="1648819379773" duration="6834000" />
+      <workItem from="1648819379773" duration="11163000" />
     </task>
     <servers />
   </component>
@@ -99,5 +98,13 @@
       <screen x="0" y="0" width="1600" height="900" />
     </state>
     <state x="532" y="176" width="524" height="494" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.900@0.0.1600.900" timestamp="1648672617734" />
+    <state x="150" y="48" width="1280" height="744" key="MergeDialog" timestamp="1648840320434">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="150" y="48" width="1280" height="744" key="MergeDialog/0.0.1600.900@0.0.1600.900" timestamp="1648840320434" />
+    <state x="437" y="189" width="715" height="468" key="MultipleFileMergeDialog" timestamp="1648840320445">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="437" y="189" width="715" height="468" key="MultipleFileMergeDialog/0.0.1600.900@0.0.1600.900" timestamp="1648840320445" />
   </component>
 </project>
