@@ -15,7 +15,7 @@ const artist = () => {
         </div>
         <div className='artist-image'>
                 <Image className='stick-image' src="/stick.png" width={466} height={850}  alt='' />
-                <Image className='avatar-set' src="/avatar3.png" width={400} height={300} alt='' />
+                {/* <Image className='avatar-set' src="/avatar3.png" width={400} height={300} alt='' /> */}
         </div>
     </div>
   )
