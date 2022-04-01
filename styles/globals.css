@@ -10,6 +10,7 @@ body {
   margin: 0;
   font-family: "Poppins", sans-serif !important;
   background: #141514;
+  overflow-x: hidden;
 }
 a {
   /*padding: 0 !important;*/
@@ -21,6 +22,7 @@ a {
   background: url(../public/images/banner-bg.png);
   height: 100vh;
   background-size: 100% 100%;
+  object-fit: contain;
 }
 .header {
   display: flex;
@@ -38,7 +40,7 @@ a {
   transition: all 500ms ease;
   font-family: Outfit, sans-serif;
   color: #fff;
-  font-size: 1.2em;
+  font-size: 1.1em;
   line-height: 1.26em;
   font-weight: 600;
   text-decoration: none;
@@ -62,7 +64,7 @@ a {
   transition: all 500ms ease;
   font-family: Outfit, sans-serif;
   color: #fff;
-  font-size: 1.2em;
+  font-size: 1.1em;
   line-height: 1.26em;
   font-weight: 600;
   text-decoration: none;
@@ -227,7 +229,7 @@ a {
   font-weight: 600;
   border: 2px solid #ffc748;
   border-radius: 6px;
-  padding: 0.9em 0;
+  padding: 0.8em 0;
   background-image: linear-gradient(84.07deg, #00c555 17%, #00e75e);
   box-shadow: 0 0 10px 1px rgb(0 231 94);
 }
@@ -247,13 +249,13 @@ a {
   direction: ltr;
   font-family: "Rubik dirt", sans-serif;
   color: #ececec;
-  font-size: 3.43em;
-  line-height: 1.27em;
+  font-size: 1.4em;
+  line-height: 2.27em;
   font-weight: 400;
   text-align: center;
   text-transform: uppercase;
 }
-.main-heading > p > span {
+.main-heading > h1 > span {
   color: #00c555;
 }
 @media only screen and (max-width: 500px) {
@@ -265,6 +267,7 @@ a {
 /*Main Heading paragraph end*/
 /*Join Sneaky Goblin button start*/
 .join-btn-container {
+  margin-top: 20px;
   display: flex;
   justify-content: center;
 }
@@ -276,7 +279,7 @@ a {
   font-weight: 600;
   border: 2px solid #ffc748;
   border-radius: 6px;
-  padding: 1.2em 1.6em;
+  padding: 1.2em 1.8em;
   background-image: linear-gradient(84.07deg, #00c555 17%, #00e75e);
   box-shadow: 0 0 10px 1px rgb(0 231 94);
 }
@@ -288,7 +291,7 @@ a {
 /* main container footer start*/
 .main-container-footer {
   position: absolute;
-  bottom: 10px;
+  bottom: 20px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -304,7 +307,7 @@ a {
   margin: 0;
   font-family: Outfit, sans-serif;
   color: #ececec;
-  font-size: 1.75em;
+  font-size: 1.45em;
   font-weight: 600;
   text-align: center;
 }
@@ -323,14 +326,14 @@ a {
 /*main container footer end*/
 
 /* intro page css  start*/
+
 .second-container {
   background: #141514;
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 30px 0;
-  margin: 50px 0;
+  margin-top: 4%;
 }
 .inner-container {
   display: flex;
@@ -338,18 +341,18 @@ a {
   justify-content: space-between;
   padding-left: 10%;
   padding-right: 10%;
+  flex-wrap: wrap;
 }
 .left-text-side {
   text-align: left;
   width: 49%;
 }
-.right-image-side {
-}
+
 .h1-text {
   color: white;
   font-family: "dirt", sans-serif;
-  font-size: 60px;
-  line-height: 60px;
+  font-size: 50px;
+  line-height: 65px;
   font-weight: bolder;
   text-transform: uppercase;
 }
@@ -357,24 +360,24 @@ a {
   color: #00c555;
 }
 .p-text {
-  margin-bottom: 1.5em;
+  margin-bottom: 50px;
   font-family: Outfit, sans-serif;
   color: #ececec;
-  font-size: 1.569em;
-  line-height: 2.14em;
+  font-size: 24px;
+  line-height: 52px;
   font-weight: 300;
   text-align: justify;
 }
 .btn-discord {
-  /* margin-bottom: 0px; */
+  margin-bottom: 0px;
   font-family: Outfit, sans-serif;
   color: #000;
   font-size: 1.25em;
   line-height: 1.26em;
   font-weight: 600;
   border: 2px solid #ffc748;
-  border-radius: 6px;
-  padding: 1em 2em;
+  border-radius: 5px;
+  padding: 0.9em 1.4em;
   background-image: linear-gradient(84.07deg, #00c555 17%, #00e75e);
   box-shadow: 0 0 10px 1px rgb(0 231 94);
 }
@@ -396,12 +399,44 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   padding-left: 6%;
   padding-right: 10%;
 }
+.p-second-text {
+  margin-bottom: 1.5em;
+  font-family: Outfit, sans-serif;
+  color: #ececec;
+  font-size: 24px;
+  line-height: 52px;
+  font-weight: 300;
+  text-align: justify;
+}
+.right-text-side {
+  width: 48%;
+  margin-left: 50px;
+}
+.left-image-side {
+  text-align: left;
+}
+.text-margin {
+}
 @media only screen and (max-width: 500px) {
+  .intro-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .second-container {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    margin: 50px 0;
+  }
   .inner-container {
     display: block;
+    padding-left: 0;
+    padding-right: 0;
   }
   .left-text-side {
     text-align: center;
@@ -413,25 +448,6 @@ a {
   .right-text-side {
     width: 100%;
   }
-}
-
-.p-second-text {
-  margin-bottom: 1.5em;
-  font-family: Outfit, sans-serif;
-  color: #ececec;
-  font-size: 1.569em;
-  line-height: 2.14em;
-  font-weight: 300;
-  text-align: justify;
-}
-.right-text-side {
-  width: 49%;
-  margin-left: 50px;
-}
-.left-image-side {
-  text-align: left;
-}
-.text-margin {
 }
 
 /* intro page css end */
@@ -477,15 +493,15 @@ a {
   width: 100%;
   text-align: center;
   font-family: Outfit, sans-serif;
-  font-size: 1.62em;
-  line-height: 1.27em;
+  font-size: 24px;
+  line-height: 52px;
   font-weight: 600;
 }
 .h1-design {
   color: #00c555;
   font-family: "Rubik dirt", sans-serif;
-  font-size: 60px;
-  line-height: 60px;
+  font-size: 50px;
+  line-height: 65px;
   font-weight: bolder;
   text-transform: uppercase;
 }
@@ -502,31 +518,51 @@ a {
 /* artist page css */
 
 .artist-main-div {
-  display: grid;
-  grid-template-columns: auto auto;
-  padding: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5% 10%;
+}
+.artist-flex-btw {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .artist-text {
-  width: 90%;
+  width: 49%;
 }
 .artist-image {
-  text-align: center;
+  text-align: left;
   background: url(../public/dots.png) no-repeat;
-  width: 100%;
-  text-align: center;
+  height: 50vh;
+  width: 48%;
   position: relative;
-  /* z-index: 1; */
 }
 .stick-image {
-  object-position: 50% 50%;
-  position: absolute !important;
+  position: absolute;
   z-index: 2;
-  /* top: 0 !important; */
+  top: -40%;
+  animation: updown 4s infinite ease-in-out;
+}
+@keyframes updown {
+  0% {
+    top: -40%;
+  }
+  50% {
+    top: -45%;
+  }
+  100% {
+    top: -40%;
+  }
 }
 
 .avatar-set {
-  position: absolute !important;
+  position: absolute;
   z-index: 3;
+  width: 100%;
+
+  text-align: center;
+
   /* top: 0 !important; */
 }
 
@@ -546,8 +582,8 @@ a {
 .vision-h1 {
   color: white;
   font-family: "Rubik dirt", sans-serif;
-  font-size: 60px;
-  line-height: 60px;
+  font-size: 50px;
+  line-height: 65px;
   font-weight: bolder;
   text-transform: uppercase;
   display: flex;
@@ -574,8 +610,8 @@ a {
   margin-bottom: 40px;
   margin-top: -10px;
   font-family: Outfit, sans-serif;
-  font-size: 1.75em;
-  line-height: 2.14em;
+  font-size: 24px;
+  line-height: 52px;
   font-weight: 400;
   text-align: center;
 }
@@ -669,18 +705,20 @@ a {
 .feature-div {
   padding-left: 10%;
   padding-right: 10%;
+  margin-bottom: 5%;
 }
 .head-feature {
   text-align: center;
   color: white;
   font-family: "Rubik dirt", sans-serif;
-  font-size: 60px;
+  font-size: 40px;
   line-height: 60px;
   font-weight: bolder;
   text-transform: uppercase;
-  margin-top: -10px;
+  margin-top: -20px;
 }
 .feature-cards {
+  margin-top: 50px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -699,23 +737,22 @@ a {
 }
 .card-f {
   color: white;
-  font-size: 20px;
+  font-size: 16px;
   background: #191b19;
   margin-bottom: 5em;
-  padding: 2em 1em 0em;
-  background-color: #191b19;
+  padding: 1.5em 0.9em;
   text-align: center;
   width: 100%;
   height: 22.9em;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
   position: relative;
 }
 .safe-icon {
   position: absolute;
-  top: 70%;
-  text-align: center;
-  width: 90%;
+  top: 75%;
+  align-items: center;
+  width: 89%;
 }
 /* .card-left-margin {
   margin-left: 15px;
@@ -728,17 +765,79 @@ a {
   margin-bottom: 0px;
   font-family: Outfit, sans-serif;
   color: #00c555;
-  font-size: 1.7em;
+  font-size: 1.6em;
   line-height: 1.75em;
   font-weight: 900;
+  margin-bottom: 15px;
 }
 .card-p {
   margin-top: 0px;
   margin-bottom: 0px;
   font-family: Outfit, sans-serif;
   color: #fff;
-  font-size: 1.2em;
-  line-height: 1.875em;
+  font-size: 23px;
+  line-height: 40px;
   font-weight: 300;
 }
 /* key features css end */
+
+/*Footer section start*/
+.footer {
+  margin-top: 50px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.footer-content {
+  margin: 1.5em 0;
+  display: flex;
+  justify-content: space-between;
+}
+.rights-Reserved {
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+    rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  transform-style: preserve-3d;
+  margin-bottom: 0px;
+  font-family: Outfit, sans-serif;
+  color: #ececec;
+  font-size: 1.1em;
+  line-height: 1.81em;
+  font-weight: 400;
+}
+.footer-link-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-links {
+  margin-right: 40px;
+}
+.footer-links:hover {
+  cursor: pointer;
+  position: relative;
+  top: -3px;
+  transition: top 200ms ease-in;
+  /*transition: top ease-in-out 5s;*/
+}
+.terms-conditions {
+  display: flex;
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+    rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  transform-style: preserve-3d;
+  margin-bottom: 0px;
+  font-family: Outfit, sans-serif;
+  color: #ececec;
+  font-size: 1.1em;
+  line-height: 1.81em;
+  font-weight: 400;
+}
+.terms-conditions > p:hover {
+  cursor: pointer;
+  color: #00c555;
+}
+.terms-border {
+  border-right: 1px solid #ececec;
+  margin: 20px 30px;
+}
+/*Footer section end*/

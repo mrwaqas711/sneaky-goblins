@@ -27,7 +27,7 @@ const Header = () => {
             <div className="header">
                 <div className="">
                     <div style={{marginTop: '30px'}}>
-                        <Image width={510} height={1} layout='fixed' src="/images/border.png" alt="plus image" />
+                        <Image width={470} height={1} layout='fixed' src="/images/border.png" alt="plus image" />
                     </div>
                     {/*<img src={BorderRtl} alt="logo" />*/}
                     <div className="left-side-header">
@@ -37,7 +37,7 @@ const Header = () => {
                         <a href="#vision">TheVision</a>
                         <a href="#">Roadmap</a>
                     </div>
-                    <Image width={510} height={1} layout='fixed' src="/images/border.png" alt="plus image"/>
+                    <Image width={470} height={1} layout='fixed' src="/images/border.png" alt="plus image"/>
                 </div>
                 <div className="logo">
                     <Image width={160} height={120} layout='fixed' objectFit="cover" src="/images/sneaky_goblin_logo 3 copy.png" alt="plus image"/>

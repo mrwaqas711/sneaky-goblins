@@ -9,9 +9,9 @@ const Features = () => {
       </h1>
       <div className='feature-cards'>
           <div className='card-f'>
-          <h1 className='card-head'>
+          <h2 className='card-head'>
             Gamified Staking
-          </h1>
+          </h2>
           <p className='card-p'>
             Stake your Goblins to receive the ecosystem token. Use it for future character drops, NFT upgrades, marketplace and more.
           </p>  

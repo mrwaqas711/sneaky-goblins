@@ -8,8 +8,8 @@ const Home = () => {
             <div className="banner">
                 <Header/>
                 <div className="main-heading">
-                    <p>Ready to build the future of&nbsp;
-                        <span>Gamified<br/> NFT</span> & <span>Metaverse integration</span> ?</p>
+                    <h1>Ready to build the future of&nbsp;
+                        <span>Gamified<br/> NFT</span> & <span>Metaverse integration</span> ?</h1>
                 </div>
                 <div className="join-btn-container">
                     <button className="join-button">
