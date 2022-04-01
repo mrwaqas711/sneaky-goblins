@@ -6,12 +6,12 @@ const Home = () => {
     return (
         <>
             <div className="banner">
-                <Image src="/images/banner-bg.png" width={100} height={100} layout='fill' className='reltive-1'/>
+                <Image src="/images/banner-bg.png" width={100} height={100} alt="Cover" layout='fill' className='reltive-1'/>
                 <div className='reltive-2'>
                     <Header/>
                     <div className="main-heading">
                         <h1>Ready to build the future of&nbsp;
-                            <span>Gamified<br/> NFT</span> & <span>Metaverse integration</span> ?</h1>
+                            <span>Gamified<br/> NFT</span> & <span>Metaverse integration</span>?</h1>
                     </div>
                     <div className="join-btn-container">
                         <button className="join-button">
