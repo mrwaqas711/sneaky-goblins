@@ -23,7 +23,7 @@ const LandingPage = () => {
             <Community/>
             <Team/>
             <Faqs/>
-            <Footer/>
+            {/* <Footer/> */}
         </div>
 
     );

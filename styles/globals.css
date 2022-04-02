@@ -1058,6 +1058,7 @@ a {
   .community-text {
     width: 100%;
     margin-top: 10px;
+    margin-left: 0;
   }
   .btn-hide {
     display: none !important;
@@ -1179,23 +1180,61 @@ a {
   margin-top: 50px;
 }
 .faq-div {
-  display: grid;
-  grid-template-columns: auto auto;
-  gap: 30px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-items: flex-start;
 }
 .faq {
   color: white;
   display: flex;
   flex-direction: column;
   background: #191b19;
-  padding: 30px 30px;
+  padding: 20px 30px;
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
+  width: 45%;
+}
+.faq1 {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  background: #191b19;
+  padding: 20px 30px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  width: 45%;
 }
 .faq-text {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  cursor: pointer;
+  font-size: 24px;
+}
+.collap-text {
+  margin-top: 20px;
+  font-size: 18px;
+}
+.plus-icon {
+  padding: 8px 13px;
+  background: #141514;
+  color: #00c555;
+  border-radius: 50%;
+  font-size: 26px;
+  font-weight: 1000;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 500px) {
+  .faq-div {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 30px 0;
+  }
+  .faqs-container {
+    padding: 15px 15px;
+  }
 }
 
 /* Faqs page css end */
