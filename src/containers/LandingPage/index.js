@@ -7,8 +7,9 @@ import Vision from '../../components/Vision/vision';
 import Features from '../../components/KeyFeatures/features';
 import Footer from '../../components/Footer/footer';
 import Community from '../../components/Community/Community';
+import Team from '../../components/Team/Team';
+import Faqs from '../../components/Faqs/Faqs';
 import RoadMap from '../../components/RoadMap/roadmap';
-
 const LandingPage = () => {
 
     return (
@@ -21,7 +22,9 @@ const LandingPage = () => {
             <Features/>
             <RoadMap/>
             <Community/>
-             {/*<Footer/>*/}
+            <Team/>
+            <Faqs/>
+            <Footer/>
         </div>
 
     );
