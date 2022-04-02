@@ -336,6 +336,7 @@ a {
   margin-top: 4%;
 }
 .inner-container {
+  font-size: 10px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -345,8 +346,8 @@ a {
 }
 .left-text-side {
   text-align: left;
-  width: 60%;
-  margin-right:80px;
+  width: 50%;
+  margin-right:40px;
 }
 
 .h1-text {
@@ -364,7 +365,7 @@ a {
   margin-bottom: 40px;
   font-family: Outfit, sans-serif;
   color: #ececec;
-  font-size: 20px;
+  font-size: 2.1em;
   line-height: 40px;
   font-weight: 300;
   text-align: justify;
@@ -522,12 +523,20 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 5% 10%;
+  padding: 2% 10%;
 }
 .artist-flex-btw {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.artist-p {
+  font-family: Outfit, sans-serif;
+  color: #ececec;
+  font-size: 1.3em;
+  line-height: 40px;
+  font-weight: 300;
+  text-align: justify;
 }
 .artist-text {
   width: 49%;

@@ -18,14 +18,14 @@ return (
                         <button className='btn-discord'> <span className='btn-icon'><Image src="/images/btn-icon.svg"  width={24} height={18} alt='' /></span>Join us on Discord</button>
                     </div>
                     <div className='right-image-side'>
-                        <Image src='/avatar1.png' width={650} height={630} alt='avatar' />
+                        <Image src='/avatar1.png' width={570} height={530} alt='avatar' />
                     </div>
                 </div>
     </div>
     <div className='third-container'>
         <div className='inner-second-container'>
             <div className='left-image-side'>
-                <Image src='/avatar2.png' width={700} height={670} alt='avatar2' />
+                <Image src='/avatar2.png' width={620} height={620} alt='avatar2' />
             </div>
         <div className='right-text-side'>
             <h1 className='h1-text'>
