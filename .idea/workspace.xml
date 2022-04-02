@@ -20,11 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16f8f06a-1320-4197-8268-5a2a58fab14c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/images/NFT-Icons.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Artist/artist.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Artist/artist.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Design/design.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Design/design.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Intro/intro.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Intro/intro.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Vision/vision.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Vision/vision.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/footer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,17 +48,17 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public" />
-      <recent name="$PROJECT_DIR$/styles" />
-      <recent name="$PROJECT_DIR$/src/components/Common/Button" />
-      <recent name="$PROJECT_DIR$/src/containers" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/images" />
       <recent name="$PROJECT_DIR$/styles" />
       <recent name="$PROJECT_DIR$/src/containers" />
       <recent name="$PROJECT_DIR$/src/components/Common" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/styles" />
+      <recent name="$PROJECT_DIR$/src/components/Common/Button" />
+      <recent name="$PROJECT_DIR$/src/containers" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
