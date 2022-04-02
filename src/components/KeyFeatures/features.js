@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 
 const Features = () => {
+  // this is comment
   return (
     <div className='feature-div'>
       <div className='head-feature'>
