@@ -8,6 +8,7 @@ import Features from '../../components/KeyFeatures/features';
 import Footer from '../../components/Footer/footer';
 import Community from '../../components/Community/Community';
 import Team from '../../components/Team/Team';
+import Faqs from '../../components/Faqs/Faqs';
 
 const LandingPage = () => {
 
@@ -21,7 +22,8 @@ const LandingPage = () => {
             <Features/>
             <Community/>
             <Team/>
-            {/* <Footer/> */}
+            <Faqs/>
+            <Footer/>
         </div>
 
     );

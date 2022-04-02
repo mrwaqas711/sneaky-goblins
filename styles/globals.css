@@ -1026,7 +1026,6 @@ a {
 .btn-div {
   margin-top: 40px;
   display: flex;
-
 }
 .btn-margin {
   margin-left: 50px;
@@ -1161,3 +1160,35 @@ a {
 }
 
 /* team page css end */
+
+/* Faqs page css start */
+
+.faqs-container {
+  padding: 2% 10%;
+}
+.faqs-container > h1 {
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+}
+.faq-div {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 30px 50px;
+}
+.faq {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  background: #191b19;
+  padding: 30px 30px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+.faq-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Faqs page css end */
