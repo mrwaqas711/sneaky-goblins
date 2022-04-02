@@ -1087,3 +1087,74 @@ a {
 }
 
 /* community page css end */
+
+/* team page css start */
+
+.team-container {
+  color: white;
+  padding: 20px 10%;
+}
+.team-h1 {
+  text-align: center;
+}
+.team-card-container {
+  color: white;
+  display: grid;
+  gap: 4% 10%;
+  grid-template-columns: auto auto auto;
+}
+.team-card {
+  padding: 20px 0;
+  text-align: center;
+}
+.team-card > h1 {
+  margin-bottom: 20px;
+}
+.team-card > h3 {
+  margin-bottom: 60px !important;
+  color: #ffc748;
+  font-size: 22px;
+}
+.grid-container {
+  position: relative;
+}
+
+.center {
+  position: absolute;
+  top: -25px;
+  width: 100%;
+  text-align: center;
+}
+
+.grid-image {
+  width: 100%;
+  height: auto;
+}
+@media only screen and (max-width: 500px) {
+  .team-container {
+    color: white;
+    padding: 20px 15px;
+  }
+  .team-card-container {
+    color: white;
+    display: grid;
+    gap: 10px 0;
+    grid-template-columns: auto;
+  }
+  .team-card {
+    padding: 20px 0;
+    text-align: center;
+  }
+  .team-card > h1 {
+    font-size: 21px;
+  }
+  .team-card > h3 {
+    font-size: 13px;
+  }
+  .center {
+    position: absolute;
+    top: -30px;
+  }
+}
+
+/* team page css end */
