@@ -5,7 +5,7 @@ const Community = () => {
 return (
     <div className='community-container'>
         <div className='community-image'>
-            <Image src='/3avatar.png' width={740} height={500} alt='avatar' />
+            <Image src='/3avatar.png' width={620} height={468} alt='avatar' />
         </div>
         <div className='community-text'>
             <h1 className='h1-community'>Join The <span className='text-green'>Community</span></h1>
