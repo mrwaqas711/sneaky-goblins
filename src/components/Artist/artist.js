@@ -12,7 +12,17 @@ const artist = () => {
             With a passion for superhero art, NFTs and the future of IP, the Goblins have the best artist in the game. <br />
             Previous work include: Marvel, DC Comics, Warner Bros, and more.
           </p>
-        <button className='btn-discord'> <span className='btn-icon'><Image src="/images/btn-icon.svg"  width={24} height={18} alt='btn-icon' /></span>Join us on Discord</button>
+        <button className='btn-discord btn-desktop-only'> 
+        <span className='btn-icon'>
+          <Image src="/images/btn-icon.svg"  width={24} height={18} alt='btn-icon' />
+          </span>
+          More about the Artist
+          </button>
+          <p className='set-in-center'> 
+            <button className='btn-discord btn-set-mobile'> 
+              More about the Artist
+            </button>
+          </p>
         </div>
         <div className='artist-image'>
             {/*<span className='stick-image'> <Image  src="/stick.png" width={400} height={700}  alt='stick' /></span>*/}

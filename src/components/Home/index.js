@@ -8,8 +8,12 @@ const Home = () => {
             <div className="banner">
                 <Header/>
                 <div className="main-heading">
-                    <h1>Ready to build the future of&nbsp;
-                        <span>Gamified<br/> NFT</span> & <span>Metaverse integration</span> ?</h1>
+                    <h1 className='desktop-h1'>Ready to build the future of&nbsp;
+                        <span>Gamified<br/> NFT</span> & <span>Metaverse integration</span> ?
+                    </h1>
+                    <h1 className='mobile-h1'>Ready to build the future of&nbsp;
+                        <span>Gamified NFT</span> & <span>Metaverse integration</span> ?
+                    </h1>
                 </div>
                 <div className="join-btn-container">
                     <button className="join-button">

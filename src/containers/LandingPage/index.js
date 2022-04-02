@@ -6,6 +6,7 @@ import Artist from '../../components/Artist/artist'
 import Vision from '../../components/Vision/vision';
 import Features from '../../components/KeyFeatures/features';
 import Footer from '../../components/Footer/footer';
+import Community from '../../components/Community/Community';
 
 const LandingPage = () => {
 
@@ -17,7 +18,8 @@ const LandingPage = () => {
             <Artist/>
             <Vision/>
             <Features/>
-            <Footer/>
+            <Community/>
+            {/* <Footer/> */}
         </div>
 
     );
