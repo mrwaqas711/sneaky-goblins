@@ -7,6 +7,7 @@ import Vision from '../../components/Vision/vision';
 import Features from '../../components/KeyFeatures/features';
 import Footer from '../../components/Footer/footer';
 import Community from '../../components/Community/Community';
+import RoadMap from '../../components/RoadMap/roadmap';
 
 const LandingPage = () => {
 
@@ -18,8 +19,9 @@ const LandingPage = () => {
             <Artist/>
             <Vision/>
             <Features/>
+            <RoadMap/>
             <Community/>
-            {/* <Footer/> */}
+             {/*<Footer/>*/}
         </div>
 
     );

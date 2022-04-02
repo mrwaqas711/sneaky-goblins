@@ -1090,3 +1090,147 @@ a {
 }
 
 /* community page css end */
+/* roadmap page css start */
+.roadmap-container {
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  position: absolute;
+  top: 0;
+  color: #fff;
+  z-index: 2;
+}
+.roadmap-background{
+  position: relative;
+  z-index: 1;
+}
+.roadmap-h1 {
+  margin-top: 100px;
+  color: white;
+  font-family: "Rubik dirt", sans-serif;
+  font-size: 50px;
+  line-height: 65px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  text-align: center;
+}
+.roadmap-stepper{
+  z-index: 3;
+}
+.roadmap-text-container{
+  width: 100%;
+  position: relative;
+  margin-top: 80px;
+}
+.Green-dots-icon{
+  position: absolute;
+  left: -22px;
+  margin-top: 25px;
+  animation: dotPulse 3s infinite ease-in-out;
+}
+@keyframes dotPulse {
+  0% {
+    transform: scale(0.5);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(0.5);
+  }
+}
+.roadmap-section{
+  display:flex;
+  margin-bottom: 50px;
+
+}
+.roadmap-percentage{
+  margin: 0 20px;
+  font-family: Outfit, sans-serif;
+  color: #ececec;
+  font-size: 2.81em;
+  line-height: 1.55em;
+  font-weight: 900;
+}
+.disabled-roadmap-percentage{
+  margin: 0 20px;
+  font-family: Outfit, sans-serif;
+  color: #505050;
+  font-size: 2.81em;
+  line-height: 1.55em;
+  font-weight: 900;
+}
+.data-roadmap{
+  margin-left: 30px;
+}
+.roadmap-dotted-lines{
+  margin-top: 30px;
+}
+.disabled-duration{
+  margin-top: 0px;
+  margin-bottom: 1em;
+  font-family: Outfit, sans-serif;
+  color: #505050;
+  font-size: 1.37em;
+  line-height: 1.4em;
+  font-weight: 600;
+}
+.duration{
+  margin-top: 0px;
+  margin-bottom: 1em;
+  font-family: Outfit, sans-serif;
+  color: #ffc748;
+  font-size: 1.37em;
+  line-height: 1.4em;
+  font-weight: 600;
+}
+.disabled-phase{
+  margin-top: 0px;
+  margin-bottom: 0.3em;
+  font-family: Outfit, sans-serif;
+  color: #505050;
+  font-size: 2.51em;
+  line-height: 1.1em;
+  font-weight: 900;
+}
+.phase{
+  margin-top: 0px;
+  margin-bottom: 0.3em;
+  font-family: Outfit, sans-serif;
+  color: #00c555;
+  font-size: 2.51em;
+  line-height: 1.1em;
+  font-weight: 900;
+}
+.disabled-heading{
+  font-family: Outfit, sans-serif;
+  color: #505050;
+  font-size: 1.3em;
+  line-height: 1.53em;
+  font-weight: 400;
+}
+.heading{
+  font-family: Outfit, sans-serif;
+  color: #fff;
+  font-size: 1.3em;
+  line-height: 1.53em;
+  font-weight: 400;
+}
+.heading-div {
+  display:flex;
+  margin-bottom: 16px;
+}
+.roadmap-Dot{
+  padding: 4px 10px 15px 0;
+  font-family: Outfit, sans-serif;
+  color: #fff;
+  font-size: 2em;
+  line-height: .3em;
+  font-weight: 700;
+}
+
+/* roadmap page css end */
+
