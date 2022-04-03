@@ -63,15 +63,10 @@ const properties = {
 const Design = () => {
   return (
       <div className='main-div' id="design">
-        <div className='design-in' style={{position: 'relative'}}>
-            {/*<Image*/}
-            {/*    src='/background-line.png'*/}
-            {/*    layout='responsive'*/}
-            {/*    width={500}*/}
-            {/*    height={300}*/}
-            {/*    alt='background'*/}
-            {/*    className="slider-bg"*/}
-            {/*/>*/}
+        <div className='design-in' style={{
+            position: 'relative',
+            backgroundImage: "url('background-line.png')"
+        }}>
 
           {/*<div className='stone-icon'>*/}
           {/*    <Image src='/green-stone.png' layout='fixed' width={750} height={750} alt="stone" />*/}
