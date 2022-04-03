@@ -1,7 +1,7 @@
 import React from 'react';
 import Home from '../../components/Home'
 import Intro from '../../components/Intro/intro'
-import Design from '../../components/Design/design'
+import Design from '../../components/Design/index'
 import Artist from '../../components/Artist/artist'
 import Vision from '../../components/Vision/vision';
 import Features from '../../components/KeyFeatures/features';
@@ -16,7 +16,7 @@ const LandingPage = () => {
         <div>
             <Home />
             <Intro/>
-            <Design/>
+            <Design />
             <Artist/>
             <Vision/>
             <Features/>
