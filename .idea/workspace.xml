@@ -20,29 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16f8f06a-1320-4197-8268-5a2a58fab14c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/slider/s-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/slider/s-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/slider/s-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/slider/s-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/slider/s-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/slider/s-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/slider/s-8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Common/FaqItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Design/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Design/design.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Design/design.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Faqs/Faqs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Faqs/Faqs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/RoadMap/RoadMapInfo/roadmapData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RoadMap/RoadMapInfo/roadmapData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/RoadMap/roadmap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RoadMap/roadmap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Team/Team.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Team/Team.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/LandingPage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/LandingPage/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +76,7 @@
       <workItem from="1648819379773" duration="11163000" />
       <workItem from="1648891527960" duration="4737000" />
       <workItem from="1648945036348" duration="4128000" />
+      <workItem from="1648951724925" duration="544000" />
     </task>
     <servers />
   </component>
