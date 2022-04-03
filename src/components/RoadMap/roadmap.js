@@ -78,7 +78,7 @@ const RoadMap = () => {
             >
                 {/*<Image src="/images/roadmap-bg.png" layout='responsive'  width={800} height={1250} alt='roadmap background' />*/}
                 <div className="roadmap-container">
-                    <Image src="/images/roadmap-sideSteps.png" layout='fixed'  width={25} height={2250} alt='roadmap sideStep'/>
+                    <Image src="/images/roadmap-sideSteps.png" layout='fixed'  width={45} height={2200} alt='roadmap sideStep'/>
                     <div className="roadmap-stepper">
                         <div className="">
                             <RoadMapInfo group={group}/>

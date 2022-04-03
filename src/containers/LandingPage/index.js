@@ -20,13 +20,12 @@ const LandingPage = () => {
             <Artist/>
             <Vision/>
             <Features/>
-            {/* <RoadMap/> */}
+            <RoadMap/> 
             <Community/>
             <Team/>
             <Faqs/>
             <Footer/>
         </div>
-
     );
 }
 

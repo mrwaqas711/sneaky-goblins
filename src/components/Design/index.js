@@ -29,45 +29,47 @@ const properties = {
     autoplay: true,
     indicators: true,
     defaultIndex: 0,
-    // responsive: [
-    //     {
-    //         breakpoint: 1800,
-    //         settings: {
-    //             slidesToShow: 7,
-    //             slidesToScroll: 1
-    //         }
-    //     },
-    //     {
-    //         breakpoint: 1024,
-    //         settings: {
-    //             slidesToShow: 4,
-    //             slidesToScroll: 1
-    //         }
-    //     },
-    //     {
-    //         breakpoint: 500,
-    //         settings: {
-    //             slidesToShow: 2,
-    //             slidesToScroll: 1
-    //         }
-    //     },
-    //     {
-    //         breakpoint: 375,
-    //         settings: {
-    //             slidesToShow: 1,
-    //             slidesToScroll: 1
-    //         }
-    //     }
-    // ]
+    responsive: [
+        {
+            breakpoint: 1800,
+            settings: {
+                slidesToShow: 7,
+                slidesToScroll: 1
+            }
+        },
+        {
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 5,
+                slidesToScroll: 1
+            }
+        },
+        {
+            breakpoint: 500,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1
+            }
+        },
+        {
+            breakpoint: 375,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        }
+    ]
 };
 const Design = () => {
   return (
       <div className='main-div' id="design">
         <div className='design-in' style={{
-            position: 'relative',
+
             backgroundImage: "url('background-line.png')",
             marginTop: '15px',
-            marginBottom: '15px'
+            marginBottom: '15px',
+            backgroundPosition: 'center',
+            backgroundSize: 'cover'
         }}>
 
           {/*<div className='stone-icon'>*/}
