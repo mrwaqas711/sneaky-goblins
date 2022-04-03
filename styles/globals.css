@@ -1114,7 +1114,7 @@ a {
   z-index: 2;
 }
 .roadmap-background{
-  background-image: url(../public/images/roadmap-bg.png);
+  background-image: url('../public/images/roadmap-bg.png');
   /*position: relative;*/
   background-position: center;
   background-size: cover;
