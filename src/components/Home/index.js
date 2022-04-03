@@ -6,13 +6,10 @@ import { useMediaQuery } from 'react-responsive';
 
 const Home = () => {
     const isMobile = useMediaQuery({ query: `(max-width: 500px)`});
+    console.log('isMobile', isMobile)
     // useEffect(() => {
     //     const getImage = () => {
-    //         if(isMobile) {
-    //             return '/images/mobile-banner.jpg' }
-    //         else{
-    //             return '/images/banner-bg.png'
-    //         }
+    //
     //     }
     // }, [isMobile])
     return (

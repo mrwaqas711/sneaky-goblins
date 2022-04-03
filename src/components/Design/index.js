@@ -64,12 +64,10 @@ const Design = () => {
   return (
       <div className='main-div' id="design">
         <div className='design-in' style={{
-
             backgroundImage: "url('background-line.png')",
-            marginTop: '15px',
-            marginBottom: '15px',
             backgroundPosition: 'center',
-            backgroundSize: 'cover'
+            backgroundSize: '100% 100%'
+
         }}>
 
           {/*<div className='stone-icon'>*/}
@@ -85,7 +83,7 @@ const Design = () => {
                       {
                           slideImages.map ((each, idx) =>
                               <div key={idx} className="each-slide">
-                                  <Image width={300} height={300} className="slider-image" src={each} alt="sample" />
+                                  <Image width={300} height={280} className="slider-image" src={each} alt="sample" />
                               </div>
                           )
                       }
