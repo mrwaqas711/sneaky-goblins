@@ -13,9 +13,9 @@ const artist = () => {
             Previous work include: Marvel, DC Comics, Warner Bros, and more.
           </p>
         <button className='btn-discord btn-desktop-only'> 
-        <span className='btn-icon'>
+        {/* <span className='btn-icon'>
           <Image src="/images/btn-icon.svg"  width={24} height={18} alt='btn-icon' />
-          </span>
+          </span> */}
           More about the Artist
           </button>
           <p className='set-in-center'> 

@@ -235,7 +235,7 @@ a {
   font-size: 16px;
   font-weight: 600;
   border: 2px solid #ffc748;
-  border-radius: 6px;
+  border-radius: 3px;
   padding: 0.8em 0;
   background-image: linear-gradient(84.07deg, #00c555 17%, #00e75e);
   box-shadow: 0 0 10px 1px rgb(0 231 94);
@@ -293,11 +293,11 @@ a {
   font-family: Outfit, sans-serif;
   color: #000;
   vertical-align: middle;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 600;
   border: 2px solid #ffc748;
-  border-radius: 6px;
-  padding: 1.2em 1.8em;
+  border-radius: 3px;
+  padding: 23px 32px;
   background-image: linear-gradient(84.07deg, #00c555 17%, #00e75e);
   box-shadow: 0 0 10px 1px rgb(0 231 94);
 }
@@ -339,6 +339,10 @@ a {
   }
   .home-btm-border {
     display: block;
+  }
+  .join-button {
+    padding: 18px 32px;
+    font-size: 13px;
   }
 }
 /*main container footer end*/
@@ -392,12 +396,12 @@ a {
   margin-bottom: 0px;
   font-family: Outfit, sans-serif;
   color: #000;
-  font-size: 1.25em;
+  font-size: 20px;
   line-height: 1.26em;
   font-weight: 600;
   border: 2px solid #ffc748;
-  border-radius: 5px;
-  padding: 15px 20px;
+  border-radius: 3px;
+  padding: 18px 32px;
   background-image: linear-gradient(84.07deg, #00c555 17%, #00e75e);
   box-shadow: 0 0 10px 1px rgb(0 231 94);
 }
@@ -449,7 +453,7 @@ a {
   .h1-text {
     color: white;
     font-family: "dirt", sans-serif;
-    font-size: 21px;
+    font-size: 27px;
     line-height: 32px;
     font-weight: bolder;
     text-transform: uppercase;
@@ -488,12 +492,12 @@ a {
   }
   .p-text {
     margin-bottom: 20px;
-    font-size: 12px;
+    font-size: 15px;
     line-height: 29px;
   }
   .p-second-text {
     margin-bottom: 20px;
-    font-size: 12px;
+    font-size: 15px;
     line-height: 29px;
   }
   .third-container {
@@ -504,7 +508,11 @@ a {
     display: flex !important;
     justify-content: space-between !important;
     align-items: center !important;
-    padding: 15px 20px !important;
+    padding: 18px 26px !important;
+  }
+  .btn-discord {
+    padding: 18px 26px;
+    font-size: 13px;
   }
 }
 
@@ -547,16 +555,16 @@ a {
     padding: 15px 15px;
   }
   .h1-design {
-    font-size: 21px;
+    font-size: 27px;
     line-height: 32px;
   }
   .p-design {
     color: white;
     text-align: center;
     font-family: Outfit, sans-serif;
-    font-size: 12px;
+    font-size: 15px;
     line-height: 29px;
-    font-weight: 300;
+    font-weight: 600;
   }
 }
 
@@ -604,6 +612,9 @@ a {
 .btn-set-mobile {
   display: none;
 }
+.btn-desktop-only {
+}
+
 /* .stick-image {
   position: absolute;
   z-index: 2;
@@ -631,7 +642,7 @@ a {
     align-items: center;
   }
   .artist-p {
-    font-size: 12px;
+    font-size: 15px;
     line-height: 29px;
     font-weight: 300;
     text-align: justify;
@@ -649,7 +660,7 @@ a {
   }
   .btn-set-mobile {
     display: block;
-    padding: 15px 20px !important;
+    padding: 18px 26px !important;
   }
   .btn-desktop-only {
     display: none;
@@ -658,7 +669,7 @@ a {
     display: flex !important;
     justify-content: center;
     align-items: center;
-    font-size: 10px;
+    font-size: 11px;
   }
 }
 
@@ -722,7 +733,7 @@ a {
     text-align: center;
   }
   .vision-h1 {
-    font-size: 21px;
+    font-size: 27px;
     line-height: 32px;
     display: block;
   }
@@ -730,9 +741,9 @@ a {
     color: white;
     margin-bottom: 40px;
     margin-top: -10px;
-    font-size: 12px;
+    font-size: 15px;
     line-height: 29px;
-    font-weight: 300;
+    font-weight: 400;
     text-align: center;
   }
 }
@@ -895,19 +906,19 @@ a {
     width: 100%;
   }
   .key-h1 {
-    font-size: 21px;
+    font-size: 27px;
     line-height: 32px;
   }
   .card-f {
-    margin-bottom: 200px !important;
+    margin-bottom: 250px !important;
   }
   .card-head {
-    font-size: 20px;
+    font-size: 25px;
     line-height: 30px;
     font-weight: 900;
   }
   .card-p {
-    font-size: 11px;
+    font-size: 14px;
     line-height: 20px;
     font-weight: 300;
   }
@@ -1022,8 +1033,8 @@ a {
 .h1-community {
   color: white;
   font-family: "Rubik dirt", sans-serif;
-  font-size: 40px;
-  line-height: 55px;
+  font-size: 50px;
+  line-height: 65px;
   font-weight: bolder;
   text-transform: uppercase;
 }
@@ -1077,20 +1088,21 @@ a {
   .h1-community {
     color: white;
     font-family: "Rubik dirt", sans-serif;
-    font-size: 21px;
+    font-size: 27px;
     line-height: 32px;
+    font-weight: 400;
     text-align: left;
   }
   .community-p {
     font-family: Outfit, sans-serif;
     color: #ececec;
-    font-size: 12px;
+    font-size: 15px;
     line-height: 25px;
     font-weight: 300;
   }
   .btn-margin {
-    padding: 10px 20px !important;
-    font-size: 12px !important;
+    padding: 18px 26px !important;
+    font-size: 13px !important;
     margin-top: -20px !important;
   }
   .community-image {
@@ -1130,15 +1142,15 @@ a {
   text-transform: uppercase;
   text-align: center;
 }
-.roadmap-stepper{
+.roadmap-stepper {
   z-index: 3;
 }
-.roadmap-text-container{
+.roadmap-text-container {
   width: 100%;
   position: relative;
   margin-top: 80px;
 }
-.Green-dots-icon{
+.Green-dots-icon {
   position: absolute;
   left: -22px;
   margin-top: 25px;
@@ -1155,12 +1167,11 @@ a {
     transform: scale(0.5);
   }
 }
-.roadmap-section{
-  display:flex;
+.roadmap-section {
+  display: flex;
   margin-bottom: 50px;
-
 }
-.roadmap-percentage{
+.roadmap-percentage {
   margin: 0 20px;
   font-family: Outfit, sans-serif;
   color: #ececec;
@@ -1168,7 +1179,7 @@ a {
   line-height: 1.55em;
   font-weight: 900;
 }
-.disabled-roadmap-percentage{
+.disabled-roadmap-percentage {
   margin: 0 20px;
   font-family: Outfit, sans-serif;
   color: #505050;
@@ -1176,13 +1187,13 @@ a {
   line-height: 1.55em;
   font-weight: 900;
 }
-.data-roadmap{
+.data-roadmap {
   margin-left: 30px;
 }
-.roadmap-dotted-lines{
+.roadmap-dotted-lines {
   margin-top: 30px;
 }
-.disabled-duration{
+.disabled-duration {
   margin-top: 0px;
   margin-bottom: 1em;
   font-family: Outfit, sans-serif;
@@ -1191,7 +1202,7 @@ a {
   line-height: 1.4em;
   font-weight: 600;
 }
-.duration{
+.duration {
   margin-top: 0px;
   margin-bottom: 1em;
   font-family: Outfit, sans-serif;
@@ -1200,7 +1211,7 @@ a {
   line-height: 1.4em;
   font-weight: 600;
 }
-.disabled-phase{
+.disabled-phase {
   margin-top: 0px;
   margin-bottom: 0.3em;
   font-family: Outfit, sans-serif;
@@ -1209,7 +1220,7 @@ a {
   line-height: 1.1em;
   font-weight: 900;
 }
-.phase{
+.phase {
   margin-top: 0px;
   margin-bottom: 0.3em;
   font-family: Outfit, sans-serif;
@@ -1218,14 +1229,14 @@ a {
   line-height: 1.1em;
   font-weight: 900;
 }
-.disabled-heading{
+.disabled-heading {
   font-family: Outfit, sans-serif;
   color: #505050;
   font-size: 1.3em;
   line-height: 1.53em;
   font-weight: 400;
 }
-.heading{
+.heading {
   font-family: Outfit, sans-serif;
   color: #fff;
   font-size: 1.3em;
@@ -1233,20 +1244,19 @@ a {
   font-weight: 400;
 }
 .heading-div {
-  display:flex;
+  display: flex;
   margin-bottom: 16px;
 }
-.roadmap-Dot{
+.roadmap-Dot {
   padding: 4px 10px 15px 0;
   font-family: Outfit, sans-serif;
   color: #fff;
   font-size: 2em;
-  line-height: .3em;
+  line-height: 0.3em;
   font-weight: 700;
 }
 
 /* roadmap page css end */
-
 
 /* team page css start */
 
@@ -1260,8 +1270,9 @@ a {
 .team-card-container {
   color: white;
   display: grid;
-  gap: 4% 10%;
+  /* gap: 4% 10%; */
   grid-template-columns: auto auto auto;
+  align-items: baseline;
 }
 .team-card {
   padding: 20px 0;
@@ -1306,10 +1317,12 @@ a {
     text-align: center;
   }
   .team-card > h1 {
-    font-size: 21px;
+    font-size: 25px;
+    font-weight: 900;
   }
   .team-card > h3 {
-    font-size: 13px;
+    font-size: 15px;
+    font-weight: 600;
   }
   .center {
     position: absolute;
@@ -1334,7 +1347,7 @@ a {
 }
 .faq-div {
   display: grid;
-  gap: 2% 1%;
+  gap: 0 1%;
   grid-template-columns: 50% 50%;
 }
 .faq {
@@ -1346,7 +1359,7 @@ a {
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
   flex: 50%;
-  margin: 20px 30px;
+  margin: 15px 10px;
   align-self: start;
 }
 .faq1 {
@@ -1384,15 +1397,33 @@ a {
   .faq-div {
     display: grid;
     grid-template-columns: 100%;
-    gap: 30px 0;
+    gap: 0 0;
   }
   .faqs-container {
     padding: 15px 15px;
   }
+  .faqs-heading {
+    font-size: 27px;
+    line-height: 10px;
+    font-weight: 400;
+  }
+  .faq-sub-heading {
+    font-size: 27px;
+    line-height: 32px;
+    font-weight: 400;
+  }
+  .faq-text {
+    font-size: 14px;
+  }
+  .collap-text {
+    font-size: 12px;
+  }
+  .faq {
+    margin: 10px 0 !important;
+  }
 }
 
 /* Faqs page css end */
-
 
 /*slider section*/
 .each-slide > div {
@@ -1424,15 +1455,17 @@ a {
   }
 }
 
-.react-slideshow-container+ul.indicators .each-slideshow-indicator:before {
+.react-slideshow-container + ul.indicators .each-slideshow-indicator:before {
   width: 12px !important;
   height: 12px !important;
 }
 
 .active:before {
-  background: #00E75E !important;
+  background: #00e75e !important;
 }
-.react-slideshow-container+ul.indicators .each-slideshow-indicator:hover, .react-slideshow-container+ul.indicators .each-slideshow-indicator.active, .react-slideshow-container+ul.indicators .each-slideshow-indicator:focus {
+.react-slideshow-container + ul.indicators .each-slideshow-indicator:hover,
+.react-slideshow-container + ul.indicators .each-slideshow-indicator.active,
+.react-slideshow-container + ul.indicators .each-slideshow-indicator:focus {
   opacity: 1 !important;
   outline: 0;
 }
@@ -1449,4 +1482,3 @@ a {
   position: relative;
   z-index: 3;
 }
-

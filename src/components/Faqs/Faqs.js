@@ -17,7 +17,7 @@ return (
         <div className='faq-div'>
             {
                 data.map ((faq, idx) =>
-                   <FaqItem faq={faq} key={idx}/>
+                <FaqItem faq={faq} key={idx}/>
                 )
             }
         </div>
