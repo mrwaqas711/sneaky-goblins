@@ -5,7 +5,8 @@ const Footer = () => {
     return(
         <div className="footer">
             <div className="footer-nft-Icons">
-                <Image width={1200} height={300} layout='responsive' src="/images/NFT-Icons.png" alt="border footer"/>
+                <span className='nft-mobile'><Image width={375} height={733} layout='responsive' src="/nft-v.png" alt="border footer"/></span>
+                <span className='nft-desktop'><Image width={1200} height={300} layout='responsive' src="/images/NFT-Icons.png" alt="border footer"/></span>
             </div>
             <div className="footer-image">
                 <Image width={1200} height={1} layout='responsive' src="/images/sidebar-border.png" alt="border footer"/>
@@ -31,7 +32,7 @@ const Footer = () => {
                 <div className="terms-conditions">
                     <p>Privacy Policy</p>
                     <div className="terms-border"></div>
-                    <p> Terms & Conditions</p>
+                    <p className='p-foot'> Terms & Conditions</p>
                 </div>
 
             </div>

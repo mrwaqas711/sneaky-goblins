@@ -4,8 +4,14 @@ import Image from 'next/image'
 const vision = () => {
   return (
     <div className='vision-main-div' id='vision'>
-        <h1 className='vision-h1'>
-          THE&nbsp;<span className='text-green'>VISI</span><span className='ring'><Image src='/ring.png' width={40} height={60} alt='ring' /></span>
+        <h1 className='vision-h1 desktop-vision'>
+          THE&nbsp;<span className='text-green'>VISI</span><span className='ring'>
+            <Image src='/ring.png' width={40} height={60} alt='ring' /></span>
+            <span className='text-green'>N</span>
+        </h1>
+        <h1 className='vision-h1 mobile-vision'>
+          THE&nbsp;<span className='text-green'>VISI</span><span className='mobile-ring'>
+            <Image  src='/ring.png' width={25} height={40} alt='ring' /></span>
             <span className='text-green'>N</span>
         </h1>
         <p className='vision-p'>
