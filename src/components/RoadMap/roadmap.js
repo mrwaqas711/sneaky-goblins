@@ -75,51 +75,8 @@ const RoadMap = () => {
                     <Image src="/images/roadmap-sideSteps.png" layout='fixed'  width={25} height={2250} alt='roadmap sideStep'/>
                     <div className="roadmap-stepper">
                         <div className="">
-                            <RoadMapInfo
-                                group={group}
-                                // disabled={true}
-                                // percentage='20%'
-                                // duration=' December 21’ - February 22’ '
-                                // phase="Phase 0 - The Foundation"
-                                // heading= 'Building a team of experts.'
-                            />
+                            <RoadMapInfo group={group}/>
                         </div>
-                        {/*<div className="">*/}
-                        {/*    <RoadMapInfo*/}
-                        {/*        disabled={false}*/}
-                        {/*        percentage='40%'*/}
-                        {/*        duration=' December 21’ - February 22’ '*/}
-                        {/*        phase="Phase 0 - The Foundation"*/}
-                        {/*        heading= 'Building a team of experts.'*/}
-                        {/*    />*/}
-                        {/*</div>*/}
-                        {/*<div className="">*/}
-                        {/*    <RoadMapInfo*/}
-                        {/*        disabled={false}*/}
-                        {/*        percentage='60%'*/}
-                        {/*        duration=' December 21’ - February 22’ '*/}
-                        {/*        phase="Phase 0 - The Foundation"*/}
-                        {/*        heading= 'Building a team of experts.'*/}
-                        {/*    />*/}
-                        {/*</div>*/}
-                        {/*<div className="">*/}
-                        {/*    <RoadMapInfo*/}
-                        {/*        disabled={false}*/}
-                        {/*        percentage='80%'*/}
-                        {/*        duration=' December 21’ - February 22’ '*/}
-                        {/*        phase="Phase 0 - The Foundation"*/}
-                        {/*        heading= 'Building a team of experts.'*/}
-                        {/*    />*/}
-                        {/*</div>*/}
-                        {/*<div className="">*/}
-                        {/*    <RoadMapInfo*/}
-                        {/*        disabled={false}*/}
-                        {/*        percentage='100%'*/}
-                        {/*        duration=' December 21’ - February 22’ '*/}
-                        {/*        phase="Phase 0 - The Foundation"*/}
-                        {/*        heading= 'Building a team of experts.'*/}
-                        {/*    />*/}
-                        {/*</div>*/}
                     </div>
                 </div>
             </div>
