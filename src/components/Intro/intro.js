@@ -17,7 +17,7 @@ return (
                         </p>
                         <button className='btn-discord intro-btn-mobile'>
                             <span className='btn-icon'>
-                                <Image src="/images/btn-icon.svg"  width={24} height={18} alt='btn' />
+                                <Image src="/images/btn-icon.svg"  width={21} height={16} alt='btn' />
                             </span>
                                 Join us on Discord
                         </button>

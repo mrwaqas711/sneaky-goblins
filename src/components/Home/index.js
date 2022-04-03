@@ -1,12 +1,24 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import Header from '../Common/Header';
 import Image from 'next/image';
+import { useMediaQuery } from 'react-responsive';
+
 
 const Home = () => {
+    const isMobile = useMediaQuery({ query: `(max-width: 500px)`});
+    // useEffect(() => {
+    //     const getImage = () => {
+    //         if(isMobile) {
+    //             return '/images/mobile-banner.jpg' }
+    //         else{
+    //             return '/images/banner-bg.png'
+    //         }
+    //     }
+    // }, [isMobile])
     return (
         <>
             <div className="banner">
-                <Image src="/images/banner-bg.png"
+                <Image src={isMobile ? '/images/mobile-banner.jpg' : '/images/banner-bg.png'}
                        alt="Cover"
                        layout='fill'
                        className="home-bg"
