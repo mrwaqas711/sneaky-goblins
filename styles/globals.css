@@ -22,11 +22,11 @@ a {
   position: relative;
   height: 100vh;
 }
-.reltive-1 {
+.home-bg {
   position: relative;
   z-index: 1;
 }
-.reltive-2 {
+.home-text {
   position: relative;
   z-index: 2;
   height: 100vh;
@@ -512,10 +512,12 @@ a {
 
 /* design page css start */
 
-.main-div {
-  background: url(../public/background-line.png) no-repeat;
-  background-size: 100% 100%;
+.design-in {
+  background-image: url(../public/background-line.png);
   text-align: center;
+  background-size: 100% 100%;
+  height: 90vh;
+  padding-top: 70px;
 }
 .inner-text {
   padding-top: 10px;
@@ -528,14 +530,17 @@ a {
   line-height: 65px;
   font-weight: bolder;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 .p-design {
   color: white;
   text-align: center;
   font-family: Outfit, sans-serif;
   font-size: 24px;
-  line-height: 52px;
+  line-height: 40px;
   font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 60px;
 }
 @media only screen and (max-width: 500px) {
   .inner-text {
@@ -1052,6 +1057,7 @@ a {
     margin-top: 50px;
     display: block;
     justify-content: center;
+
     /* align-items: center; */
   }
   .community-text {
@@ -1098,23 +1104,21 @@ a {
 /* community page css end */
 /* roadmap page css start */
 .roadmap-container {
-  padding-left: 10%;
-  padding-right: 10%;
+  padding: 10%;
   display: flex;
   justify-content: space-between;
-  margin-top: 60px;
-  margin-bottom: 20px;
-  position: absolute;
-  top: 0;
+
+  /*position: absolute;*/
+  /*top: 0;*/
   color: #fff;
   z-index: 2;
-  box-sizing: border-box;
 }
 .roadmap-background{
-  position: relative;
+  background-image: url(../public/images/roadmap-bg.png);
+  /*position: relative;*/
+  background-position: center;
+  background-size: cover;
   z-index: 1;
-  margin-top: 60px;
-  margin-bottom: 20px;
 }
 .roadmap-h1 {
   margin-top: 100px;
@@ -1320,15 +1324,18 @@ a {
 .faqs-container {
   padding: 2% 10%;
 }
-.faqs-container > h1 {
+.faqs-container > .faqs-heading {
   color: white;
   text-align: center;
   margin-top: 50px;
 }
+.faq-sub-heading {
+  text-align: center;
+}
 .faq-div {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  display: grid;
+  gap: 2% 1%;
+  grid-template-columns: 50% 50%;
 }
 .faq {
   color: white;
@@ -1338,7 +1345,9 @@ a {
   padding: 20px 30px;
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
-  width: 45%;
+  flex: 50%;
+  margin: 20px 30px;
+  align-self: start;
 }
 .faq1 {
   color: white;
@@ -1374,7 +1383,7 @@ a {
 @media only screen and (max-width: 500px) {
   .faq-div {
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: 100%;
     gap: 30px 0;
   }
   .faqs-container {
@@ -1383,3 +1392,61 @@ a {
 }
 
 /* Faqs page css end */
+
+
+/*slider section*/
+.each-slide > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 300px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.slider-image {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+@media (max-width: 500px) {
+  .each-slide > div {
+    width: 350px;
+  }
+  .lazy {
+    display: none;
+  }
+  .design-in {
+    background-image: url(../public/background-line.png);
+    text-align: center;
+    background-size: 100% 100%;
+    height: 60vh;
+    padding-top: 20px;
+  }
+}
+
+.react-slideshow-container+ul.indicators .each-slideshow-indicator:before {
+  width: 12px !important;
+  height: 12px !important;
+}
+
+.active:before {
+  background: #00E75E !important;
+}
+.react-slideshow-container+ul.indicators .each-slideshow-indicator:hover, .react-slideshow-container+ul.indicators .each-slideshow-indicator.active, .react-slideshow-container+ul.indicators .each-slideshow-indicator:focus {
+  opacity: 1 !important;
+  outline: 0;
+}
+
+.slider-bg {
+  position: absolute;
+  z-index: 1;
+}
+.slider-text {
+  position: relative;
+  z-index: 2;
+}
+.slider-section {
+  position: relative;
+  z-index: 3;
+}
+

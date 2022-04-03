@@ -6,8 +6,12 @@ const Home = () => {
     return (
         <>
             <div className="banner">
-                <Image src="/images/banner-bg.png" width={100} height={100} alt="Cover" layout='fill' className='reltive-1'/>
-                <div className='reltive-2'>
+                <Image src="/images/banner-bg.png"
+                       alt="Cover"
+                       layout='fill'
+                       className="home-bg"
+                />
+                <div className='home-text'>
                     <Header/>
                     <div className="main-heading">
                         <h1 className='desktop-h1'>Ready to build the future of&nbsp;
