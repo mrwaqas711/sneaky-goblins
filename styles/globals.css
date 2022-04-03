@@ -286,7 +286,7 @@ a {
     margin-bottom: 0.6em;
     opacity: 1;
     direction: ltr;
-    font-family: 'Rubik dirt', sans-serif;
+    font-family: "Rubik dirt", sans-serif;
     color: #ececec;
     font-size: 1.7em;
     line-height: 1.27em;
@@ -359,9 +359,9 @@ a {
     font-size: 13px;
   }
   .main-container-footer > p {
-    font-size: .8em;
+    font-size: 0.8em;
   }
-  .join-button{
+  .join-button {
     font-size: 0.8em;
     padding: 1em 1.5em;
   }
@@ -669,7 +669,8 @@ a {
 @media only screen and (max-width: 500px) {
   .artist-main-div {
     display: block;
-    padding: 0 15px;
+    padding: 15px 15px;
+    margin: 15px 0 15px 0;
   }
   .artist-flex-btw {
     display: block;
@@ -747,6 +748,13 @@ a {
     transform: scale(0.5);
   }
 }
+.mobile-ring {
+  position: relative !important;
+  top: 8px;
+  animation: ring-mobile 4s infinite ease-in-out !important;
+}
+@keyframes ring-mobile {
+}
 .vision-p {
   color: white;
   margin-bottom: 40px;
@@ -756,6 +764,9 @@ a {
   line-height: 52px;
   font-weight: 400;
   text-align: center;
+}
+.mobile-vision {
+  display: none;
 }
 
 @media only screen and (max-width: 500px) {
@@ -779,6 +790,12 @@ a {
     line-height: 29px;
     font-weight: 400;
     text-align: center;
+  }
+  .desktop-vision {
+    display: none;
+  }
+  .mobile-vision {
+    display: block;
   }
 }
 
@@ -1046,6 +1063,54 @@ a {
     rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
   transform-style: preserve-3d;
 }
+.nft-mobile {
+  display: none;
+}
+@media only screen and (max-width: 500px) {
+  .nft-mobile {
+    display: block;
+    width: 100%;
+  }
+  .nft-desktop {
+    display: none;
+  }
+  .rights-Reserved {
+    order: 3;
+    margin-top: -20px;
+  }
+  .footer {
+    margin-top: 50px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 5px 25px;
+  }
+  .footer-links {
+    text-align: center;
+    margin-right: 0;
+  }
+  .terms-conditions {
+    justify-content: center;
+    font-size: 19px;
+    font-weight: 400;
+  }
+  .footer-image {
+    margin-top: 20px;
+  }
+  .footer-link-section {
+    justify-content: space-around;
+  }
+  .p-foot {
+    font-size: 12px !important;
+    display: flex;
+    align-items: center;
+  }
+}
+
 /*Footer section end*/
 /* community page css start */
 
@@ -1327,8 +1392,8 @@ a {
   .phase{
     font-size: 1.3em;
   }
-  .disabled-heading{
-    font-size: .9em;
+  .disabled-heading {
+    font-size: 0.9em;
   }
   .heading{
     font-size: .9em;
@@ -1429,9 +1494,15 @@ a {
   color: white;
   text-align: center;
   margin-top: 50px;
+  font-size: 50px;
+  line-height: 30px;
+  font-weight: bolder;
 }
 .faq-sub-heading {
   text-align: center;
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: bolder;
 }
 .faq-div {
   display: grid;
@@ -1465,7 +1536,8 @@ a {
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
-  font-size: 24px;
+  font-size: 25px;
+  font-weight: 600;
 }
 .collap-text {
   margin-top: 20px;
@@ -1491,14 +1563,14 @@ a {
     padding: 15px 15px;
   }
   .faqs-heading {
-    font-size: 27px;
-    line-height: 10px;
-    font-weight: 400;
+    font-size: 27px !important;
+    line-height: 10px !important;
+    font-weight: 400 !important;
   }
   .faq-sub-heading {
-    font-size: 27px;
-    line-height: 32px;
-    font-weight: 400;
+    font-size: 27px !important;
+    line-height: 32px !important;
+    font-weight: 400 !important;
   }
   .faq-text {
     font-size: 14px;
@@ -1539,7 +1611,7 @@ a {
     background-image: url(../public/background-line.png);
     text-align: center;
     background-size: 100% 100%;
-    height: 60vh;
+    height: 65vh;
     padding-top: 20px;
   }
 }
