@@ -6,7 +6,7 @@ const RoadMapInfo = ({percentage, duration, phase, heading, disabled, group }) =
     return (
         <div className='roadmap-text-container'>
             {group.map((data, index) =>
-                <div className="roadmap-section">
+                <div className="roadmap-section" key={index}>
                     <div className="Green-dots-icon">
                         <Image src={data.img} layout='fixed'  width={25} height={20} alt='roadmap green dot'/>
                     </div>
@@ -20,7 +20,7 @@ const RoadMapInfo = ({percentage, duration, phase, heading, disabled, group }) =
                         <p className={data.disabled ? 'disabled-duration' : 'duration'}>{data.duration}</p>
                         <p className={data.disabled ? 'disabled-phase' : 'phase'}>{data.phase}</p>
                         {data.subHeadings.map((heading,index) =>
-                        <div className='heading-div'>
+                        <div className='heading-div' key={index}>
                             <div className="roadmap-Dot">.</div>
                             <div className={data.disabled ? 'disabled-heading' : 'heading'}>{heading}</div>
                         </div>
