@@ -65,7 +65,9 @@ const Design = () => {
       <div className='main-div' id="design">
         <div className='design-in' style={{
             position: 'relative',
-            backgroundImage: "url('background-line.png')"
+            backgroundImage: "url('background-line.png')",
+            marginTop: '15px',
+            marginBottom: '15px'
         }}>
 
           {/*<div className='stone-icon'>*/}
