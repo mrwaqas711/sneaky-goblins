@@ -6,7 +6,7 @@ import 'aos/dist/aos.css'; // You can also use <link> for styles
 AOS.init();
 
 import { Slide } from 'react-slideshow-image';
-
+// stone fix deployment
 const slideImages = [
     '/slider/s-8.png',
     '/slider/s-2.jpg',
