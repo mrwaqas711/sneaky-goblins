@@ -71,12 +71,13 @@ return (
             backgroundImage: "url('background-line.png')",
             backgroundPosition: 'center',
             backgroundSize: 'cover'
-
         }}>
-
-        <div className='stone-icon'>
-            <Image src='/green-stone.png' layout='responsive' width={200} height={200} alt="stone" />
-          </div>
+        <div className='desktop-stone-icon'>
+            <Image src='/green-stone.png' width={766} height={766} alt="stone" />
+        </div>
+        <div className='mobile-stone-icon'>
+            <Image src='/green-stone.png' width={496} height={496} alt="stone" />
+        </div>
         <div>
             <div className="slider-container">
             <div className='inner-text slider-text'>
@@ -98,6 +99,6 @@ return (
         </div>
         </div>
     </div>
-  )
+)
 }
 export default Design

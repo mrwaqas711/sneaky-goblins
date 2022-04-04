@@ -36,7 +36,7 @@ const Home = () => {
                         <button className="join-button">
                             Join Sneaky Goblin</button>
                     </div>
-                    <div className="main-container-footer" data-aos-once="true" data-aos-delay="100" data-aos-duration="2000" data-aos="fade-down">
+                    <div className="main-container-footer">
                         <Image width={13} height={13} layout='fixed' src="/images/green-dot.svg" alt="plus image"/>
                         <p>Stake - Yield - Upgrade - Mutate</p>
                         <Image width={13} height={13} layout='fixed' src="/images/green-dot.svg" alt="plus image"/>
