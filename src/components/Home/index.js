@@ -3,7 +3,6 @@ import Header from '../Common/Header';
 import Image from 'next/image';
 import { useMediaQuery } from 'react-responsive';
 
-
 const Home = () => {
     const isMobile = useMediaQuery({ query: `(max-width: 500px)`});
     console.log('isMobile', isMobile)

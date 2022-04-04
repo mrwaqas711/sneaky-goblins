@@ -20,7 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16f8f06a-1320-4197-8268-5a2a58fab14c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/Design/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Design/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Common/Header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Common/Header/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Common/Sidebar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Common/Sidebar/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +33,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="277DvaneRotiF360xWk7mNnHqey" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -39,25 +42,25 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/images" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public" />
-      <recent name="$PROJECT_DIR$/public/images" />
-      <recent name="$PROJECT_DIR$/styles" />
-      <recent name="$PROJECT_DIR$/src/containers" />
-      <recent name="$PROJECT_DIR$/src/components/Common" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/styles" />
       <recent name="$PROJECT_DIR$/src/components/Common/Button" />
       <recent name="$PROJECT_DIR$/src/containers" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/images" />
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/styles" />
+      <recent name="$PROJECT_DIR$/src/containers" />
+      <recent name="$PROJECT_DIR$/src/components/Common" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -98,15 +101,15 @@
       <screen x="0" y="0" width="1600" height="900" />
     </state>
     <state x="532" y="176" width="524" height="494" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.900@0.0.1600.900" timestamp="1648672617734" />
-    <state x="150" y="48" width="1280" height="744" key="MergeDialog" timestamp="1648950079267">
+    <state x="150" y="48" width="1280" height="744" key="MergeDialog" timestamp="1649029564020">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state x="150" y="48" width="1280" height="744" key="MergeDialog/0.0.1600.900@0.0.1600.900" timestamp="1648950079267" />
+    <state x="150" y="48" width="1280" height="744" key="MergeDialog/0.0.1600.900@0.0.1600.900" timestamp="1649029564020" />
     <state x="135" y="68" key="MergeDialog/0.25.1440.797@0.25.1440.797" timestamp="1648945256673" />
-    <state x="437" y="189" width="715" height="468" key="MultipleFileMergeDialog" timestamp="1648950079273">
+    <state x="437" y="189" width="715" height="468" key="MultipleFileMergeDialog" timestamp="1649029564048">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state x="437" y="189" width="715" height="468" key="MultipleFileMergeDialog/0.0.1600.900@0.0.1600.900" timestamp="1648950079273" />
+    <state x="437" y="189" width="715" height="468" key="MultipleFileMergeDialog/0.0.1600.900@0.0.1600.900" timestamp="1649029564048" />
     <state x="393" y="192" key="MultipleFileMergeDialog/0.25.1440.797@0.25.1440.797" timestamp="1648945256744" />
     <state x="421" y="178" width="597" height="490" key="find.popup" timestamp="1648933728984">
       <screen x="0" y="25" width="1440" height="797" />

@@ -1,12 +1,12 @@
 import React from 'react';
 import Image from "next/image";
 
-const SideBar = ({isSidebar}) => {
+const SideBar = ({isSidebar, setIsSidebar}) => {
     return (
         <div id='sidebar' className={isSidebar ? "sideBar sideBar-SlideIn" : " hideSideBar"}>
             <div className="sideBar-container">
                 <div className="sidebar-links">
-                    <a href="#intro">Intro</a>
+                    <a  href="#intro">Intro</a>
                     <a href="#design">Designs</a>
                     <a href="#artist">Artist</a>
                     <a href="#vision">The Vision</a>
