@@ -555,7 +555,7 @@ a {
 }
 .desktop-stone-icon {
   position: absolute;
-  bottom: 35%;
+  bottom: 55%;
   left: 28%;
   z-index: 999;
 }
@@ -566,7 +566,7 @@ a {
 .inner-text {
   position: absolute;
   top: 0;
-  padding-top: 10px;
+  padding-top: 30px;
   padding-bottom: 10px;
 }
 .h1-design {
@@ -627,11 +627,11 @@ a {
     display: block;
   }
 }
-@media only screen and (min-width: 1440px) {
+@media only screen and (max-width: 1450px) {
   .desktop-stone-icon {
     position: absolute;
-    bottom: 54%;
-    left: 26%;
+    bottom: 51%;
+    left: 24%;
     z-index: 999;
     display: block;
   }
