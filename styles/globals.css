@@ -273,12 +273,6 @@ a {
 .mobile-h1 {
   display: none;
 }
-@media only screen and (min-width: 1640px) {
-  .main-heading {
-    font-size: 1.8em;
-    margin-top: 40px !important;
-  }
-}
 @media only screen and (max-width: 500px) {
   .main-heading {
     font-size: 0.7em;
@@ -287,7 +281,6 @@ a {
     padding-left: 10px;
     padding-right: 10px;
   }
-
   .desktop-h1 {
     display: none;
   }
@@ -564,8 +557,8 @@ a {
 }
 .desktop-stone-icon {
   position: absolute;
-  bottom: 35%;
-  left: 25%;
+  bottom: 34%;
+  left: 29%;
   z-index: 999;
 }
 .mobile-stone-icon {
@@ -575,7 +568,7 @@ a {
 .inner-text {
   position: absolute;
   top: 0;
-  padding-top: 10px;
+  padding-top: 30px;
   padding-bottom: 10px;
 }
 .h1-design {
@@ -622,28 +615,21 @@ a {
     font-weight: 600;
   }
   .desktop-stone-icon {
-    position: absolute;
-    bottom: 50%;
-    left: 32%;
-    z-index: 999;
-    display: none;
+    display: none !important;
   }
   .mobile-stone-icon {
     position: absolute;
-    bottom: 53%;
+    bottom: 55%;
     left: 0;
     z-index: 999;
     display: block;
   }
 }
-@media only screen and (min-width: 1440px) {
+@media only screen and (max-width: 1450px) {
   .desktop-stone-icon {
     position: absolute;
     bottom: 34%;
-    /*left: 26%;*/
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, 0);
+    left: 26%;
     z-index: 999;
     display: block;
   }
