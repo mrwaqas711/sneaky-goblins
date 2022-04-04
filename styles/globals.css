@@ -1219,6 +1219,15 @@ a {
 .mobile-avatar {
   display: none;
 }
+@media only screen and (max-width: 1440px) {
+  .mask-icon {
+    position: absolute;
+    z-index: 1;
+    bottom: 25%;
+    left: -6%;
+    animation: mask-zoom 8s infinite ease-in-out;
+  }
+}
 @media only screen and (max-width: 500px) {
   .community-container {
     padding-left: 15px;
@@ -1275,14 +1284,14 @@ a {
     z-index: 1;
     bottom: 10px;
     left: 20px;
-    animation: mask-zoom 8s infinite ease-in-out;
+    animation: mask-zoom 6s infinite ease-in-out;
   }
   .bottle-icon {
     z-index: 1;
     position: absolute;
     top: 10px;
     right: 16px;
-    animation: bottle-rotate 7s infinite ease-in-out;
+    animation: bottle-rotate 6s infinite ease-in-out;
   }
 }
 

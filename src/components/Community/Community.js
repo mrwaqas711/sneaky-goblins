@@ -20,11 +20,11 @@ return (
                 From being part of an exclusive community to having access to gamified NFTs, 
                 the benefits of owning a Sneaky Goblin are out of this world.
             </p>
-            <p className='mobile-avatar' data-aos-once="true" data-aos-delay="100" data-aos-duration="2000" data-aos="fade-up"> 
+            <div className='mobile-avatar' data-aos-once="true" data-aos-delay="100" data-aos-duration="2000" data-aos="fade-up"> 
             <Image src='/3avatar.png' width={740} height={500} alt='avatar' />
             <div className='bottle-icon'><Image src='/bottle-icon.png' width={68} height={97} alt='avatar' /></div>
             <div className='mask-icon'><Image src='/mask-icon.png' width={68} height={61} alt='avatar' /></div>
-            </p>
+            </div>
             <div className='btn-div' data-aos-once="true" data-aos-delay="100" data-aos-duration="2000" data-aos="fade-up"> 
                 <button className='btn-discord btn-hide' > 
             <span className='btn-icon'>
