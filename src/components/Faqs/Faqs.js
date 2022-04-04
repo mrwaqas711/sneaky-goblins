@@ -1,5 +1,10 @@
 import React from 'react'
 import FaqItem from "../Common/FaqItem";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
+
 
 const Faqs = () => {
     const data = [
@@ -12,9 +17,9 @@ const Faqs = () => {
     ];
 return (
     <div className='faqs-container' id='faqs'>
-        <h1 className="faqs-heading">FREQUENTLY ASKED</h1>
-        <h1 className="text-green faq-sub-heading">QUESTIONS</h1>
-        <div className='faq-div'>
+        <h1 className="faqs-heading" data-aos-once="true" data-aos-delay="100" data-aos-duration="2000" data-aos="fade-up">FREQUENTLY ASKED</h1>
+        <h1 className="text-green faq-sub-heading" data-aos-once="true" data-aos-delay="100" data-aos-duration="2000" data-aos="fade-up">QUESTIONS</h1>
+        <div className='faq-div' data-aos-once="true" data-aos-delay="100" data-aos-duration="2000" data-aos="fade-up">
             {
                 data.map ((faq, idx) =>
                 <FaqItem faq={faq} key={idx}/>

@@ -1,5 +1,9 @@
 import React from 'react'
 import Image from 'next/image';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 
 import { Slide } from 'react-slideshow-image';
 
@@ -61,8 +65,8 @@ const properties = {
     ]
 };
 const Design = () => {
-  return (
-      <div className='main-div' id="design">
+return (
+    <div className='main-div' id="design">
         <div className='design-in' style={{
             backgroundImage: "url('background-line.png')",
             backgroundPosition: 'center',
@@ -70,28 +74,28 @@ const Design = () => {
 
         }}>
 
-          {/*<div className='stone-icon'>*/}
-          {/*    <Image src='/green-stone.png' layout='fixed' width={750} height={750} alt="stone" />*/}
-          {/*  </div>*/}
-          <div>
-              <div className='inner-text slider-text'>
-                  <h1 className='h1-design'>DESIGNS</h1>
-                  <p className='p-design'>World-class art that will shape the NFT space for years to come.</p>
-              </div>
-              <div className="slider-section">
-                  <Slide {...properties}>
-                      {
-                          slideImages.map ((each, idx) =>
-                              <div key={idx} className="each-slide">
-                                  <Image width={300} height={280} className="slider-image" src={each} alt="sample" />
-                              </div>
-                          )
-                      }
-                  </Slide>
-              </div>
-          </div>
+        {/*<div className='stone-icon'>*/}
+        {/*    <Image src='/green-stone.png' layout='fixed' width={750} height={750} alt="stone" />*/}
+        {/*  </div>*/}
+        <div>
+            <div className='inner-text slider-text'>
+                <h1 className='h1-design' data-aos-once="true" data-aos-delay="100" data-aos-duration="2000" data-aos="fade-up">DESIGNS</h1>
+                <p className='p-design' data-aos-once="true" data-aos-delay="150" data-aos-duration="2000" data-aos="fade-up">World-class art that will shape the NFT space for years to come.</p>
+            </div>
+            <div className="slider-section">
+                <Slide {...properties}>
+                    {
+                        slideImages.map ((each, idx) =>
+                            <div key={idx} className="each-slide">
+                                <Image width={300} height={280} className="slider-image" src={each} alt="sample" />
+                            </div>
+                        )
+                    }
+                </Slide>
+            </div>
         </div>
-      </div>
+        </div>
+    </div>
   )
 }
 export default Design
