@@ -749,11 +749,20 @@ a {
   }
 }
 .mobile-ring {
-  position: relative !important;
+  display: none;
   top: 8px;
   animation: ring-mobile 4s infinite ease-in-out !important;
 }
 @keyframes ring-mobile {
+  0% {
+    transform: scale(0.5);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.5);
+  }
 }
 .vision-p {
   color: white;
@@ -768,7 +777,13 @@ a {
 .mobile-vision {
   display: none;
 }
-
+.opacity-o {
+  opacity: 0;
+}
+.vision-setter {
+  display: inline-block;
+  position: relative;
+}
 @media only screen and (max-width: 500px) {
   .vision-main-div {
     display: block;
@@ -796,6 +811,13 @@ a {
   }
   .mobile-vision {
     display: block;
+    position: relative;
+    margin-bottom: 20px;
+  }
+  .mobile-ring {
+    display: block;
+    position: absolute !important;
+    right: 10%;
   }
 }
 
@@ -1125,6 +1147,41 @@ a {
   margin-bottom: 20px;
 }
 .community-image {
+  position: relative;
+}
+.mask-icon {
+  position: absolute;
+  bottom: -10px;
+  left: -20px;
+  animation: mask-zoom 8s infinite ease-in-out;
+}
+@keyframes mask-zoom {
+  0% {
+    transform: scale(0.7);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.7);
+  }
+}
+.bottle-icon {
+  position: absolute;
+  top: -50px;
+  right: 16px;
+  animation: bottle-rotate 7s infinite ease-in-out;
+}
+@keyframes bottle-rotate {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  50% {
+    transform: rotateZ(30deg);
+  }
+  100% {
+    transform: rotateZ(0deg);
+  }
 }
 .community-text {
   width: 55%;
@@ -1211,6 +1268,21 @@ a {
   }
   .mobile-avatar {
     display: block;
+    position: relative;
+  }
+  .mask-icon {
+    position: absolute;
+    z-index: 1;
+    bottom: 10px;
+    left: 20px;
+    animation: mask-zoom 8s infinite ease-in-out;
+  }
+  .bottle-icon {
+    z-index: 1;
+    position: absolute;
+    top: 10px;
+    right: 16px;
+    animation: bottle-rotate 7s infinite ease-in-out;
   }
 }
 

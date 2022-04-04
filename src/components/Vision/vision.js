@@ -13,11 +13,12 @@ const vision = () => {
             <Image src='/ring.png' width={40} height={60} alt='ring' /></span>
             <span className='text-green'>N</span>
         </h1>
-        <h1 className='vision-h1 mobile-vision' data-aos-once="true" data-aos-delay="100" data-aos-duration="2000" data-aos="fade-up">
-          THE&nbsp;<span className='text-green'>VISI</span><span className='mobile-ring'>
-            <Image  src='/ring.png' width={25} height={40} alt='ring' /></span>
-            <span className='text-green'>N</span>
+        <div className='vision-setter'>
+          <h1 className='vision-h1 mobile-vision' data-aos-once="true" data-aos-delay="100" data-aos-duration="2000" data-aos="fade-up">
+          THE <span className='text-green'>visi</span><span className='opacity-o'>o</span><span className='text-green'>n</span>
         </h1>
+        <div class='mobile-ring'><Image src='/ring.png' width={28} height={43} alt='ring' /></div>
+        </div>
         <p className='vision-p' data-aos-once="true" data-aos-delay="200" data-aos-duration="2000" data-aos="fade-up">
             Our vision for the Sneaky Goblins is to be the Genesis collection of a larger upcoming ecosystem. Over time, we are building the components of an NFT & Metaverse Studio to empower our community.
             <br/>Sneaky Studios will help talented artists launch collections and build NFT experiences through the Sneaky Incubator.
