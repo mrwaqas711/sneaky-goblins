@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image';
 
 import { Slide } from 'react-slideshow-image';
-//deploying 
+
 const slideImages = [
     '/slider/s-8.png',
     '/slider/s-2.jpg',
