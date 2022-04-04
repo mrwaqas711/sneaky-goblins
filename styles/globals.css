@@ -622,7 +622,7 @@ a {
   }
   .mobile-stone-icon {
     position: absolute;
-    bottom: 55%;
+    bottom: 53%;
     left: 0;
     z-index: 999;
     display: block;
@@ -632,7 +632,10 @@ a {
   .desktop-stone-icon {
     position: absolute;
     bottom: 34%;
-    left: 26%;
+    /*left: 26%;*/
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0);
     z-index: 999;
     display: block;
   }
