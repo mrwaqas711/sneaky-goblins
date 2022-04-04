@@ -37,7 +37,7 @@ const properties = {
         {
             breakpoint: 1800,
             settings: {
-                slidesToShow: 7,
+                slidesToShow: 5,
                 slidesToScroll: 1
             }
         },
@@ -51,7 +51,7 @@ const properties = {
         {
             breakpoint: 500,
             settings: {
-                slidesToShow: 2,
+                slidesToShow: 1,
                 slidesToScroll: 1
             }
         },
@@ -70,14 +70,15 @@ return (
         <div className='design-in' style={{
             backgroundImage: "url('background-line.png')",
             backgroundPosition: 'center',
-            backgroundSize: '100% 100%'
+            backgroundSize: 'cover'
 
         }}>
 
-        {/*<div className='stone-icon'>*/}
-        {/*    <Image src='/green-stone.png' layout='fixed' width={750} height={750} alt="stone" />*/}
-        {/*  </div>*/}
+        <div className='stone-icon'>
+            <Image src='/green-stone.png' layout='responsive' width={200} height={200} alt="stone" />
+          </div>
         <div>
+            <div className="slider-container">
             <div className='inner-text slider-text'>
                 <h1 className='h1-design' data-aos-once="true" data-aos-delay="100" data-aos-duration="2000" data-aos="fade-up">DESIGNS</h1>
                 <p className='p-design' data-aos-once="true" data-aos-delay="150" data-aos-duration="2000" data-aos="fade-up">World-class art that will shape the NFT space for years to come.</p>
@@ -87,11 +88,12 @@ return (
                     {
                         slideImages.map ((each, idx) =>
                             <div key={idx} className="each-slide">
-                                <Image width={300} height={280} className="slider-image" src={each} alt="sample" />
+                                <Image width={300} height={300} className="slider-image" src={each} alt="sample" />
                             </div>
                         )
                     }
                 </Slide>
+            </div>
             </div>
         </div>
         </div>

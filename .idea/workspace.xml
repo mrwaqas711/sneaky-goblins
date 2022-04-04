@@ -20,9 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16f8f06a-1320-4197-8268-5a2a58fab14c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/Common/Header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Common/Header/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Common/Sidebar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Common/Sidebar/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/green-stone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Design/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Design/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
