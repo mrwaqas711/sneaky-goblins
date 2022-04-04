@@ -106,7 +106,7 @@ const Header = () => {
                     </div>
                 </div>
             </div>
-            <Sidebar isSidebar={isSidebar}/>
+            <Sidebar isSidebar={isSidebar} handleSideBar={handleSidebarClick}/>
         </>
     );
 }
