@@ -7,7 +7,6 @@ import 'aos/dist/aos.css'; // You can also use <link> for styles
 // ..
 AOS.init();
 
-
 const Home = () => {
     const isMobile = useMediaQuery({ query: `(max-width: 500px)`});
     console.log('isMobile', isMobile)
