@@ -96,6 +96,7 @@ a {
   position: relative;
   margin-left: 20px;
 }
+
 @media only screen and (max-width: 500px) {
   .header {
     display: none;
@@ -255,7 +256,7 @@ a {
 
 /*Main Heading paragraph start*/
 .main-heading {
-  margin: 0 !important;
+  margin-top: 20px !important;
   z-index: 1;
   direction: ltr;
   font-family: "Rubik dirt", sans-serif;
@@ -272,6 +273,12 @@ a {
 .mobile-h1 {
   display: none;
 }
+@media only screen and (min-width: 1640px) {
+  .main-heading {
+    font-size: 1.8em;
+    margin-top: 40px !important;
+  }
+}
 @media only screen and (max-width: 500px) {
   .main-heading {
     font-size: 0.7em;
@@ -280,6 +287,7 @@ a {
     padding-left: 10px;
     padding-right: 10px;
   }
+
   .desktop-h1 {
     display: none;
   }
@@ -630,7 +638,7 @@ a {
   }
   .mobile-stone-icon {
     position: absolute;
-    bottom: 55%;
+    bottom: 53%;
     left: 0;
     z-index: 999;
     display: block;
@@ -641,7 +649,10 @@ a {
   .desktop-stone-icon {
     position: absolute;
     bottom: 34%;
-    left: 26%;
+    /*left: 26%;*/
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0);
     z-index: 999;
     display: block;
   }
