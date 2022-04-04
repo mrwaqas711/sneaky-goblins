@@ -628,8 +628,8 @@ a {
 @media only screen and (max-width: 1450px) {
   .desktop-stone-icon {
     position: absolute;
-    bottom: 34%;
-    left: 26%;
+    bottom: 44%;
+    left: 22%;
     z-index: 999;
     display: block;
   }
@@ -1736,7 +1736,7 @@ a {
   }
 }
 .slider-container {
-  padding: 3% 10% 7% 10%;
+  padding: 3% 0% 7% 0%;
 }
 @media (max-width: 500px) {
   .slider-container {
