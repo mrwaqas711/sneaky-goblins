@@ -65,40 +65,40 @@ const properties = {
     ]
 };
 const Design = () => {
-return (
-    <div className='main-div' id="design">
-        <div className='design-in' style={{
-            backgroundImage: "url('background-line.png')",
-            backgroundPosition: 'center',
-            backgroundSize: 'cover'
-        }}>
-        <div className='desktop-stone-icon'>
-            <Image src='/green-stone.png' width={766} height={766} alt="stone" />
-        </div>
-        <div className='mobile-stone-icon'>
-            <Image src='/green-stone.png' width={496} height={496} alt="stone" />
-        </div>
-        <div>
-            <div className="slider-container">
-            <div className='inner-text slider-text'>
-                <h1 className='h1-design' data-aos-once="true" data-aos-delay="100" data-aos-duration="2000" data-aos="fade-up">DESIGNS</h1>
-                <p className='p-design' data-aos-once="true" data-aos-delay="150" data-aos-duration="2000" data-aos="fade-up">World-class art that will shape the NFT space for years to come.</p>
+    return (
+        <div className='main-div' id="design">
+            <div className='design-in' style={{
+                backgroundImage: "url('background-line.png')",
+                backgroundPosition: 'center',
+                backgroundSize: 'cover'
+            }}>
+                <div>
+                    <div className="slider-container">
+                        <div className='desktop-stone-icon'>
+                            <Image src='/green-stone.png' width={766} height={766} alt="stone" />
+                        </div>
+                        <div className='mobile-stone-icon'>
+                            <Image src='/green-stone.png' width={496} height={496} alt="stone" />
+                        </div>
+                        <div className='inner-text slider-text'>
+                            <h1 className='h1-design' data-aos-once="true" data-aos-delay="100" data-aos-duration="2000" data-aos="fade-up">DESIGNS</h1>
+                            <p className='p-design' data-aos-once="true" data-aos-delay="150" data-aos-duration="2000" data-aos="fade-up">World-class art that will shape the NFT space for years to come.</p>
+                        </div>
+                        <div className="slider-section">
+                            <Slide {...properties}>
+                                {
+                                    slideImages.map ((each, idx) =>
+                                        <div key={idx} className="each-slide">
+                                            <Image width={300} height={300} className="slider-image" src={each} alt="sample" />
+                                        </div>
+                                    )
+                                }
+                            </Slide>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div className="slider-section">
-                <Slide {...properties}>
-                    {
-                        slideImages.map ((each, idx) =>
-                            <div key={idx} className="each-slide">
-                                <Image width={300} height={300} className="slider-image" src={each} alt="sample" />
-                            </div>
-                        )
-                    }
-                </Slide>
-            </div>
-            </div>
         </div>
-        </div>
-    </div>
-)
+    )
 }
 export default Design
