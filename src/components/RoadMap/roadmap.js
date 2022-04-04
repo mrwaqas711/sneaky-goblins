@@ -1,6 +1,10 @@
 import React from 'react';
 import Image from "next/image";
 import RoadMapInfo from '../../components/RoadMap/RoadMapInfo/roadmapData';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 
 const RoadMap = () => {
     const group = [
@@ -67,14 +71,14 @@ const RoadMap = () => {
         }
 ]
     return (
-        <div className="">
+        <div className="" id='roadmap'>
             <h1 className='roadmap-h1'> <span className='text-green'>ROAD</span>MAP</h1>
             <div className="roadmap-background"
-                 style={{
-                     backgroundImage: "url('images/roadmap-bg.png')",
-                     backgroundPosition: 'center',
-                     backgroundSize: 'cover'
-                 }}
+                style={{
+                    backgroundImage: "url('images/roadmap-bg.png')",
+                    backgroundPosition: 'center',
+                    backgroundSize: 'cover'
+                }}
             >
                 {/*<Image src="/images/roadmap-bg.png" layout='responsive'  width={800} height={1250} alt='roadmap background' />*/}
                 <div className="roadmap-container">

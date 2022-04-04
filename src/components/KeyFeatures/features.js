@@ -1,17 +1,21 @@
 import React from 'react'
 import Image from 'next/image'
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 
 const Features = () => {
   // this is comment
   return (
     <div className='feature-div'>
       <div className='head-feature'>
-        <div className='key-div'>
+        <div className='key-div' data-aos-once="true" data-aos-delay="100" data-aos-duration="2000" data-aos="fade-up">
             <span className='key'><Image src="/key.png" width={120} height={100} alt='key' /></span>
         </div>
-       <h1 className='key-h1'> <span className='text-green'>KEY</span> FEATURES</h1>
+      <h1 className='key-h1' data-aos-once="true" data-aos-delay="100" data-aos-duration="2000" data-aos="fade-up"> <span className='text-green'>KEY</span> FEATURES</h1>
       </div>
-      <div className='feature-cards'>
+      <div className='feature-cards' data-aos-once="true" data-aos-delay="100" data-aos-duration="2000" data-aos="fade-up">
           <div className='card-f'>
           <h2 className='card-head'>
             Gamified Staking

@@ -3,6 +3,10 @@ import Image from "next/image";
 import CustomButton from "../CustomButton";
 import Sidebar from "../Sidebar";
 import btnIcon from "../../../../public/images/btn-icon.svg";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 
 const Header = () => {
     const [isSidebar, setIsSidebar] = useState(false);
@@ -26,29 +30,29 @@ const Header = () => {
         <>
             <div className="header">
                 <div className="">
-                    <div style={{marginTop: '30px'}}>
+                    <div style={{marginTop: '30px'}} data-aos-once="true" data-aos-delay="100" data-aos-duration="2000" data-aos="fade-down">
                         <Image width={470} height={1} layout='fixed' src="/images/border.png" alt="plus image" />
                     </div>
                     {/*<img src={BorderRtl} alt="logo" />*/}
-                    <div className="left-side-header">
+                    <div className="left-side-header" data-aos-once="true" data-aos-delay="100" data-aos-duration="2000" data-aos="fade-down">
                         <a href="#intro">Intro</a>
                         <a href="#design">Designs</a>
                         <a href="#artist">Artist</a>
                         <a href="#vision">TheVision</a>
-                        <a href="#">Roadmap</a>
+                        <a href="#roadmap">Roadmap</a>
                     </div>
-                    <Image width={470} height={1} layout='fixed' src="/images/border.png" alt="plus image"/>
+                <div data-aos-once="true" data-aos-delay="100" data-aos-duration="2000" data-aos="fade-down"> <Image width={470} height={1} layout='fixed' src="/images/border.png" alt="plus image"/></div>
                 </div>
                 <div className="logo">
                     <Image width={160} height={120} layout='fixed' objectFit="cover" src="/images/sneaky_goblin_logo 3 copy.png" alt="plus image"/>
                 </div>
 
                 <div className="">
-                    <div style={{marginTop: '30px'}}>
+                    <div style={{marginTop: '30px'}} data-aos-once="true" data-aos-delay="100" data-aos-duration="2000" data-aos="fade-down">
                         <Image width={500} height={1} layout='fixed' src="/images/BorderR.png" alt="plus image"/>
                     </div>
-                    <div className="right-side-header">
-                        <a href="#">FAQ</a>
+                    <div className="right-side-header" data-aos-once="true" data-aos-delay="100" data-aos-duration="2000" data-aos="fade-down">
+                        <a href="#faqs">FAQ</a>
                         <div className="social-links">
                             <Image width='25' height="20" layout='fixed' src="/images/socialIcon1.png" alt="plus image"/>
                         </div>
@@ -65,7 +69,7 @@ const Header = () => {
                             <CustomButton/>
                         </div>
                     </div>
-                    <Image width={500} height={1} layout='fixed' src="/images/BorderR.png" alt="plus image"/>
+                    <div data-aos-once="true" data-aos-delay="100" data-aos-duration="2000" data-aos="fade-down"> <Image width={500} height={1} layout='fixed' src="/images/BorderR.png" alt="plus image"/></div>
                 </div>
             </div>
             <div className="nav">
@@ -106,7 +110,7 @@ const Header = () => {
                     </div>
                 </div>
             </div>
-            <Sidebar isSidebar={isSidebar}/>
+            <Sidebar isSidebar={isSidebar} handleSideBar={handleSidebarClick}/>
         </>
     );
 }

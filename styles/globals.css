@@ -581,7 +581,7 @@ a {
 @media only screen and (max-width: 500px) {
   .inner-text {
     top: 0;
-    padding: 0 15px ;
+    padding: 0 15px;
   }
   .design-in {
     height: 100vh;
@@ -749,11 +749,20 @@ a {
   }
 }
 .mobile-ring {
-  position: relative !important;
+  display: none;
   top: 8px;
   animation: ring-mobile 4s infinite ease-in-out !important;
 }
 @keyframes ring-mobile {
+  0% {
+    transform: scale(0.5);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.5);
+  }
 }
 .vision-p {
   color: white;
@@ -768,7 +777,13 @@ a {
 .mobile-vision {
   display: none;
 }
-
+.opacity-o {
+  opacity: 0;
+}
+.vision-setter {
+  display: inline-block;
+  position: relative;
+}
 @media only screen and (max-width: 500px) {
   .vision-main-div {
     display: block;
@@ -796,6 +811,13 @@ a {
   }
   .mobile-vision {
     display: block;
+    position: relative;
+    margin-bottom: 20px;
+  }
+  .mobile-ring {
+    display: block;
+    position: absolute !important;
+    right: 10%;
   }
 }
 
@@ -995,7 +1017,7 @@ a {
 
 /*Footer section start*/
 .footer {
-  margin-top: 50px;
+  margin-top: 70px;
   padding-left: 10%;
   padding-right: 10%;
 }
@@ -1079,6 +1101,7 @@ a {
     margin-top: -20px;
   }
   .footer {
+    margin-bottom: 10px;
     margin-top: 50px;
     padding-left: 0;
     padding-right: 0;
@@ -1088,6 +1111,7 @@ a {
     flex-direction: column;
     text-align: center;
     padding: 5px 25px;
+    margin-bottom: 0;
   }
   .footer-links {
     text-align: center;
@@ -1123,6 +1147,41 @@ a {
   margin-bottom: 20px;
 }
 .community-image {
+  position: relative;
+}
+.mask-icon {
+  position: absolute;
+  bottom: -10px;
+  left: -20px;
+  animation: mask-zoom 8s infinite ease-in-out;
+}
+@keyframes mask-zoom {
+  0% {
+    transform: scale(0.7);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.7);
+  }
+}
+.bottle-icon {
+  position: absolute;
+  top: -50px;
+  right: 16px;
+  animation: bottle-rotate 7s infinite ease-in-out;
+}
+@keyframes bottle-rotate {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  50% {
+    transform: rotateZ(30deg);
+  }
+  100% {
+    transform: rotateZ(0deg);
+  }
 }
 .community-text {
   width: 55%;
@@ -1159,6 +1218,15 @@ a {
 }
 .mobile-avatar {
   display: none;
+}
+@media only screen and (max-width: 1440px) {
+  .mask-icon {
+    position: absolute;
+    z-index: 1;
+    bottom: 25%;
+    left: -6%;
+    animation: mask-zoom 8s infinite ease-in-out;
+  }
 }
 @media only screen and (max-width: 500px) {
   .community-container {
@@ -1209,6 +1277,21 @@ a {
   }
   .mobile-avatar {
     display: block;
+    position: relative;
+  }
+  .mask-icon {
+    position: absolute;
+    z-index: 1;
+    bottom: 10px;
+    left: 20px;
+    animation: mask-zoom 6s infinite ease-in-out;
+  }
+  .bottle-icon {
+    z-index: 1;
+    position: absolute;
+    top: 10px;
+    right: 16px;
+    animation: bottle-rotate 6s infinite ease-in-out;
   }
 }
 
@@ -1241,15 +1324,15 @@ a {
   text-transform: uppercase;
   text-align: center;
 }
-.roadmap-stepper{
+.roadmap-stepper {
   /*z-index: 3;*/
 }
-.roadmap-text-container{
+.roadmap-text-container {
   width: 100%;
   position: relative;
   margin-top: 80px;
 }
-.Green-dots-icon{
+.Green-dots-icon {
   position: absolute;
   left: -1.95em;
   margin-top: 25px;
@@ -1301,7 +1384,7 @@ a {
   line-height: 1.4em;
   font-weight: 600;
 }
-.duration{
+.duration {
   margin-top: 0px;
   margin-bottom: 1em;
   font-family: Outfit, sans-serif;
@@ -1310,7 +1393,7 @@ a {
   line-height: 1.4em;
   font-weight: 600;
 }
-.disabled-phase{
+.disabled-phase {
   margin-top: 0px;
   margin-bottom: 0.3em;
   font-family: Outfit, sans-serif;
@@ -1319,7 +1402,7 @@ a {
   line-height: 1.1em;
   font-weight: 900;
 }
-.phase{
+.phase {
   margin-top: 0px;
   margin-bottom: 0.3em;
   font-family: Outfit, sans-serif;
@@ -1328,14 +1411,14 @@ a {
   line-height: 1.1em;
   font-weight: 900;
 }
-.disabled-heading{
+.disabled-heading {
   font-family: Outfit, sans-serif;
   color: #505050;
   font-size: 1.3em;
   line-height: 1.53em;
   font-weight: 400;
 }
-.heading{
+.heading {
   font-family: Outfit, sans-serif;
   color: #fff;
   font-size: 1.3em;
@@ -1343,15 +1426,15 @@ a {
   font-weight: 400;
 }
 .heading-div {
-  display:flex;
+  display: flex;
   margin-bottom: 16px;
 }
-.roadmap-Dot{
+.roadmap-Dot {
   padding: 4px 10px 15px 0;
   font-family: Outfit, sans-serif;
   color: #fff;
   font-size: 2em;
-  line-height: .3em;
+  line-height: 0.3em;
   font-weight: 700;
 }
 @media only screen and (max-width: 500px) {
@@ -1374,34 +1457,34 @@ a {
     margin: 15px 0 0 10px;
     font-size: 1.5em;
   }
-  .roadmap-percentage{
+  .roadmap-percentage {
     margin: 15px 0 0 10px;
     font-size: 1.5em;
   }
-  .disabled-duration{
+  .disabled-duration {
     font-size: 0.75em;
-    margin-bottom: .5em;
+    margin-bottom: 0.5em;
   }
-  .duration{
+  .duration {
     font-size: 0.75em;
-    margin-bottom: .5em;
+    margin-bottom: 0.5em;
   }
-  .disabled-phase{
+  .disabled-phase {
     font-size: 1.3em;
   }
-  .phase{
+  .phase {
     font-size: 1.3em;
   }
   .disabled-heading {
     font-size: 0.9em;
   }
-  .heading{
-    font-size: .9em;
+  .heading {
+    font-size: 0.9em;
   }
-  .roadmap-Dot{
+  .roadmap-Dot {
     padding: 1px 10px 10px 0;
     font-size: 1.5em;
-    line-height: .3em;
+    line-height: 0.3em;
     font-weight: 600;
   }
   .Green-dots-icon {
@@ -1409,7 +1492,6 @@ a {
   }
 }
 /* roadmap page css end */
-
 
 /* team page css start */
 
@@ -1585,7 +1667,6 @@ a {
 
 /* Faqs page css end */
 
-
 /*slider section*/
 .each-slide > div {
   display: flex;
@@ -1637,9 +1718,7 @@ a {
 }
 .slider-text {
   position: relative;
-
 }
 .slider-section {
   position: relative;
 }
-

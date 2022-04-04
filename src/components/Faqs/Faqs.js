@@ -1,5 +1,10 @@
 import React from 'react'
 import FaqItem from "../Common/FaqItem";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
+
 
 const Faqs = () => {
     const data = [
@@ -11,10 +16,10 @@ const Faqs = () => {
             {q:'Is there a whitelist?', a: "Yes, there is a whitelist. We recommend anyone interested in minting a Sneaky Goblin to join the whitelist as the team is considering doing a whitelist reserved mint only."}
     ];
 return (
-    <div className='faqs-container'>
-        <h1 className="faqs-heading">FREQUENTLY ASKED</h1>
-        <h1 className="text-green faq-sub-heading">QUESTIONS</h1>
-        <div className='faq-div'>
+    <div className='faqs-container' id='faqs'>
+        <h1 className="faqs-heading" data-aos-once="true" data-aos-delay="100" data-aos-duration="2000" data-aos="fade-up">FREQUENTLY ASKED</h1>
+        <h1 className="text-green faq-sub-heading" data-aos-once="true" data-aos-delay="100" data-aos-duration="2000" data-aos="fade-up">QUESTIONS</h1>
+        <div className='faq-div' data-aos-once="true" data-aos-delay="100" data-aos-duration="2000" data-aos="fade-up">
             {
                 data.map ((faq, idx) =>
                 <FaqItem faq={faq} key={idx}/>
