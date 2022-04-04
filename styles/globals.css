@@ -262,7 +262,7 @@ a {
   font-family: "Rubik dirt", sans-serif;
   color: #ececec;
   font-size: 1.4em;
-  line-height: 2.57em;
+  line-height: 60px;
   font-weight: 400;
   text-align: center;
   text-transform: uppercase;
@@ -273,12 +273,6 @@ a {
 .mobile-h1 {
   display: none;
 }
-@media only screen and (min-width: 1640px) {
-  .main-heading {
-    font-size: 1.8em;
-    margin-top: 40px !important;
-  }
-}
 @media only screen and (max-width: 500px) {
   .main-heading {
     font-size: 0.7em;
@@ -287,7 +281,6 @@ a {
     padding-left: 10px;
     padding-right: 10px;
   }
-
   .desktop-h1 {
     display: none;
   }
@@ -550,11 +543,11 @@ a {
 /* intro page css end */
 
 /* design page css start */
-
-.design-in {
+.main-div{
   position: relative;
+}
+.design-in {
   z-index: 0;
-  height: 80vh;
 
   /*background-image: url(../public/background-line.png);*/
   /*text-align: center;*/
@@ -567,18 +560,6 @@ a {
   bottom: 34%;
   left: 29%;
   z-index: 999;
-  animation: stone-flip 4s infinite ease-in-out;
-}
-@keyframes stone-flip {
-  0% {
-    transform: rotateY(20deg);
-  }
-  50% {
-    transform: rotateY(40deg);
-  }
-  100% {
-    transform: rotateY(20deg);
-  }
 }
 .mobile-stone-icon {
   position: absolute;
@@ -638,21 +619,17 @@ a {
   }
   .mobile-stone-icon {
     position: absolute;
-    bottom: 53%;
+    bottom: 55%;
     left: 0;
     z-index: 999;
     display: block;
-    animation: stone-flip 4s infinite ease-in-out;
   }
 }
 @media only screen and (max-width: 1450px) {
   .desktop-stone-icon {
     position: absolute;
-    bottom: 34%;
-    /*left: 26%;*/
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, 0);
+    bottom: 44%;
+    left: 22%;
     z-index: 999;
     display: block;
   }
@@ -1759,8 +1736,7 @@ a {
   }
 }
 .slider-container {
-  padding-top: 70px;
-  position: relative;
+  padding: 3% 0% 7% 0%;
 }
 @media (max-width: 500px) {
   .slider-container {
