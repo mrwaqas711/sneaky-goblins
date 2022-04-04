@@ -35,7 +35,7 @@ const Header = () => {
                         <a href="#design">Designs</a>
                         <a href="#artist">Artist</a>
                         <a href="#vision">TheVision</a>
-                        <a href="#">Roadmap</a>
+                        <a href="#roadmap">Roadmap</a>
                     </div>
                     <Image width={470} height={1} layout='fixed' src="/images/border.png" alt="plus image"/>
                 </div>
@@ -48,7 +48,7 @@ const Header = () => {
                         <Image width={500} height={1} layout='fixed' src="/images/BorderR.png" alt="plus image"/>
                     </div>
                     <div className="right-side-header">
-                        <a href="#">FAQ</a>
+                        <a href="#faqs">FAQ</a>
                         <div className="social-links">
                             <Image width='25' height="20" layout='fixed' src="/images/socialIcon1.png" alt="plus image"/>
                         </div>

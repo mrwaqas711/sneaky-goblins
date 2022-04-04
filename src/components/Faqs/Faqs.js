@@ -11,7 +11,7 @@ const Faqs = () => {
             {q:'Is there a whitelist?', a: "Yes, there is a whitelist. We recommend anyone interested in minting a Sneaky Goblin to join the whitelist as the team is considering doing a whitelist reserved mint only."}
     ];
 return (
-    <div className='faqs-container'>
+    <div className='faqs-container' id='faqs'>
         <h1 className="faqs-heading">FREQUENTLY ASKED</h1>
         <h1 className="text-green faq-sub-heading">QUESTIONS</h1>
         <div className='faq-div'>
