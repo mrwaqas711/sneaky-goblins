@@ -74,12 +74,12 @@ const Design = () => {
             }}>
                 <div>
                     <div className="slider-container">
-                        <div className='desktop-stone-icon'>
-                            <Image src='/green-stone.png' width={766} height={766} alt="stone" />
-                        </div>
-                        <div className='mobile-stone-icon'>
-                            <Image src='/green-stone.png' width={496} height={496} alt="stone" />
-                        </div>
+                        {/*<div className='desktop-stone-icon'>*/}
+                        {/*    <Image src='/green-stone.png' width={766} height={766} alt="stone" />*/}
+                        {/*</div>*/}
+                        {/*<div className='mobile-stone-icon'>*/}
+                        {/*    <Image src='/green-stone.png' width={496} height={496} alt="stone" />*/}
+                        {/*</div>*/}
                         <div className='inner-text slider-text'>
                             <h1 className='h1-design' data-aos-once="true" data-aos-delay="100" data-aos-duration="2000" data-aos="fade-up">DESIGNS</h1>
                             <p className='p-design' data-aos-once="true" data-aos-delay="150" data-aos-duration="2000" data-aos="fade-up">World-class art that will shape the NFT space for years to come.</p>
