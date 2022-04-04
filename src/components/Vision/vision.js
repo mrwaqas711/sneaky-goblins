@@ -17,7 +17,7 @@ const vision = () => {
           <h1 className='vision-h1 mobile-vision' data-aos-once="true" data-aos-delay="100" data-aos-duration="2000" data-aos="fade-up">
           THE <span className='text-green'>visi</span><span className='opacity-o'>o</span><span className='text-green'>n</span>
         </h1>
-        <div class='mobile-ring'><Image src='/ring.png' width={28} height={43} alt='ring' /></div>
+        <div className='mobile-ring'><Image src='/ring.png' width={28} height={43} alt='ring' /></div>
         </div>
         <p className='vision-p' data-aos-once="true" data-aos-delay="200" data-aos-duration="2000" data-aos="fade-up">
             Our vision for the Sneaky Goblins is to be the Genesis collection of a larger upcoming ecosystem. Over time, we are building the components of an NFT & Metaverse Studio to empower our community.
