@@ -44,7 +44,7 @@ a {
   display: flex;
 }
 .left-side-header > a {
-  margin-right: 2.27em;
+  margin-right: 36px;
   transition: all 500ms ease;
   font-family: Outfit, sans-serif;
   color: #fff;
@@ -102,14 +102,14 @@ a {
 @media only screen and (min-width: 1400px) and (max-width: 1500px)  {
   .left-side-header  > a, .right-side-header > a  {
     font-size: 20px;
-    padding: 11px 0 6px 0;
+    padding: 16px 0 10px 0;
   }
   .header{
-    padding-right: 4%;
-    padding-left: 4%;
+    padding-right: 7%;
+    padding-left: 7%;
   }
   .social-links {
-    padding-top: 14px;
+    padding-top: 17px;
   }
   .logo{
     margin-top: 20px;
@@ -277,6 +277,12 @@ a {
 .btn-icon {
   margin-right: 12px;
 }
+@media only screen and (min-width: 1400px) and (max-width: 1500px)  {
+  .custom-btn{
+    padding: 1em 0;
+    font-size: 18px;
+  }
+}
 /*custom button*/
 
 /*Main Heading paragraph start*/
@@ -407,6 +413,9 @@ a {
     font-size: 26px;
     margin-top: 30px;
     padding: 26px 35px;
+  }
+  .main-container-footer > p{
+    font-size: 1.8em;
   }
 }
 /*main container footer end*/

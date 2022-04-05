@@ -33,8 +33,8 @@ const Header = () => {
             <div className="header">
                 <div className="">
                     <div className="menu-items" data-aos-once="true" data-aos-delay="10" data-aos-duration="500" data-aos="fade-down">
-                        {isLarge ? <Image width={535} height={1} layout='fixed' src="/images/border.png" alt="plus image" />
-                        : <Image width={470} height={1} layout='fixed' src="/images/border.png" alt="plus image" />}
+                        {isLarge ? <Image width={490} height={1} layout='fixed' src="/images/border.png" alt="plus image" />
+                        : <Image width={450} height={1} layout='fixed' src="/images/border.png" alt="plus image" />}
                     </div>
                     {/*<img src={BorderRtl} alt="logo" />*/}
                     <div className="left-side-header" data-aos-once="true" data-aos-delay="10" data-aos-duration="500" data-aos="fade-down">
@@ -45,8 +45,8 @@ const Header = () => {
                         <a href="#roadmap">Roadmap</a>
                     </div>
                 <div data-aos-once="true" data-aos-delay="10" data-aos-duration="500" data-aos="fade-down">
-                    {isLarge ? <Image width={535} height={1} layout='fixed' src="/images/border.png" alt="plus image" />
-                        : <Image width={470} height={1} layout='fixed' src="/images/border.png" alt="plus image" />}
+                    {isLarge ? <Image width={490} height={1} layout='fixed' src="/images/border.png" alt="plus image" />
+                        : <Image width={450} height={1} layout='fixed' src="/images/border.png" alt="plus image" />}
                 </div>
                 </div>
                 <div className="logo">
