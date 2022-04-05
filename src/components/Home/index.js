@@ -5,7 +5,7 @@ import { useMediaQuery } from 'react-responsive';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 AOS.init();
-
+// font fix
 const Home = () => {
     const isMobile = useMediaQuery({ query: `(max-width: 500px)`});
     const isLarge = useMediaQuery({ query: `(min-width: 1400px)`});
