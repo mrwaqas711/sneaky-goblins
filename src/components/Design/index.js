@@ -67,8 +67,11 @@ const properties = {
 const Design = () => {
     return (
         <div className='main-div' id="design">
-            <div className='desktop-stone-icon' >
+            <div className='mobile-stone-icon' >
                 <Image src='/images/sample.png' width={70} height={70} alt="stone" />
+            </div>
+            <div className='desktop-stone-icon' >
+                <Image src='/images/sample.png' width={120} height={120} alt="stone" />
             </div>
             <div className='design-in' style={{
                 backgroundImage: "url('background-line.png')",
