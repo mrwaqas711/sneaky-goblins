@@ -9,6 +9,7 @@ AOS.init();
 
 const Home = () => {
     const isMobile = useMediaQuery({ query: `(max-width: 500px)`});
+    const isLarge = useMediaQuery({ query: `(min-width: 1400px)`});
     console.log('isMobile', isMobile)
     // useEffect(() => {
     //     const getImage = () => {

@@ -4,11 +4,13 @@ import CustomButton from "../CustomButton";
 import Sidebar from "../Sidebar";
 import btnIcon from "../../../../public/images/btn-icon.svg";
 import AOS from 'aos';
-import 'aos/dist/aos.css'; // You can also use <link> for styles
+import 'aos/dist/aos.css';
+import {useMediaQuery} from "react-responsive"; // You can also use <link> for styles
 
 AOS.init();
 
 const Header = () => {
+    const isLarge = useMediaQuery({ query: `(max-width: 1450px)`});
     const [isSidebar, setIsSidebar] = useState(false);
     const handleSidebarClick = () => {
         if(!isSidebar){
@@ -30,28 +32,34 @@ const Header = () => {
         <>
             <div className="header">
                 <div className="">
-                    <div style={{marginTop: '30px'}} data-aos-once="true" data-aos-delay="100" data-aos-duration="2000" data-aos="fade-down">
-                        <Image width={470} height={1} layout='fixed' src="/images/border.png" alt="plus image" />
+                    <div className="menu-items" data-aos-once="true" data-aos-delay="10" data-aos-duration="500" data-aos="fade-down">
+                        {isLarge ? <Image width={535} height={1} layout='fixed' src="/images/border.png" alt="plus image" />
+                        : <Image width={470} height={1} layout='fixed' src="/images/border.png" alt="plus image" />}
                     </div>
                     {/*<img src={BorderRtl} alt="logo" />*/}
-                    <div className="left-side-header" data-aos-once="true" data-aos-delay="100" data-aos-duration="2000" data-aos="fade-down">
+                    <div className="left-side-header" data-aos-once="true" data-aos-delay="10" data-aos-duration="500" data-aos="fade-down">
                         <a href="#intro">Intro</a>
                         <a href="#design">Designs</a>
                         <a href="#artist">Artist</a>
                         <a href="#vision">TheVision</a>
                         <a href="#roadmap">Roadmap</a>
                     </div>
-                <div data-aos-once="true" data-aos-delay="100" data-aos-duration="2000" data-aos="fade-down"> <Image width={470} height={1} layout='fixed' src="/images/border.png" alt="plus image"/></div>
+                <div data-aos-once="true" data-aos-delay="10" data-aos-duration="500" data-aos="fade-down">
+                    {isLarge ? <Image width={535} height={1} layout='fixed' src="/images/border.png" alt="plus image" />
+                        : <Image width={470} height={1} layout='fixed' src="/images/border.png" alt="plus image" />}
+                </div>
                 </div>
                 <div className="logo">
-                    <Image width={160} height={120} layout='fixed' objectFit="cover" src="/images/sneaky_goblin_logo 3 copy.png" alt="plus image"/>
+                    {isLarge ? <Image width={190} height={180} layout='fixed' src="/images/sneaky_goblin_logo 3 copy.png" alt="plus image"/>
+                        : <Image width={160} height={120} layout='fixed' objectFit="cover" src="/images/sneaky_goblin_logo 3 copy.png" alt="plus image"/>}
+
                 </div>
 
                 <div className="">
-                    <div style={{marginTop: '30px'}} data-aos-once="true" data-aos-delay="100" data-aos-duration="2000" data-aos="fade-down">
+                    <div className="menu-items" data-aos-once="true" data-aos-delay="10" data-aos-duration="200" data-aos="fade-down">
                         <Image width={500} height={1} layout='fixed' src="/images/BorderR.png" alt="plus image"/>
                     </div>
-                    <div className="right-side-header" data-aos-once="true" data-aos-delay="100" data-aos-duration="2000" data-aos="fade-down">
+                    <div className="right-side-header" data-aos-once="true" data-aos-delay="10" data-aos-duration="500" data-aos="fade-down">
                         <a href="#faqs">FAQ</a>
                         <div className="social-links">
                             <Image width='25' height="20" layout='fixed' src="/images/socialIcon1.png" alt="plus image"/>
@@ -69,7 +77,7 @@ const Header = () => {
                             <CustomButton/>
                         </div>
                     </div>
-                    <div data-aos-once="true" data-aos-delay="100" data-aos-duration="2000" data-aos="fade-down"> <Image width={500} height={1} layout='fixed' src="/images/BorderR.png" alt="plus image"/></div>
+                    <div data-aos-once="true" data-aos-delay="10" data-aos-duration="500" data-aos="fade-down"> <Image width={500} height={1} layout='fixed' src="/images/BorderR.png" alt="plus image"/></div>
                 </div>
             </div>
             <div className="nav">
