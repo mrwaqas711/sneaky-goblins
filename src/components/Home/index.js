@@ -4,7 +4,6 @@ import Image from 'next/image';
 import { useMediaQuery } from 'react-responsive';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
-// ..
 AOS.init();
 
 const Home = () => {
