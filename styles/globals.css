@@ -2,6 +2,14 @@
 @import url("https://fonts.googleapis.com/css?family=Outfit:300,regular,500,600,700,800,900");
 @import url("https://fonts.googleapis.com/css2?family=Henny+Penny&family=Lexend+Deca&family=Notable&family=Podkova&family=Sarabun&family=Share&family=Wire+One&display=swap");
 
+@font-face {
+  font-family: "Rubik Dirt";
+  src: url("/fonts/Rubik-Dirt-Regular.ttf");
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -293,9 +301,11 @@ a {
   direction: ltr;
   font-family: "Rubik dirt", sans-serif;
   color: #ececec;
-  font-size: 1.4em;
+  letter-spacing: 0.09em;
+  font-size: 1.3em;
   line-height: 60px;
-  font-weight: 400;
+  font-weight: normal;
+  font-style: inherit;
   text-align: center;
   text-transform: uppercase;
 }
@@ -448,12 +458,14 @@ a {
 
 .h1-text {
   color: white;
-  font-family: "dirt", sans-serif;
-  font-size: 50px;
+  font-family: "Rubik dirt", sans-serif;
+  font-weight: normal;
+  font-size: 2.9rem;
+  letter-spacing: 0.05em;
   line-height: 60px;
-  font-weight: bolder;
   text-transform: uppercase;
 }
+
 .text-green {
   color: #00c555;
 }
@@ -526,10 +538,10 @@ a {
   }
   .h1-text {
     color: white;
-    font-family: "dirt", sans-serif;
-    font-size: 27px;
+    font-family: "Rubik dirt", sans-serif;
+    font-size: 1.3rem;
     line-height: 32px;
-    font-weight: bolder;
+    font-weight: normal;
     text-transform: uppercase;
   }
   .second-container {
@@ -603,7 +615,7 @@ a {
   z-index: 1;
   margin: auto;
   position: absolute;
-  top: -25px;
+  top: -10px;
   left: 46%;
   animation: stone-flip 3s infinite ease-in-out;
 }
@@ -636,9 +648,9 @@ a {
 .h1-design {
   color: #00c555;
   font-family: "Rubik dirt", sans-serif;
-  font-size: 50px;
+  font-size: 2.9rem;
   line-height: 65px;
-  font-weight: bolder;
+  font-weight: normal;
   text-transform: uppercase;
   margin-bottom: 10px;
   margin-top: 20px;
@@ -660,7 +672,7 @@ a {
     padding: 10px 15px;
   }
   .h1-design {
-    font-size: 27px;
+    font-size: 1.3rem;
     line-height: 32px;
   }
   .p-design {
@@ -814,9 +826,9 @@ a {
 .vision-h1 {
   color: white;
   font-family: "Rubik dirt", sans-serif;
-  font-size: 50px;
+  font-size: 2.9rem;
   line-height: 65px;
-  font-weight: bolder;
+  font-weight: normal;
   text-transform: uppercase;
   display: flex;
   justify-content: center;
@@ -847,7 +859,7 @@ a {
     transform: scale(0.5);
   }
   50% {
-    transform: scale(1);
+    transform: scale(0.9);
   }
   100% {
     transform: scale(0.5);
@@ -882,7 +894,7 @@ a {
     text-align: center;
   }
   .vision-h1 {
-    font-size: 27px;
+    font-size: 25px;
     line-height: 32px;
     display: block;
   }
@@ -995,9 +1007,9 @@ a {
 .key-h1 {
   color: white;
   font-family: "Rubik dirt", sans-serif;
-  font-size: 50px;
+  font-size: 2.9rem;
   line-height: 65px;
-  font-weight: bolder;
+  font-weight: normal;
   text-transform: uppercase;
 }
 .feature-cards {
@@ -1068,14 +1080,14 @@ a {
     width: 100%;
   }
   .key-h1 {
-    font-size: 27px;
+    font-size: 1.3rem;
     line-height: 32px;
   }
   .card-f {
     margin-bottom: 250px !important;
   }
   .card-head {
-    font-size: 25px;
+    font-size: 1.3rem;
     line-height: 30px;
     font-weight: 900;
   }
@@ -1188,6 +1200,7 @@ a {
   .rights-Reserved {
     order: 3;
     margin-top: -20px;
+    font-size: 16px;
   }
   .footer {
     margin-bottom: 10px;
@@ -1208,7 +1221,7 @@ a {
   }
   .terms-conditions {
     justify-content: center;
-    font-size: 19px;
+    font-size: 16px;
     font-weight: 400;
   }
   .footer-image {
@@ -1218,7 +1231,7 @@ a {
     justify-content: space-around;
   }
   .p-foot {
-    font-size: 12px !important;
+    font-size: 11px !important;
     display: flex;
     align-items: center;
   }
@@ -1280,9 +1293,9 @@ a {
 .h1-community {
   color: white;
   font-family: "Rubik dirt", sans-serif;
-  font-size: 50px;
+  font-size: 2.9rem;
   line-height: 65px;
-  font-weight: bolder;
+  font-weight: normal;
   text-transform: uppercase;
 }
 .community-p {
@@ -1297,8 +1310,25 @@ a {
   margin-top: 40px;
   display: flex;
 }
+.btn-discord-community {
+  margin-bottom: 0px;
+  font-family: Outfit, sans-serif;
+  color: #000;
+  font-size: 20px;
+  line-height: 1.26em;
+  font-weight: 600;
+  border: 2px solid #ffc748;
+  border-radius: 3px;
+  padding: 18px 25px;
+  background-image: linear-gradient(84.07deg, #00c555 17%, #00e75e);
+  box-shadow: 0 0 10px 1px rgb(0 231 94);
+}
+.btn-discord-community:hover {
+  background-image: linear-gradient(84.07deg, #ffc748 17%, #ffc748);
+  cursor: pointer;
+}
 .btn-margin {
-  margin-left: 50px;
+  margin-left: 40px;
   background: #141514 !important ;
   color: #ffc748 !important;
   box-shadow: 0 0 10px 3px rgb(0 231 94) !important;
@@ -1344,7 +1374,7 @@ a {
   .h1-community {
     color: white;
     font-family: "Rubik Dirt", sans-serif;
-    font-size: 27px;
+    font-size: 1.3rem;
     line-height: 32px;
     font-weight: 400;
     text-align: left;
@@ -1385,6 +1415,7 @@ a {
 }
 
 /* community page css end */
+
 /* roadmap page css start */
 .roadmap-container {
   padding: 3% 10% 7% 10%;
@@ -1407,9 +1438,9 @@ a {
   margin: 100px 0 0 0;
   color: white;
   font-family: "Rubik dirt", sans-serif;
-  font-size: 50px;
+  font-size: 2.9rem;
   line-height: 65px;
-  font-weight: bolder;
+  font-weight: normal;
   text-transform: uppercase;
   text-align: center;
 }
@@ -1529,7 +1560,7 @@ a {
 @media only screen and (max-width: 500px) {
   .roadmap-h1 {
     margin: 50px 0 0 0;
-    font-size: 27px;
+    font-size: 1.3rem;
     line-height: 32px;
   }
   .roadmap-dotted-lines {
@@ -1559,10 +1590,10 @@ a {
     margin-bottom: 0.5em;
   }
   .disabled-phase {
-    font-size: 1.3em;
+    font-size: 1.2em;
   }
   .phase {
-    font-size: 1.3em;
+    font-size: 1.2em;
   }
   .disabled-heading {
     font-size: 0.9em;
@@ -1641,7 +1672,7 @@ a {
     text-align: center;
   }
   .team-card > h1 {
-    font-size: 25px;
+    font-size: 23px;
     font-weight: 900;
   }
   .team-card > h3 {
@@ -1664,16 +1695,18 @@ a {
 .faqs-container > .faqs-heading {
   color: white;
   text-align: center;
+  font-family: Rubik dirt, sans-serif;
   margin-top: 50px;
-  font-size: 50px;
+  font-size: 2.9rem;
   line-height: 30px;
-  font-weight: bolder;
+  font-weight: normal;
 }
 .faq-sub-heading {
   text-align: center;
-  font-size: 50px;
-  line-height: 60px;
-  font-weight: bolder;
+  font-family: Rubik dirt, sans-serif;
+  font-size: 2.9rem;
+  line-height: 30px;
+  font-weight: normal;
 }
 .faq-div {
   display: grid;
@@ -1734,20 +1767,20 @@ a {
     padding: 15px 15px;
   }
   .faqs-heading {
-    font-size: 27px !important;
+    font-size: 1.3rem !important;
     line-height: 10px !important;
     font-weight: 400 !important;
   }
   .faq-sub-heading {
-    font-size: 27px !important;
-    line-height: 32px !important;
+    font-size: 1.3rem !important;
+    line-height: 20px !important;
     font-weight: 400 !important;
   }
   .faq-text {
-    font-size: 14px;
+    font-size: 12px;
   }
   .collap-text {
-    font-size: 12px;
+    font-size: 11px;
   }
   .faq {
     margin: 10px 0 !important;

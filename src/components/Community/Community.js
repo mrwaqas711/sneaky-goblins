@@ -26,13 +26,13 @@ return (
             <div className='mask-icon'><Image src='/mask-icon.png' width={68} height={61} alt='avatar' /></div>
             </div>
             <div className='btn-div' data-aos-once="true" data-aos-delay="100" data-aos-duration="2000" data-aos="fade-up"> 
-                <button className='btn-discord btn-hide' > 
+                <button className='btn-discord-community btn-hide' > 
             <span className='btn-icon'>
                 <Image src="/images/btn-icon.svg"  width={24} height={18} alt='btn-icon' />
             </span>
                 Join us on Discord
             </button>
-            <button className='btn-discord btn-margin'> 
+            <button className='btn-discord-community btn-margin'> 
             <span className='btn-icon social-icon'>
                 <Image src="/social-icon.svg"  width={24} height={18} alt='btn-icon' />
             </span>

@@ -71,7 +71,7 @@ const Design = () => {
                 <Image src='/images/sample.png' width={70} height={70} alt="stone" />
             </div>
             <div className='desktop-stone-icon' >
-                <Image src='/images/sample.png' width={120} height={120} alt="stone" />
+                <Image src='/images/sample.png' width={100} height={100} alt="stone" />
             </div>
             <div className='design-in' style={{
                 backgroundImage: "url('background-line.png')",
