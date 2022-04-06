@@ -10,7 +10,6 @@ import {useMediaQuery} from "react-responsive"; // You can also use <link> for s
 AOS.init();
 
 const Header = () => {
-    const isLarge = useMediaQuery({ query: `(max-width: 1450px)`});
     const [isSidebar, setIsSidebar] = useState(false);
     const handleSidebarClick = () => {
         if(!isSidebar){
@@ -22,19 +21,12 @@ const Header = () => {
         }
 
     }
-    const myFunction = () => {
-        let element = document.getElementById("menuIcon")
-        // let element = document.getElementById('menu');
-        // element && element.classList.add('change')
-        // x.classList.toggle("change");
-    }
     return (
         <>
             <div className="header">
                 <div className="">
-                    <div className="menu-items" data-aos-once="true" data-aos-delay="10" data-aos-duration="500" data-aos="fade-down">
-                        {isLarge ? <Image width={490} height={1} layout='fixed' src="/images/border.png" alt="plus image" />
-                        : <Image width={450} height={1} layout='fixed' src="/images/border.png" alt="plus image" />}
+                    <div className="left-menu-items" data-aos-once="true" data-aos-delay="10" data-aos-duration="500" data-aos="fade-down">
+                        {/*<Image layout='fill' src="/images/border.png" alt="plus image" className='image' />*/}
                     </div>
                     {/*<img src={BorderRtl} alt="logo" />*/}
                     <div className="left-side-header" data-aos-once="true" data-aos-delay="10" data-aos-duration="500" data-aos="fade-down">
@@ -44,20 +36,17 @@ const Header = () => {
                         <a href="#vision">TheVision</a>
                         <a href="#roadmap">Roadmap</a>
                     </div>
-                <div data-aos-once="true" data-aos-delay="10" data-aos-duration="500" data-aos="fade-down">
-                    {isLarge ? <Image width={490} height={1} layout='fixed' src="/images/border.png" alt="plus image" />
-                        : <Image width={450} height={1} layout='fixed' src="/images/border.png" alt="plus image" />}
+                <div className="left-menu-items" data-aos-once="true" data-aos-delay="10" data-aos-duration="500" data-aos="fade-down">
+
                 </div>
                 </div>
                 <div className="logo">
-                    {isLarge ? <Image width={190} height={180} layout='fixed' src="/images/sneaky_goblin_logo 3 copy.png" alt="plus image"/>
-                        : <Image width={160} height={120} layout='fixed' objectFit="cover" src="/images/sneaky_goblin_logo 3 copy.png" alt="plus image"/>}
-
+                   <Image width={190} height={150} layout='fixed' src="/images/sneaky_goblin_logo 3 copy.png" alt="plus image"/>
                 </div>
 
                 <div className="">
-                    <div className="menu-items" data-aos-once="true" data-aos-delay="10" data-aos-duration="200" data-aos="fade-down">
-                        <Image width={500} height={1} layout='fixed' src="/images/BorderR.png" alt="plus image"/>
+                    <div className="right-menu-items" data-aos-once="true" data-aos-delay="10" data-aos-duration="200" data-aos="fade-down">
+
                     </div>
                     <div className="right-side-header" data-aos-once="true" data-aos-delay="10" data-aos-duration="500" data-aos="fade-down">
                         <a href="#faqs">FAQ</a>
@@ -73,11 +62,10 @@ const Header = () => {
                         <div className="social-links">
                             <Image width='25' height="20" layout='fixed' src="/images/socialIcon4.png" alt="plus image"/>
                         </div>
-                        <div className="header-btn">
                             <CustomButton/>
-                        </div>
                     </div>
-                    <div data-aos-once="true" data-aos-delay="10" data-aos-duration="500" data-aos="fade-down"> <Image width={500} height={1} layout='fixed' src="/images/BorderR.png" alt="plus image"/></div>
+                    <div className="right-menu-items" data-aos-once="true" data-aos-delay="10" data-aos-duration="500" data-aos="fade-down">
+                    </div>
                 </div>
             </div>
             <div className="nav">
@@ -89,7 +77,7 @@ const Header = () => {
                             </div>
 
                             <div className="menu-btn-left" onClick={()=> {handleSidebarClick()}}>
-                                <div id='menuIcon' className="container" onClick={myFunction()}>
+                                <div id='menuIcon' className="container">
                                     <div className="bar1"></div>
                                     <div className="bar2"></div>
                                     <div className="bar3"></div>

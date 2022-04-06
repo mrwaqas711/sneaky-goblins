@@ -1,0 +1,63 @@
+.sideBar {
+    position: fixed !important;
+    right: 0;
+    height: 100%;
+    z-index: 50;
+    width: 100%;
+    background: #000000;
+    overflow: hidden;
+}
+.sideBar-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sidebar-links > a {
+    display: block;
+    font-size: 1.2em;
+    margin-top: 2em;
+    text-align: center;
+    transition: all 500ms ease;
+    font-family: Outfit, sans-serif;
+    color: #fff;
+    line-height: 1.26em;
+    font-weight: 600;
+    text-decoration: none;
+}
+.hideSideBar {
+    display: none;
+}
+.social-media {
+    margin-top: 6px;
+    display: flex;
+    justify-content: center;
+}
+.sideBar-SlideIn {
+    animation-name: sideBar_SlideIn;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    position: relative;
+}
+@keyframes sideBar_SlideIn {
+    0% {
+        right: -1000px;
+    }
+    100% {
+        right: 0px;
+    }
+}
+.sideBar-SlideOut {
+    animation-name: anime-sideBar-SlideOut;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    position: relative;
+}
+@keyframes anime-sideBar-SlideOut {
+    0% {
+        right: 0px;
+    }
+    100% {
+        right: -480px;
+    }
+}
