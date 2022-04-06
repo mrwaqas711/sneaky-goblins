@@ -20,14 +20,14 @@ const Home = () => {
                     <Header/>
                     <div className="main-heading" data-aos-once="true" data-aos-delay="100" data-aos-duration="2000" data-aos="fade-up">
                         <h1 className='desktop-h1'>Ready to build the future of&nbsp;
-                            <span>Gamified<br/> NFT</span> & <span>Metaverse integration</span>?</h1>
+                        <span>Gamified<br/> NFT</span> & <span>Metaverse integration</span>?</h1>
                         <h1 className='mobile-h1'>Ready to build the future of&nbsp;
-                            <span>Gamified NFT</span> & <span>Metaverse integration</span> ?
+                        <span>Gamified NFT</span> & <span>Metaverse integration</span> ?
                         </h1>
                     </div>
                     <div className="join-btn-container" data-aos-once="true" data-aos-delay="100" data-aos-duration="2000" data-aos="fade-up">
                         <button className="join-button">
-                            Join Sneaky Goblin</button>
+                        Join Sneaky Goblin</button>
                     </div>
                     <div className="main-container-footer">
                         <Image width={13} height={13} layout='fixed' src="/images/green-dot.svg" alt="plus image"/>
@@ -37,10 +37,9 @@ const Home = () => {
                 </div>
             </div>
             <div className="home-btm-border">
-
             </div>
         </>
-  )
+)
 }
 
 export default Home

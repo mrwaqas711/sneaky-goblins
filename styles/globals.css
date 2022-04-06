@@ -1,17 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=rubik-dirt:wght@300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Outfit:300,regular,500,600,700,800,900");
-@import 'home.css';
-@import 'intro.css';
-@import 'design.css';
-@import 'artist.css';
-@import 'vision.css';
-@import 'sidebar.css';
-@import 'footer.css';
-@import 'features.css';
-@import 'community.css';
-@import 'roadmap.css';
-@import 'team.css';
-@import 'faqs.css';
+@import "home.css";
+@import "intro.css";
+@import "design.css";
+@import "artist.css";
+@import "vision.css";
+@import "sidebar.css";
+@import "footer.css";
+@import "features.css";
+@import "community.css";
+@import "roadmap.css";
+@import "team.css";
+@import "faqs.css";
 @font-face {
   font-family: "Rubik Dirt";
   src: url("/fonts/Rubik-Dirt-Regular.ttf");
@@ -85,43 +85,36 @@ body {
   body {
     font-size: 12.7667px;
   }
-
 }
 @media only screen and (min-width: 1700px) and (max-width: 1750px) {
   body {
     font-size: 13.667px;
   }
-
 }
 @media only screen and (min-width: 1750px) and (max-width: 1800px) {
   body {
     font-size: 13.81667px;
   }
-
 }
 @media only screen and (min-width: 1800px) and (max-width: 1900px) {
   body {
     font-size: 14.1667px;
   }
-
 }
 @media only screen and (min-width: 1900px) and (max-width: 2000px) {
   body {
     font-size: 14.3667px;
   }
-
 }
 @media only screen and (min-width: 2000px) and (max-width: 2100px) {
   body {
     font-size: 15.6667px;
   }
-
 }
 @media only screen and (min-width: 2100px) {
   body {
     font-size: 16.3967px;
   }
-
 }
 a {
   margin: 0;
