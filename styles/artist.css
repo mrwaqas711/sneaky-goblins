@@ -21,11 +21,13 @@
   line-height: 1.27em;
   font-weight: 400;
   text-transform: uppercase;
+  margin-top: 1.4em;
+  margin-bottom: 0.72em;
 }
 .artist-p {
   font-family: Outfit, sans-serif;
   color: #ececec;
-  font-size: 1.569em;
+  font-size: 1.59em;
   line-height: 2.14em;
   font-weight: 300;
   margin-bottom: 1.5em;
@@ -33,6 +35,7 @@
 }
 .artist-text {
   width: 49%;
+  height: auto;
   align-items: center;
 }
 .artist-image {
@@ -147,15 +150,15 @@
   .mobile-stick-set {
     display: block;
     position: absolute;
-    top: 51%;
+    top: 31%;
     bottom: 0;
-    width: 100%;
     right: 0%;
+    height: auto;
     animation: up--down 5s infinite ease-in-out;
   }
   .stick-set {
     display: none;
-    /* animation: updown 5s infinite ease-in-out; */
+    animation: updown 5s infinite ease-in-out;
   }
   @keyframes up--down {
     0% {
@@ -175,28 +178,24 @@
     }
   }
 }
-@media only screen and (max-width: 1440px) {
+@media only screen and (max-width: 1450px) {
   .stick-set {
     position: absolute;
-    top: -10%;
-    bottom: 0;
-    animation: up-down 5s infinite ease-in-out;
+    right: 20%;
+    top: -25%;
+    /* top: 0;
+    bottom: 0; */
+    animation: up-down 6s infinite ease-in-out;
   }
   @keyframes up-down {
     0% {
-      top: -10%;
+      top: -25%;
     }
-    /* 25% {
-      top: 52%;
-    } */
     50% {
-      top: -13%;
+      top: -31%;
     }
-    /* 75% {
-      top: 52%;
-    } */
     100% {
-      top: -12%;
+      top: -25%;
     }
   }
 }

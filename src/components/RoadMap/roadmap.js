@@ -75,7 +75,7 @@ const RoadMap = () => {
         }
 ]
     return (
-        <div className="" id='roadmap'>
+        <div className="roadmap-area" id='roadmap'>
             <h1 className='roadmap-h1'> <span className='text-green'>ROAD</span>MAP</h1>
             <div className="roadmap-background"
                 style={{
@@ -88,7 +88,7 @@ const RoadMap = () => {
                 <div className="roadmap-container">
                     <div className="rd-stepper">
                         {isMobile ? <Image src="/images/roadmap-sideSteps.png" layout='fixed'  width={35} height='1450em' alt='roadmap sideStep'/>
-                            : <Image src="/images/roadmap-sideSteps.png" layout='fixed'  width={45} height='2100em' alt='roadmap sideStep'/>}
+                            : <Image src="/images/roadmap-sideSteps.png" layout='fixed'  width={45} height='2210em' alt='roadmap sideStep'/>}
 
                     </div>
 
