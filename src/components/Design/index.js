@@ -66,7 +66,11 @@ const properties = {
 };
 const Design = () => {
     return (
-        <div className='main-div' id="design">
+        <div className='main-div' id="design" style={{
+            backgroundImage: "url('background-line.png')",
+            backgroundPosition: 'center',
+            backgroundSize: 'cover'
+        }}>
             <div className='mobile-stone-icon' >
                 <Image src='/images/sample.png' width={70} height={70} alt="stone" />
             </div>
@@ -74,9 +78,9 @@ const Design = () => {
                 <Image src='/images/sample.png' width={100} height={100} alt="stone" />
             </div>
             <div className='design-in' style={{
-                backgroundImage: "url('background-line.png')",
-                backgroundPosition: 'center',
-                backgroundSize: 'cover'
+                // backgroundImage: "url('background-line.png')",
+                // backgroundPosition: 'center',
+                // backgroundSize: 'cover'
             }}>
                 <div>
                     <div className="slider-container">

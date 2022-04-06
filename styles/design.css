@@ -42,7 +42,7 @@
     color: #00c555;
     font-family: "Rubik dirt", sans-serif;
     font-size: 2.9rem;
-    line-height: 65px;
+    line-height: 1.27em;
     font-weight: normal;
     text-transform: uppercase;
     margin-bottom: 10px;
@@ -53,8 +53,8 @@
     color: white;
     text-align: center;
     font-family: Outfit, sans-serif;
-    font-size: 24px;
-    line-height: 40px;
+    font-size: 1.62em;
+    line-height: 1.27em;
     font-weight: 600;
     margin-top: 10px;
     margin-bottom: 100px;
@@ -102,9 +102,10 @@
     align-items: center;
     justify-content: center;
     background-size: cover;
-    height: 300px;
-    margin-left: 15px;
-    margin-right: 15px;
+    /*height: 100%;*/
+    width: 100%;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 .slider-image {
     margin-left: 15px;
@@ -127,6 +128,9 @@
 @media (max-width: 500px) {
     .slider-container {
         padding: 3% 8% 7% 8%;
+    }
+    .main-div {
+        height: 100%;
     }
 }
 .react-slideshow-container + ul.indicators .each-slideshow-indicator:before {
@@ -152,5 +156,8 @@
     position: relative;
 }
 .slider-section {
+    width: 100%;
+    padding-top: 1.25em;
+    padding-bottom: 6.25em;
     position: relative;
 }
