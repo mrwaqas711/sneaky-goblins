@@ -18,12 +18,18 @@
     text-align: center;
 }
 .team-card > h1 {
-    margin-bottom: 20px;
+    font-size: 2.12em;
+    line-height: 2.05em;
+    font-weight: 900;
+    margin-bottom: 0;
 }
 .team-card > h3 {
+    margin-top: 0;
     margin-bottom: 60px !important;
     color: #ffc748;
-    font-size: 22px;
+    font-size: 1.37em;
+    line-height: 1.81em;
+    font-weight: 600;
 }
 .grid-container {
     position: relative;

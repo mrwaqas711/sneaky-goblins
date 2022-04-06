@@ -21,17 +21,20 @@
   letter-spacing: 0.05em;
   line-height: 60px;
   text-transform: uppercase;
+  margin-top: 1.4em;
+  margin-bottom: 0.72em;
 }
 .artist-p {
   font-family: Outfit, sans-serif;
   color: #ececec;
-  font-size: 1.7em;
-  line-height: 50px;
+  font-size: 1.59em;
+  line-height: 2.14em;
   font-weight: 300;
   text-align: justify;
 }
 .artist-text {
   width: 49%;
+  height: auto;
   align-items: center;
 }
 .artist-image {
@@ -146,10 +149,10 @@
   .mobile-stick-set {
     display: block;
     position: absolute;
-    top: 51%;
+    top: 31%;
     bottom: 0;
-    width: 100%;
     right: 0%;
+    height: auto;
     animation: up--down 5s infinite ease-in-out;
   }
   .stick-set {

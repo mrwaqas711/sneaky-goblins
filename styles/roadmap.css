@@ -8,6 +8,9 @@
     color: #fff;
     z-index: 2;
 }
+.roadmap-area{
+    margin-top: 11em;
+}
 .roadmap-background {
     /*background-image: url('../public/images/roadmap-bg.png');*/
     /*!*position: relative;*!*/
@@ -148,9 +151,11 @@
     /*    margin: 2em 0;*/
     /*    padding-right: 1.1em;*/
     /*}*/
-
+    .roadmap-area{
+        margin-top: 0;
+    }
     .roadmap-h1 {
-        margin: 50px 0 0 0;
+        margin: 0;
         font-size: 1.3rem;
         line-height: 32px;
     }
