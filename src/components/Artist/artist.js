@@ -17,9 +17,6 @@ const artist = () => {
             Previous work include: Marvel, DC Comics, Warner Bros, and more.
           </p>
         <button className='btn-discord btn-desktop-only' data-aos-once="true" data-aos-delay="200" data-aos-duration="2000" data-aos="fade-up"> 
-        {/* <span className='btn-icon'>
-          <Image src="/images/btn-icon.svg"  width={24} height={18} alt='btn-icon' />
-          </span> */}
           More about the Artist
           </button>
           <p className='set-in-center' data-aos-once="true" data-aos-delay="200" data-aos-duration="2000" data-aos="fade-up"> 
@@ -28,11 +25,12 @@ const artist = () => {
             </button>
           </p>
         </div>
-        <div className='artist-image' data-aos-once="true" data-aos-delay="100" data-aos-duration="2000" data-aos="fade-up">
-            {/*<span className='stick-image'> <Image  src="/stick.png" width={400} height={700}  alt='stick' /></span>*/}
-            <span className='avatar-set'>  <Image  src="/avatar3.png" width={520} height={370} alt='avatar' /></span>
+        <div>
+          <div className='avatar-set'> <Image  src="/avatar3.png" width={500} height={358} alt='avatar' /></div>
+          <div className='stick-set'><Image src="/stick.png" alt="image-alt-text" width={400} height={700} /></div>
         </div>
         </div>
+        <div className='artist-image'><Image src="/dots.png" alt="image-alt-text" width={635} height={400} /></div>
     </div>
   )
 }

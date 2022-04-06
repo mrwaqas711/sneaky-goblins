@@ -711,12 +711,14 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2% 10%;
+  padding: 5% 10% 2% 10%;
+  height: 100%;
+  max-width: 100%;
 }
 .artist-flex-btw {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  position: relative;
 }
 .artist-p {
   font-family: Outfit, sans-serif;
@@ -731,18 +733,33 @@ a {
   align-items: center;
 }
 .artist-image {
-  text-align: left;
-  background: url(../public/dots.png) no-repeat;
-  background-size: 100% 100%;
-  height: 50vh;
-  width: 48%;
-  position: relative;
+  width: 46%;
+  position: absolute;
+  left: 51%;
+  z-index: 0;
+}
+.stick-set {
+  position: absolute;
+  bottom: 0%;
+  right: 15%;
+  z-index: 1;
+  animation: updown 7s infinite ease-in-out;
+}
+@keyframes updown {
+  0% {
+    bottom: 0%;
+  }
+  50% {
+    bottom: -5%;
+  }
+  100% {
+    bottom: 0%;
+  }
 }
 .avatar-set {
-  position: absolute;
-  /*z-index: 2;*/
-  width: 100%;
-  text-align: center;
+  position: relative;
+  top: 80px;
+  z-index: 999;
 }
 .btn-set-mobile {
   display: none;
@@ -750,23 +767,6 @@ a {
 .btn-desktop-only {
 }
 
-/* .stick-image {
-  position: absolute;
-  z-index: 2;
-  top: -40%;
-  animation: updown 4s infinite ease-in-out;
-} */
-@keyframes updown {
-  0% {
-    top: -40%;
-  }
-  50% {
-    top: -45%;
-  }
-  100% {
-    top: -40%;
-  }
-}
 @media only screen and (max-width: 500px) {
   .artist-main-div {
     display: block;
@@ -788,11 +788,10 @@ a {
     align-items: center;
   }
   .artist-image {
-    width: 100%;
-    margin-top: 40px;
+    display: none;
   }
   .avatar-set {
-    top: 100px;
+    bottom: 0;
   }
   .btn-set-mobile {
     display: block;
@@ -806,6 +805,28 @@ a {
     justify-content: center;
     align-items: center;
     font-size: 11px;
+  }
+  .stick-set {
+    top: 44%;
+    bottom: 0;
+    animation: updown 5s infinite ease-in-out;
+  }
+  @keyframes updown {
+    0% {
+      top: 44%;
+    }
+    25% {
+      top: 45%;
+    }
+    50% {
+      top: 46%;
+    }
+    75% {
+      top: 45%;
+    }
+    100% {
+      top: 44%;
+    }
   }
 }
 
@@ -888,7 +909,6 @@ a {
 @media only screen and (max-width: 500px) {
   .vision-main-div {
     display: block;
-    margin-top: 10px;
     padding-left: 15px;
     padding-right: 15px;
     text-align: center;
@@ -1746,6 +1766,8 @@ a {
 .collap-text {
   margin-top: 20px;
   font-size: 18px;
+  max-height: 0;
+  transition: max-height 2s ease-out;
 }
 .plus-icon {
   padding: 8px 13px;
