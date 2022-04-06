@@ -57,7 +57,7 @@
     line-height: 1.27em;
     font-weight: 600;
     margin-top: 10px;
-    margin-bottom: 100px;
+    margin-bottom: 38px;
 }
 @media only screen and (max-width: 500px) {
     .inner-text {
@@ -110,6 +110,8 @@
 .slider-image {
     margin-left: 15px;
     margin-right: 15px;
+    width: 23.5em;
+    height: 23em;
 }
 @media (max-width: 500px) {
     .each-slide > div {
@@ -158,6 +160,6 @@
 .slider-section {
     width: 100%;
     padding-top: 1.25em;
-    padding-bottom: 6.25em;
+    padding-bottom: 0em;
     position: relative;
 }
