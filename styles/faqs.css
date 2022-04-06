@@ -30,7 +30,7 @@
   background: #191b19;
   /* padding: 20px 30px; */
   margin: 0 1em 1.25em;
-  padding: 1.5em 2em;
+  padding: 1.4em 2em;
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
   flex: 50%;
@@ -119,7 +119,7 @@
   width: 30px;
   height: 30px;
   bottom: 1px;
-  right: 2px;
+  right: 1px;
 }
 
 .plus-animated:before,
@@ -132,10 +132,10 @@
 
 /* Vertical line */
 .plus-animated:before {
-  top: 6px;
+  top: 7px;
   left: 50%;
-  width: 7px;
-  height: 70%;
+  width: 6px;
+  height: 60%;
   margin-left: -2px;
   box-shadow: 1px 0 5px 1px rgb(0 197 85 / 50%);
 }
@@ -143,9 +143,9 @@
 /* horizontal line */
 .plus-animated:after {
   top: 50%;
-  left: 6px;
-  width: 73%;
-  height: 7px;
+  left: 7px;
+  width: 60%;
+  height: 6px;
   margin-top: -2px;
   box-shadow: 1px 0 5px 1px rgb(0 197 85 / 50%);
 }

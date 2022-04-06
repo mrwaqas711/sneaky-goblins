@@ -1,177 +1,176 @@
 .community-container {
-    padding-left: 10%;
-    padding-right: 10%;
-    display: flex;
-    justify-content: space-between;
-    padding-top: 2em;
-    padding-bottom: 2em;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 .community-image {
-    position: relative;
-    width: 46.91em;
-    height: 35.45em;
+  position: relative;
+  width: 46.91em;
+  height: 35.45em;
 }
 .mask-icon {
-    position: absolute;
-    bottom: -10px;
-    left: -20px;
-    animation: mask-zoom 8s infinite ease-in-out;
+  position: absolute;
+  bottom: -10px;
+  left: -20px;
+  animation: mask-zoom 8s infinite ease-in-out;
 }
 @keyframes mask-zoom {
-    0% {
-        transform: scale(0.7);
-    }
-    50% {
-        transform: scale(1);
-    }
-    100% {
-        transform: scale(0.7);
-    }
+  0% {
+    transform: scale(0.7);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.7);
+  }
 }
 .bottle-icon {
-    position: absolute;
-    top: -50px;
-    right: 16px;
-    animation: bottle-rotate 7s infinite ease-in-out;
+  position: absolute;
+  top: -50px;
+  right: 16px;
+  animation: bottle-rotate 7s infinite ease-in-out;
 }
 @keyframes bottle-rotate {
-    0% {
-        transform: rotateZ(0deg);
-    }
-    50% {
-        transform: rotateZ(30deg);
-    }
-    100% {
-        transform: rotateZ(0deg);
-    }
+  0% {
+    transform: rotateZ(0deg);
+  }
+  50% {
+    transform: rotateZ(30deg);
+  }
+  100% {
+    transform: rotateZ(0deg);
+  }
 }
 .community-text {
-    width: 45%;
-    margin-top: 10px;
+  width: 45%;
+  margin-top: 10px;
 }
 .h1-community {
-    color: white;
-    font-family: "Rubik dirt", sans-serif;
-    font-size: 2.4rem;
-    line-height: 1.27em;
-    font-weight: normal;
-    text-transform: uppercase;
+  color: white;
+  font-family: "Rubik dirt", sans-serif;
+  font-size: 2.4rem;
+  line-height: 1.27em;
+  font-weight: normal;
+  text-transform: uppercase;
 }
 .community-p {
-    font-family: Outfit, sans-serif;
-    color: #ececec;
-    font-size: 1.6519em;
-    line-height: 2.14em;
-    font-weight: 300;
-    text-align: justify;
+  font-family: Outfit, sans-serif;
+  color: #ececec;
+  font-size: 1.6519em;
+  line-height: 2.14em;
+  font-weight: 300;
+  text-align: justify;
 }
 .btn-div {
-    margin-top: 1.5em;
-    display: flex;
+  margin-top: 1.5em;
+  display: flex;
 }
 .btn-discord-community {
-    margin-bottom: 0px;
-    font-family: Outfit, sans-serif;
-    color: #000;
-    font-size: 1.25em;
-    line-height: 1.26em;
-    font-weight: 600;
-    border: 2px solid #ffc748;
-    border-radius: 3px;
-    padding: 1.18em 2.12em;
-    background-image: linear-gradient(84.07deg, #00c555 17%, #00e75e);
-    box-shadow: 0 0 10px 1px rgb(0 231 94);
+  margin-bottom: 0px;
+  font-family: Outfit, sans-serif;
+  color: #000;
+  font-size: 1.25em;
+  line-height: 1.26em;
+  font-weight: 600;
+  border: 2px solid #ffc748;
+  border-radius: 3px;
+  padding: 1.18em 2.12em;
+  background-image: linear-gradient(84.07deg, #00c555 17%, #00e75e);
+  box-shadow: 0 0 10px 5px rgb(255 199 72 / 30%);
 }
 .btn-discord-community:hover {
-    background-image: linear-gradient(84.07deg, #ffc748 17%, #ffc748);
-    cursor: pointer;
+  background-image: linear-gradient(84.07deg, #ffc748 17%, #ffc748);
+  cursor: pointer;
 }
 .btn-margin {
-    margin-left: 40px;
-    background: #141514 !important ;
-    color: #ffc748 !important;
-    box-shadow: 0 0 10px 3px rgb(0 231 94) !important;
+  margin-left: 40px;
+  background: #141514 !important ;
+  color: #ffc748 !important;
 }
 .social-icon {
 }
 .mobile-avatar {
-    display: none;
+  display: none;
 }
-@media only screen and (max-width: 1440px) {
-    .mask-icon {
-        position: absolute;
-        z-index: 1;
-        bottom: 25%;
-        left: -6%;
-        animation: mask-zoom 8s infinite ease-in-out;
-    }
+@media only screen and (max-width: 1450px) {
+  .mask-icon {
+    position: absolute;
+    z-index: 1;
+    bottom: 0%;
+    left: -6%;
+    animation: mask-zoom 8s infinite ease-in-out;
+  }
 }
 @media only screen and (max-width: 500px) {
-    .community-container {
-        padding-left: 15px;
-        padding-right: 15px;
-        margin-top: 50px;
-        display: block;
-        justify-content: center;
+  .community-container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 50px;
+    display: block;
+    justify-content: center;
 
-        /* align-items: center; */
-    }
-    .community-text {
-        width: 100%;
-        margin-top: 10px;
-        margin-left: 0;
-    }
-    .btn-hide {
-        display: none !important;
-    }
-    .btn-div {
-        margin-top: 3.5em;
-    }
-    .btn-margin {
-        margin: auto !important;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .h1-community {
-        color: white;
-        font-family: "Rubik Dirt", sans-serif;
-        font-size: 1.3rem;
-        line-height: 32px;
-        font-weight: 400;
-        text-align: left;
-    }
-    .community-p {
-        font-family: Outfit, sans-serif;
-        color: #ececec;
-        font-size: 15px;
-        line-height: 25px;
-        font-weight: 300;
-    }
-    .btn-margin {
-        padding: 14px 20px !important;
-        font-size: 0.9em !important;
-        margin-top: -20px !important;
-    }
-    .community-image {
-        display: none;
-    }
-    .mobile-avatar {
-        display: block;
-        position: relative;
-    }
-    .mask-icon {
-        position: absolute;
-        z-index: 1;
-        bottom: 10px;
-        left: 20px;
-        animation: mask-zoom 6s infinite ease-in-out;
-    }
-    .bottle-icon {
-        z-index: 1;
-        position: absolute;
-        top: 10px;
-        right: 16px;
-        animation: bottle-rotate 6s infinite ease-in-out;
-    }
+    /* align-items: center; */
+  }
+  .community-text {
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 0;
+  }
+  .btn-hide {
+    display: none !important;
+  }
+  .btn-div {
+    margin-top: 3.5em;
+  }
+  .btn-margin {
+    margin: auto !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .h1-community {
+    color: white;
+    font-family: "Rubik Dirt", sans-serif;
+    font-size: 1.3rem;
+    line-height: 32px;
+    font-weight: 400;
+    text-align: left;
+  }
+  .community-p {
+    font-family: Outfit, sans-serif;
+    color: #ececec;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 300;
+  }
+  .btn-margin {
+    padding: 14px 20px !important;
+    font-size: 0.9em !important;
+    margin-top: -20px !important;
+  }
+  .community-image {
+    display: none;
+  }
+  .mobile-avatar {
+    display: block;
+    position: relative;
+  }
+  .mask-icon {
+    position: absolute;
+    z-index: 1;
+    bottom: 10px;
+    left: 20px;
+    animation: mask-zoom 6s infinite ease-in-out;
+  }
+  .bottle-icon {
+    z-index: 1;
+    position: absolute;
+    top: 10px;
+    right: 16px;
+    animation: bottle-rotate 6s infinite ease-in-out;
+  }
 }

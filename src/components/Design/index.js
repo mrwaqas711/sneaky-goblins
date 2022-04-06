@@ -44,7 +44,7 @@ const properties = {
         {
             breakpoint: 1024,
             settings: {
-                slidesToShow: 4,
+                slidesToShow: 5,
                 slidesToScroll: 1
             }
         },
@@ -93,7 +93,7 @@ const Design = () => {
                                 {
                                     slideImages.map ((each, idx) =>
                                         <div key={idx} className="each-slide">
-                                            <Image width={300} height={300} className="slider-image" src={each} alt="sample" />
+                                            <img className="slider-image" src={each} alt="sample" />
                                         </div>
                                     )
                                 }

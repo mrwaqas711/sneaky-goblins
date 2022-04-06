@@ -16,10 +16,10 @@
 .h1-artist {
   color: white;
   font-family: "Rubik dirt", sans-serif;
-  font-weight: normal;
-  font-size: 3.13rem;
-  letter-spacing: 0.05em;
-  line-height: 60px;
+  margin-bottom: 0.72em;
+  font-size: 3.43em;
+  line-height: 1.27em;
+  font-weight: 400;
   text-transform: uppercase;
   margin-top: 1.4em;
   margin-bottom: 0.72em;
@@ -30,6 +30,7 @@
   font-size: 1.59em;
   line-height: 2.14em;
   font-weight: 300;
+  margin-bottom: 1.5em;
   text-align: justify;
 }
 .artist-text {
@@ -57,8 +58,8 @@
 .stick-set {
   position: absolute;
   bottom: 0%;
-  top: -32%;
-  right: 18%;
+  top: -26%;
+  right: 20%;
   width: 30em;
   height: 54.93em;
   z-index: 1;
@@ -66,13 +67,13 @@
 }
 @keyframes updown {
   0% {
-    top: -32%;
+    top: -26%;
   }
   50% {
-    top: -38%;
+    top: -31%;
   }
   100% {
-    top: -32%;
+    top: -26%;
   }
 }
 .img-set {
@@ -157,7 +158,7 @@
   }
   .stick-set {
     display: none;
-    /* animation: updown 5s infinite ease-in-out; */
+    animation: updown 5s infinite ease-in-out;
   }
   @keyframes up--down {
     0% {
@@ -177,28 +178,24 @@
     }
   }
 }
-@media only screen and (max-width: 1440px) {
+@media only screen and (max-width: 1450px) {
   .stick-set {
     position: absolute;
-    top: -10%;
-    bottom: 0;
-    animation: up-down 5s infinite ease-in-out;
+    right: 20%;
+    top: -25%;
+    /* top: 0;
+    bottom: 0; */
+    animation: up-down 6s infinite ease-in-out;
   }
   @keyframes up-down {
     0% {
-      top: -10%;
+      top: -25%;
     }
-    /* 25% {
-      top: 52%;
-    } */
     50% {
-      top: -13%;
+      top: -31%;
     }
-    /* 75% {
-      top: 52%;
-    } */
     100% {
-      top: -12%;
+      top: -25%;
     }
   }
 }
