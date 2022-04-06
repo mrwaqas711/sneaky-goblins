@@ -51,16 +51,16 @@ const Header = () => {
                     <div className="right-side-header" data-aos-once="true" data-aos-delay="10" data-aos-duration="500" data-aos="fade-down">
                         <a href="#faqs">FAQ</a>
                         <div className="social-links">
-                            <Image width='25' height="20" layout='fixed' src="/images/socialIcon1.png" alt="plus image"/>
+                            <Image width='23' height="18" layout='fixed' src="/images/socialIcon1.png" alt="plus image"/>
                         </div>
                         <div className="social-links">
-                            <Image width='25' height="20" layout='fixed' src="/images/socialIcon2.png" alt="plus image"/>
+                            <Image width='23' height="18" layout='fixed' src="/images/socialIcon2.png" alt="plus image"/>
                         </div>
                         <div className="social-links">
-                            <Image width='25' height="20" layout='fixed' src="/images/socialIcon3.png" alt="plus image"/>
+                            <Image width='23' height="18" layout='fixed' src="/images/socialIcon3.png" alt="plus image"/>
                         </div>
                         <div className="social-links">
-                            <Image width='25' height="20" layout='fixed' src="/images/socialIcon4.png" alt="plus image"/>
+                            <Image width='23' height="18" layout='fixed' src="/images/socialIcon4.png" alt="plus image"/>
                         </div>
                             <CustomButton/>
                     </div>
@@ -68,7 +68,7 @@ const Header = () => {
                     </div>
                 </div>
             </div>
-            <div className="nav">
+            <div className='nav'>
                 <div className="mobile-header ">
                     <div className='mobile-nav-content'>
                         <div className="">

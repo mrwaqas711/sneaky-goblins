@@ -86,7 +86,7 @@
   width: 100%;
   height: 100%;
   /* top: 20px; */
-  z-index: 999;
+  z-index: 2;
   object-fit: contain;
 }
 .btn-set-mobile {
