@@ -50,18 +50,21 @@ const Header = () => {
                     </div>
                     <div className="right-side-header" data-aos-once="true" data-aos-delay="10" data-aos-duration="500" data-aos="fade-down">
                         <a href="#faqs">FAQ</a>
-                        <div className="social-links">
-                            <Image width='23' height="18" layout='fixed' src="/images/socialIcon1.png" alt="plus image"/>
+                        <div className='main-social-links'>
+                            <div className="social-links">
+                                <Image width='23' height="18" layout='fixed' src="/images/socialIcon1.png" alt="plus image"/>
+                            </div>
+                            <div className="social-links">
+                                <Image width='23' height="18" layout='fixed' src="/images/socialIcon2.png" alt="plus image"/>
+                            </div>
+                            <div className="social-links">
+                                <Image width='23' height="18" layout='fixed' src="/images/socialIcon3.png" alt="plus image"/>
+                            </div>
+                            <div className="social-links">
+                                <Image width='23' height="18" layout='fixed' src="/images/socialIcon4.png" alt="plus image"/>
+                            </div>
                         </div>
-                        <div className="social-links">
-                            <Image width='23' height="18" layout='fixed' src="/images/socialIcon2.png" alt="plus image"/>
-                        </div>
-                        <div className="social-links">
-                            <Image width='23' height="18" layout='fixed' src="/images/socialIcon3.png" alt="plus image"/>
-                        </div>
-                        <div className="social-links">
-                            <Image width='23' height="18" layout='fixed' src="/images/socialIcon4.png" alt="plus image"/>
-                        </div>
+
                             <CustomButton/>
                     </div>
                     <div className="right-menu-items" data-aos-once="true" data-aos-delay="10" data-aos-duration="500" data-aos="fade-down">
