@@ -1,0 +1,101 @@
+.artist-main-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 10%;
+}
+.artist-flex-btw {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.artist-p {
+    font-family: Outfit, sans-serif;
+    color: #ececec;
+    font-size: 1.3em;
+    line-height: 50px;
+    font-weight: 300;
+    text-align: justify;
+}
+.artist-text {
+    width: 49%;
+    align-items: center;
+}
+.artist-image {
+    text-align: left;
+    background: url(../public/dots.png) no-repeat;
+    background-size: 100% 100%;
+    height: 50vh;
+    width: 48%;
+    position: relative;
+}
+.avatar-set {
+    position: absolute;
+    /*z-index: 2;*/
+    width: 100%;
+    text-align: center;
+}
+.btn-set-mobile {
+    display: none;
+}
+.btn-desktop-only {
+}
+
+/* .stick-image {
+  position: absolute;
+  z-index: 2;
+  top: -40%;
+  animation: updown 4s infinite ease-in-out;
+} */
+@keyframes updown {
+    0% {
+        top: -40%;
+    }
+    50% {
+        top: -45%;
+    }
+    100% {
+        top: -40%;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .artist-main-div {
+        display: block;
+        padding: 15px 15px;
+        margin: 15px 0 15px 0;
+    }
+    .artist-flex-btw {
+        display: block;
+        align-items: center;
+    }
+    .artist-p {
+        font-size: 15px;
+        line-height: 29px;
+        font-weight: 300;
+        text-align: justify;
+    }
+    .artist-text {
+        width: 100%;
+        align-items: center;
+    }
+    .artist-image {
+        width: 100%;
+        margin-top: 40px;
+    }
+    .avatar-set {
+        top: 100px;
+    }
+    .btn-set-mobile {
+        display: block;
+        padding: 18px 26px !important;
+    }
+    .btn-desktop-only {
+        display: none;
+    }
+    .set-in-center {
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        font-size: 11px;
+    }
+}
