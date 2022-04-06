@@ -16,18 +16,19 @@
 .h1-artist {
   color: white;
   font-family: "Rubik dirt", sans-serif;
-  font-weight: normal;
-  font-size: 3.13rem;
-  letter-spacing: 0.05em;
-  line-height: 60px;
+  margin-bottom: 0.72em;
+  font-size: 3.43em;
+  line-height: 1.27em;
+  font-weight: 400;
   text-transform: uppercase;
 }
 .artist-p {
   font-family: Outfit, sans-serif;
   color: #ececec;
-  font-size: 1.7em;
-  line-height: 50px;
+  font-size: 1.569em;
+  line-height: 2.14em;
   font-weight: 300;
+  margin-bottom: 1.5em;
   text-align: justify;
 }
 .artist-text {
