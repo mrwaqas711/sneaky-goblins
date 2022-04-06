@@ -88,7 +88,7 @@ const RoadMap = () => {
                 <div className="roadmap-container">
                     <div className="rd-stepper">
                         {isMobile ? <Image src="/images/roadmap-sideSteps.png" layout='fixed'  width={35} height='1450em' alt='roadmap sideStep'/>
-                            : <Image src="/images/roadmap-sideSteps.png" layout='fixed'  width={45} height='2210em' alt='roadmap sideStep'/>}
+                            : <Image src="/images/roadmap-sideSteps.png" layout='fixed'  width={45} height='2010em' alt='roadmap sideStep'/>}
 
                     </div>
 

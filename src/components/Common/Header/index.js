@@ -41,7 +41,7 @@ const Header = () => {
                 </div>
                 </div>
                 <div className="logo">
-                   <Image width={190} height={150} layout='fixed' src="/images/sneaky_goblin_logo 3 copy.png" alt="plus image"/>
+                   <img src="/images/sneaky_goblin_logo 3 copy.png" alt="plus image"/>
                 </div>
 
                 <div className="">
@@ -77,7 +77,7 @@ const Header = () => {
                             </div>
 
                             <div className="menu-btn-left" onClick={()=> {handleSidebarClick()}}>
-                                <div id='menuIcon' className="container">
+                                <div id='menuIcon' className="container-mobile-header">
                                     <div className="bar1"></div>
                                     <div className="bar2"></div>
                                     <div className="bar3"></div>

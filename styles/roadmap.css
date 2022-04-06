@@ -35,6 +35,10 @@
 
 
 }
+.large-stepper {
+height: 100vh;
+
+}
 .roadmap-text-container {
     width: 100%;
     position: relative;
