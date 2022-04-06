@@ -28,6 +28,10 @@
 .roadmap-stepper {
     /*z-index: 3;*/
 }
+.rd-stepper {
+
+
+}
 .roadmap-text-container {
     width: 100%;
     position: relative;
@@ -35,8 +39,9 @@
 }
 .Green-dots-icon {
     position: absolute;
-    left: -1.95em;
-    margin-top: 25px;
+    left: -2.6em;
+    margin-top: 1.5em;
+    z-index: 5;
     animation: dotPulse 3s infinite ease-in-out;
 }
 @keyframes dotPulse {
@@ -52,7 +57,7 @@
 }
 .roadmap-section {
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: 5em;
 }
 .roadmap-percentage {
     margin: 0 20px;
@@ -99,7 +104,7 @@
     margin-bottom: 0.3em;
     font-family: Outfit, sans-serif;
     color: #505050;
-    font-size: 2.51em;
+    font-size: 2.81em;
     line-height: 1.1em;
     font-weight: 900;
 }
@@ -108,14 +113,14 @@
     margin-bottom: 0.3em;
     font-family: Outfit, sans-serif;
     color: #00c555;
-    font-size: 2.51em;
+    font-size: 2.81em;
     line-height: 1.1em;
     font-weight: 900;
 }
 .disabled-heading {
     font-family: Outfit, sans-serif;
     color: #505050;
-    font-size: 1.3em;
+    font-size: 1.6em;
     line-height: 1.53em;
     font-weight: 400;
 }
@@ -131,7 +136,7 @@
     margin-bottom: 16px;
 }
 .roadmap-Dot {
-    padding: 4px 10px 15px 0;
+    padding: 6px 10px 15px 0;
     font-family: Outfit, sans-serif;
     color: #fff;
     font-size: 2em;
@@ -139,6 +144,11 @@
     font-weight: 700;
 }
 @media only screen and (max-width: 500px) {
+    /*.rd-stepper {*/
+    /*    margin: 2em 0;*/
+    /*    padding-right: 1.1em;*/
+    /*}*/
+
     .roadmap-h1 {
         margin: 50px 0 0 0;
         font-size: 1.3rem;
@@ -189,6 +199,6 @@
         font-weight: 600;
     }
     .Green-dots-icon {
-        left: -20px;
+        left: -2.9em;
     }
 }

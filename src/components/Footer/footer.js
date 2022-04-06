@@ -21,16 +21,16 @@ const Footer = () => {
                 </div>
                 <div className="footer-link-section">
                     <div className="footer-links">
-                        <Image width='28' height="23" layout='fixed' src="/images/socialIcon1.png" alt="plus image"/>
+                        <Image width='26em' height="22em" layout='fixed' src="/images/socialIcon1.png" alt="plus image"/>
                     </div>
                     <div className="footer-links">
-                        <Image width='28' height="23" layout='fixed' src="/images/socialIcon2.png" alt="plus image"/>
+                        <Image width='26em' height="22em" layout='fixed' src="/images/socialIcon2.png" alt="plus image"/>
                     </div>
                     <div className="footer-links">
-                        <Image width='28' height="23" layout='fixed' src="/images/socialIcon3.png" alt="plus image"/>
+                        <Image width='26em' height="22em" layout='fixed' src="/images/socialIcon3.png" alt="plus image"/>
                     </div>
                     <div className="footer-links">
-                        <Image width='28' height="23" layout='fixed' src="/images/socialIcon4.png" alt="plus image"/>
+                        <Image width='26em' height="22em" layout='fixed' src="/images/socialIcon4.png" alt="plus image"/>
                     </div>
                 </div>
                 <div className="terms-conditions" data-aos-once="true" data-aos-delay="100" data-aos-duration="2000" data-aos="fade-up">

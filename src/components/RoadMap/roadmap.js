@@ -3,10 +3,14 @@ import Image from "next/image";
 import RoadMapInfo from '../../components/RoadMap/RoadMapInfo/roadmapData';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
+import { useMediaQuery } from 'react-responsive';
+
 // ..
 AOS.init();
 
 const RoadMap = () => {
+    const isMobile = useMediaQuery({ query: `(max-width: 500px)`});
+
     const group = [
         { disabled: true,
             percentage: '20%',
@@ -82,7 +86,12 @@ const RoadMap = () => {
             >
                 {/*<Image src="/images/roadmap-bg.png" layout='responsive'  width={800} height={1250} alt='roadmap background' />*/}
                 <div className="roadmap-container">
-                    <Image src="/images/roadmap-sideSteps.png" layout='fixed'  width={45} height={2200} alt='roadmap sideStep'/>
+                    <div className="rd-stepper">
+                        {isMobile ? <Image src="/images/roadmap-sideSteps.png" layout='fixed'  width={35} height='1450em' alt='roadmap sideStep'/>
+                            : <Image src="/images/roadmap-sideSteps.png" layout='fixed'  width={45} height='2100em' alt='roadmap sideStep'/>}
+
+                    </div>
+
                     <div className="roadmap-stepper">
                         <div className="">
                             <RoadMapInfo group={group}/>
