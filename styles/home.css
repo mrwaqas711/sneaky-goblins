@@ -274,8 +274,8 @@
     line-height: 1.16em;
     font-weight: 600;
     border: 1px solid #ffc748;
-    border-radius: 3px;
-    padding: 1.11em 2.12em;
+    border-radius: 2px;
+    padding: 1em 2.12em;
     background-image: linear-gradient(84.07deg, #00c555 17%, #00e75e);
     box-shadow:  #ffc748 0px 1px 3px;
     /*box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;*/
