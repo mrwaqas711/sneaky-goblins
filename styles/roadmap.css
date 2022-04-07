@@ -171,7 +171,7 @@
     position: relative;
   }
   .roadmap-container {
-    padding-right: 4%;
+    padding: 10% 5% 15% 5%;
   }
   .road-top {
     position: absolute;
@@ -179,11 +179,11 @@
     right: 0%;
     bottom: auto;
     left: auto;
-    top: 7.5em;
+    top: 8.5em;
   }
   .road-bottom {
     position: absolute;
-    bottom: 4em;
+    bottom: 6em;
     display: block;
   }
   .roadmap-section {
@@ -219,40 +219,40 @@
     margin-left: 10px;
   }
   .disabled-roadmap-percentage {
-    margin: 15px 0 0 10px;
-    font-size: 1.5em;
+    margin: 15px 0 0 25px;
+    font-size: 1.725em;
   }
   .roadmap-percentage {
-    margin: 15px 0 0 10px;
-    font-size: 1.5em;
+    margin: 15px 0 0 25px;
+    font-size: 1.725em;
   }
   .disabled-duration {
-    font-size: 0.75em;
+    font-size: 0.85em;
     margin-bottom: 0.5em;
   }
   .duration {
-    font-size: 0.75em;
+    font-size: 0.85em;
     margin-bottom: 0.5em;
   }
   .disabled-phase {
-    font-size: 1.2em;
+    font-size: 1.9em;
   }
   .phase {
-    font-size: 1.2em;
+    font-size: 1.9em;
   }
   .disabled-heading {
-    font-size: 0.9em;
+    font-size: 1.2em;
   }
   .heading {
-    font-size: 0.9em;
+    font-size: 1.2em;
   }
   .roadmap-Dot {
-    padding: 1px 10px 10px 0;
+    padding: 2px 10px 10px 0;
     font-size: 1.5em;
     line-height: 0.3em;
     font-weight: 600;
   }
   .Green-dots-icon {
-    left: -2.9em;
+    left: 0.2em;
   }
 }
