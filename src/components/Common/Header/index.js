@@ -9,8 +9,8 @@ import {useMediaQuery} from "react-responsive"; // You can also use <link> for s
 
 AOS.init();
 
-const Header = () => {
-    const [isSidebar, setIsSidebar] = useState(false);
+const Header = ({isSidebar, setIsSidebar}) => {
+    // const [isSidebar, setIsSidebar] = useState(false);
     const handleSidebarClick = () => {
         if(!isSidebar){
             setIsSidebar(true)

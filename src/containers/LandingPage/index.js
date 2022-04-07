@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Home from '../../components/Home'
 import Intro from '../../components/Intro/intro'
 import Design from '../../components/Design/index'
@@ -11,13 +11,14 @@ import Team from '../../components/Team/Team';
 import Faqs from '../../components/Faqs/Faqs';
 import RoadMap from '../../components/RoadMap/roadmap';
 const LandingPage = () => {
+    const [isSidebar, setIsSidebar] = useState(false);
 
     return (
         <div>
-            <Home />
+            <Home isSidebar={isSidebar} setIsSidebar={setIsSidebar} />
             <Intro/>
             <Design />
-            <Artist/>
+            <Artist isSidebar={isSidebar} />
             <Vision/>
             <Features/>
             <RoadMap/> 

@@ -10,7 +10,13 @@ AOS.init();
 
 const RoadMap = () => {
     const isMobile = useMediaQuery({ query: `(max-width: 500px)`});
-
+    // const [setBg
+    // useEffect(()=> {
+        // if(isMobile){
+        //     setBg()
+        //     setLine
+        // }
+    // }, [isMobile])
     const group = [
         { disabled: true,
             percentage: '20%',
@@ -87,8 +93,10 @@ const RoadMap = () => {
                 {/*<Image src="/images/roadmap-bg.png" layout='responsive'  width={800} height={1250} alt='roadmap background' />*/}
                 <div className="roadmap-container">
                     <div className="rd-stepper">
-                        {isMobile ? <Image src="/images/roadmap-sideSteps.png" layout='fixed'  width={35} height='1450em' alt='roadmap sideStep'/>
-                            : <Image src="/images/roadmap-sideSteps.png" layout='fixed'  width={45} height='2010em' alt='roadmap sideStep'/>}
+                        {/*{isMobile ? <Image src="/images/roadmap-sideSteps.png" layout='fixed'  width={35} height='1450em' alt='roadmap sideStep'/>*/}
+                        {/*    :*/}
+                        <img src="/images/roadmap-sideSteps.png" alt='roadmap sideStep'/>
+                            {/*}*/}
 
                     </div>
 

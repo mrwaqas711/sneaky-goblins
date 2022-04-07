@@ -4,7 +4,17 @@
     height: 100vh;
 }
 .home-bg {
-    position: relative;
+    /*height: 100%;*/
+    /*width: 100%;*/
+    /*object-fit: cover;*/
+    /*position: absolute;*/
+    /*z-index: 1;*/
+}
+.mobile-bg {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    position: absolute;
     z-index: 1;
 }
 .home-text {

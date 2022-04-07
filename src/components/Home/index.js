@@ -6,7 +6,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 AOS.init();
 // font fix
-const Home = () => {
+const Home = ({isSidebar, setIsSidebar}) => {
     const isMobile = useMediaQuery({ query: `(max-width: 500px)`});
     return (
         <>
@@ -17,7 +17,7 @@ const Home = () => {
                     className="home-bg"
                 />
                 <div className='home-text'>
-                    <Header/>
+                    <Header isSidebar={isSidebar} setIsSidebar={setIsSidebar}/>
                     <div className="main-heading" data-aos-once="true" data-aos-delay="100" data-aos-duration="2000" data-aos="fade-up">
                         <h1 className='desktop-h1'>Ready to build the future of&nbsp;
                         <span>Gamified<br/> NFT</span> & <span>Metaverse integration</span>?</h1>

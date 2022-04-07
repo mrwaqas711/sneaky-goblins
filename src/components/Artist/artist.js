@@ -5,7 +5,7 @@ import 'aos/dist/aos.css'; // You can also use <link> for styles
 // ..
 AOS.init();
 
-const artist = () => {
+const artist = ({isSidebar}) => {
   return (
     <div className='artist-main-div' id='artist'> 
         <div className='artist-flex-btw'>
@@ -25,11 +25,13 @@ const artist = () => {
             </button>
           </p>
         </div>
-        <div className='img-set'>
-          <div className='avatar-set'> <Image  src="/avatar3.png" width={625} height={443} alt='avatar' /></div>
-          <div className='stick-set'><Image src="/stick.png" alt="image-alt-text" width={486} height={920} /></div>
-          <div className='mobile-stick-set'><Image src="/stick.png" alt="image-alt-text" width={350} height={530} /></div>
-        </div>
+
+                <div className='img-set' >
+                    <div className={isSidebar ? 'artist-imagine avatar-set' : 'avatar-set'}><Image src="/avatar3.png" width={625} height={443} alt='avatar'/></div>
+                    <div className='stick-set'><Image src="/stick.png" alt="image-alt-text" width={486} height={920}/>
+                    </div>
+                    <div className='mobile-stick-set'><Image src="/stick.png" alt="image-alt-text" width={350} height={530}/></div>
+                </div>
         </div>
         <div className='artist-image'><Image src="/dots.png" alt="image-alt-text" width={838} height={564} /></div>
     </div>

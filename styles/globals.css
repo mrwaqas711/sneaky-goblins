@@ -113,7 +113,11 @@ body {
 }
 @media only screen and (min-width: 2100px) {
   body {
-    font-size: 16.3967px;
+    font-size: 16.567px;
+  }
+}@media only screen and (min-width: 3300px) and (max-width: 3450px) {
+  body {
+    font-size: 28.9583px;
   }
 }
 a {

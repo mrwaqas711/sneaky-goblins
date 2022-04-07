@@ -32,12 +32,12 @@
     /*z-index: 3;*/
 }
 .rd-stepper {
-
-
+    max-height: 100%;
+    object-fit: contain;
 }
-.large-stepper {
-height: 100vh;
-
+.rd-stepper > img {
+    height: 100%;
+    object-fit: contain;
 }
 .roadmap-text-container {
     width: 100%;
@@ -46,7 +46,7 @@ height: 100vh;
 }
 .Green-dots-icon {
     position: absolute;
-    left: -2.6em;
+    left: -2.15em;
     margin-top: 1.5em;
     z-index: 1;
     animation: dotPulse 3s infinite ease-in-out;
