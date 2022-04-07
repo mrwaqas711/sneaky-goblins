@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react'
+import React, {useEffect, useState} from 'react'
 import Header from '../Common/Header';
 import Image from 'next/image';
 import { useMediaQuery } from 'react-responsive';
@@ -6,8 +6,9 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 AOS.init();
 // font fix
-const Home = ({isSidebar, setIsSidebar}) => {
+const Home = () => {
     const isMobile = useMediaQuery({ query: `(max-width: 500px)`});
+        const [isSidebar, setIsSidebar] = useState(false);
     return (
         <>
             <div className="banner">

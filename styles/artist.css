@@ -24,7 +24,7 @@
   margin-top: 1.4em;
   margin-bottom: 0.72em;
 }
-.artist-imagine{
+.artist-imagine {
   z-index: -1 !important;
 }
 .artist-p {
@@ -136,6 +136,7 @@
   .avatar-set {
     position: relative;
     top: 10em;
+    z-index: 1;
   }
   .btn-set-mobile {
     display: block;
@@ -153,6 +154,7 @@
   .mobile-stick-set {
     display: block;
     position: absolute;
+    z-index: -1;
     top: 31%;
     bottom: 0;
     right: 0%;

@@ -11,14 +11,13 @@ import Team from '../../components/Team/Team';
 import Faqs from '../../components/Faqs/Faqs';
 import RoadMap from '../../components/RoadMap/roadmap';
 const LandingPage = () => {
-    const [isSidebar, setIsSidebar] = useState(false);
 
     return (
         <div>
-            <Home isSidebar={isSidebar} setIsSidebar={setIsSidebar} />
+            <Home/>
             <Intro/>
             <Design />
-            <Artist isSidebar={isSidebar} />
+            <Artist />
             <Vision/>
             <Features/>
             <RoadMap/> 

@@ -97,9 +97,7 @@ const RoadMap = () => {
                         {/*    :*/}
                         <img src="/images/roadmap-sideSteps.png" alt='roadmap sideStep'/>
                             {/*}*/}
-
                     </div>
-
                     <div className="roadmap-stepper">
                         <div className="">
                             <RoadMapInfo group={group}/>
@@ -107,8 +105,6 @@ const RoadMap = () => {
                     </div>
                 </div>
             </div>
-
-
         </div>
     );
 }
