@@ -11,13 +11,9 @@
 .roadmap-area{
     margin-top: 11em;
 }
-.roadmap-background {
-    /*background-image: url('../public/images/roadmap-bg.png');*/
-    /*!*position: relative;*!*/
-    /*background-position: center;*/
-    /*background-size: cover;*/
-    /*z-index: 1;*/
-}
+/*.roadmap-background {*/
+/*    */
+/*}*/
 .roadmap-h1 {
     margin: 100px 0 0 0;
     color: white;
