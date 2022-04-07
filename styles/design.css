@@ -41,9 +41,9 @@
 .h1-design {
     color: #00c555;
     font-family: "Rubik dirt", sans-serif;
-    font-size: 2.9rem;
+    font-size: 3.43em;
     line-height: 1.27em;
-    font-weight: normal;
+    font-weight: 400;
     text-transform: uppercase;
     margin-bottom: 10px;
     margin-top: 20px;
@@ -57,7 +57,7 @@
     line-height: 1.27em;
     font-weight: 600;
     margin-top: 10px;
-    margin-bottom: 38px;
+    margin-bottom: 3em;
 }
 @media only screen and (max-width: 767px) {
     .inner-text {

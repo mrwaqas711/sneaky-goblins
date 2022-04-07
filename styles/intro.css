@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 4%;
+  margin-top: 4.3em;
 }
 .inner-container {
   height: 100%;
@@ -36,7 +36,11 @@
   margin-top: 0.7em;
   margin-bottom: 0.72em;
 }
-
+.btn-icon {
+  width: 1.5em;
+  height: 1.125em;
+  margin-right: 1em;
+}
 .text-green {
   color: #00c555;
 }
@@ -82,7 +86,7 @@
   justify-content: center;
   align-items: center;
   padding-bottom: 2.4em;
-  margin-top: 2em;
+  margin-top: 3em;
   margin-bottom: 1.6em;
 }
 .inner-second-container {
@@ -130,6 +134,10 @@
     font-size: 1em;
     line-height: 32px;
     text-transform: uppercase;
+  }
+  .heading-align{
+    margin-top: 0;
+    margin-bottom: 0.72em;
   }
   .second-container {
     display: block;
