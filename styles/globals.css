@@ -31,34 +31,34 @@ body {
   overflow-x: hidden;
   font-size: 12.61667px;
 }
-@media only screen and (min-width: 400px) and (max-width: 500px) {
+@media only screen and (min-width: 800px) and (max-width: 900px) {
   body {
-    font-size: 16.5px;
+    font-size: 6.69095px;
   }
 }
 @media only screen and (min-width: 900px) and (max-width: 1000px) {
   body {
-    font-size: 6.9167px;
+    font-size: 7.77757px;
   }
 }
 @media only screen and (min-width: 1000px) and (max-width: 1100px) {
   body {
-    font-size: 8.216px;
+    font-size: 8.6516px;
   }
 }
 @media only screen and (min-width: 1100px) and (max-width: 1200px) {
   body {
-    font-size: 9.5667px;
+    font-size: 9.2667px;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1300px) {
   body {
-    font-size: 9.80667px;
+    font-size: 9.8001px;
   }
 }
 @media only screen and (min-width: 1300px) and (max-width: 1400px) {
   body {
-    font-size: 10.51667px;
+    font-size: 10.681667px;
   }
 }
 @media only screen and (min-width: 1400px) and (max-width: 1430px) {
@@ -73,22 +73,22 @@ body {
 }
 @media only screen and (min-width: 1450px) and (max-width: 1500px) {
   body {
-    font-size: 11.65667px;
+    font-size: 11.5667px;
   }
 }
 @media only screen and (min-width: 1500px) and (max-width: 1600px) {
   body {
-    font-size: 12.2667px
+    font-size: 12.31117px
   }
 }
 @media only screen and (min-width: 1600px) and (max-width: 1700px) {
   body {
-    font-size: 12.7667px;
+    font-size: 12.8667px;
   }
 }
 @media only screen and (min-width: 1700px) and (max-width: 1750px) {
   body {
-    font-size: 13.567px;
+    font-size: 13.667px;
   }
 }
 @media only screen and (min-width: 1750px) and (max-width: 1800px) {
@@ -128,7 +128,7 @@ body {
 }
 @media only screen and (min-width: 2400px) and (max-width: 2500px) {
   body {
-    font-size: 19.2667px;
+    font-size: 19.3667px;
   }
 }
 @media only screen and (min-width: 2500px) and (max-width: 2600px) {
@@ -138,7 +138,7 @@ body {
 }
 @media only screen and (min-width: 2600px) and (max-width: 2700px) {
   body {
-    font-size: 20.7867px;
+    font-size: 20.6867px;
   }
 }
 @media only screen and (min-width: 2700px) and (max-width: 2800px) {
