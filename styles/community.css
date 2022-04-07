@@ -139,6 +139,7 @@
     line-height: 32px;
     font-weight: 400;
     text-align: left;
+    z-index: 1;
   }
   .community-p {
     font-family: Outfit, sans-serif;

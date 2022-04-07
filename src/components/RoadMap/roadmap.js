@@ -105,6 +105,9 @@ const RoadMap = () => {
                     </div>
                 </div>
             </div>
+            <div className='road-top'><img src="/road-top.png" loading='lazy' alt="road-top" /></div>
+            <div className='road-bottom'><img src="/road-bottom.png" loading='lazy' alt="road-top" /></div>
+            
         </div>
     );
 }

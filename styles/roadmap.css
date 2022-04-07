@@ -1,214 +1,258 @@
 .roadmap-container {
-    padding: 3% 10% 5% 10%;
-    display: flex;
-    justify-content: space-between;
+  padding: 3% 10% 5% 10%;
+  display: flex;
+  justify-content: space-between;
 
-    /*position: absolute;*/
-    /*top: 0;*/
-    color: #fff;
-    z-index: 2;
+  /*position: absolute;*/
+  /*top: 0;*/
+  color: #fff;
+  z-index: 2;
 }
-.roadmap-area{
-    margin-top: 11em;
+.roadmap-background {
+}
+.roadmap-area {
+  margin-top: 11em;
 }
 /*.roadmap-background {*/
 /*    */
 /*}*/
 .roadmap-h1 {
-    margin: 100px 0 0 0;
-    color: white;
-    font-family: "Rubik dirt", sans-serif;
-    font-size: 2.8rem;
-    line-height: 65px;
-    font-weight: normal;
-    text-transform: uppercase;
-    text-align: center;
+  margin: 100px 0 0 0;
+  color: white;
+  font-family: "Rubik dirt", sans-serif;
+  font-size: 2.8rem;
+  line-height: 65px;
+  font-weight: normal;
+  text-transform: uppercase;
+  text-align: center;
 }
 .roadmap-stepper {
-    /*z-index: 3;*/
+  /*z-index: 3;*/
 }
 .rd-stepper {
-    max-height: 100%;
-    object-fit: contain;
+  max-height: 100%;
+  object-fit: contain;
 }
 .rd-stepper > img {
-    height: 100%;
-    object-fit: contain;
+  height: 100%;
+  object-fit: contain;
 }
 .roadmap-text-container {
-    width: 100%;
-    position: relative;
-    margin-top: 80px;
+  width: 100%;
+  position: relative;
+  margin-top: 80px;
 }
 .Green-dots-icon {
-    position: absolute;
-    left: -1.6em;
-    margin-top: 1.5em;
-    z-index: 1;
-    animation: dotPulse 3s infinite ease-in-out;
+  position: absolute;
+  left: -1.6em;
+  margin-top: 1.5em;
+  z-index: 1;
+  animation: dotPulse 3s infinite ease-in-out;
 }
 @media only screen and (min-width: 1300px) and (max-width: 1600px) {
-    .Green-dots-icon {
-        left: -2em;
-    }
+  .Green-dots-icon {
+    left: -2em;
+  }
 }
 @keyframes dotPulse {
-    0% {
-        transform: scale(0.5);
-    }
-    50% {
-        transform: scale(1.2);
-    }
-    100% {
-        transform: scale(0.5);
-    }
+  0% {
+    transform: scale(0.5);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(0.5);
+  }
 }
 .roadmap-section {
-    display: flex;
-    margin-bottom: 5em;
+  display: flex;
+  margin-bottom: 5em;
 }
 .roadmap-percentage {
-    margin: 0 20px;
-    font-family: Outfit, sans-serif;
-    color: #ececec;
-    font-size: 2.81em;
-    line-height: 1.55em;
-    font-weight: 900;
+  margin: 0 20px;
+  font-family: Outfit, sans-serif;
+  color: #ececec;
+  font-size: 2.81em;
+  line-height: 1.55em;
+  font-weight: 900;
 }
 .disabled-roadmap-percentage {
-    margin: 0 20px;
-    font-family: Outfit, sans-serif;
-    color: #505050;
-    font-size: 2.81em;
-    line-height: 1.55em;
-    font-weight: 900;
+  margin: 0 20px;
+  font-family: Outfit, sans-serif;
+  color: #505050;
+  font-size: 2.81em;
+  line-height: 1.55em;
+  font-weight: 900;
 }
 .data-roadmap {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 .roadmap-dotted-lines {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 .disabled-duration {
-    margin-top: 0px;
-    margin-bottom: 1em;
-    font-family: Outfit, sans-serif;
-    color: #505050;
-    font-size: 1.37em;
-    line-height: 1.4em;
-    font-weight: 600;
+  margin-top: 0px;
+  margin-bottom: 1em;
+  font-family: Outfit, sans-serif;
+  color: #505050;
+  font-size: 1.37em;
+  line-height: 1.4em;
+  font-weight: 600;
 }
 .duration {
-    margin-top: 0px;
-    margin-bottom: 1em;
-    font-family: Outfit, sans-serif;
-    color: #ffc748;
-    font-size: 1.37em;
-    line-height: 1.4em;
-    font-weight: 600;
+  margin-top: 0px;
+  margin-bottom: 1em;
+  font-family: Outfit, sans-serif;
+  color: #ffc748;
+  font-size: 1.37em;
+  line-height: 1.4em;
+  font-weight: 600;
 }
 .disabled-phase {
-    margin-top: 0px;
-    margin-bottom: 0.3em;
-    font-family: Outfit, sans-serif;
-    color: #505050;
-    font-size: 2.81em;
-    line-height: 1.1em;
-    font-weight: 900;
+  margin-top: 0px;
+  margin-bottom: 0.3em;
+  font-family: Outfit, sans-serif;
+  color: #505050;
+  font-size: 2.81em;
+  line-height: 1.1em;
+  font-weight: 900;
 }
 .phase {
-    margin-top: 0px;
-    margin-bottom: 0.3em;
-    font-family: Outfit, sans-serif;
-    color: #00c555;
-    font-size: 2.81em;
-    line-height: 1.1em;
-    font-weight: 900;
+  margin-top: 0px;
+  margin-bottom: 0.3em;
+  font-family: Outfit, sans-serif;
+  color: #00c555;
+  font-size: 2.81em;
+  line-height: 1.1em;
+  font-weight: 900;
 }
 .disabled-heading {
-    font-family: Outfit, sans-serif;
-    color: #505050;
-    font-size: 1.6em;
-    line-height: 1.53em;
-    font-weight: 400;
+  font-family: Outfit, sans-serif;
+  color: #505050;
+  font-size: 1.6em;
+  line-height: 1.53em;
+  font-weight: 400;
 }
 .heading {
-    font-family: Outfit, sans-serif;
-    color: #fff;
-    font-size: 1.6em;
-    line-height: 1.53em;
-    font-weight: 400;
+  font-family: Outfit, sans-serif;
+  color: #fff;
+  font-size: 1.6em;
+  line-height: 1.53em;
+  font-weight: 400;
 }
 .heading-div {
-    display: flex;
-    margin-bottom: 16px;
+  display: flex;
+  margin-bottom: 16px;
 }
 .roadmap-Dot {
-    padding: 6px 10px 15px 0;
-    font-family: Outfit, sans-serif;
-    color: #fff;
-    font-size: 2em;
-    line-height: 0.3em;
-    font-weight: 700;
+  padding: 6px 10px 15px 0;
+  font-family: Outfit, sans-serif;
+  color: #fff;
+  font-size: 2em;
+  line-height: 0.3em;
+  font-weight: 700;
+}
+.road-top {
+  display: none;
+}
+.road-bottom {
+  display: none;
 }
 @media only screen and (max-width: 500px) {
-    /*.rd-stepper {*/
-    /*    margin: 2em 0;*/
-    /*    padding-right: 1.1em;*/
-    /*}*/
-    .roadmap-area{
-        margin-top: 0;
-    }
-    .roadmap-h1 {
-        margin: 0;
-        font-size: 1.3rem;
-        line-height: 32px;
-    }
-    .roadmap-dotted-lines {
-        display: none;
-    }
-    .roadmap-container {
-        padding-left: 25px;
-        padding-right: 15px;
-    }
-    .data-roadmap {
-        margin-left: 10px;
-    }
-    .disabled-roadmap-percentage {
-        margin: 15px 0 0 10px;
-        font-size: 1.5em;
-    }
-    .roadmap-percentage {
-        margin: 15px 0 0 10px;
-        font-size: 1.5em;
-    }
-    .disabled-duration {
-        font-size: 0.75em;
-        margin-bottom: 0.5em;
-    }
-    .duration {
-        font-size: 0.75em;
-        margin-bottom: 0.5em;
-    }
-    .disabled-phase {
-        font-size: 1.2em;
-    }
-    .phase {
-        font-size: 1.2em;
-    }
-    .disabled-heading {
-        font-size: 0.9em;
-    }
-    .heading {
-        font-size: 0.9em;
-    }
-    .roadmap-Dot {
-        padding: 1px 10px 10px 0;
-        font-size: 1.5em;
-        line-height: 0.3em;
-        font-weight: 600;
-    }
-    .Green-dots-icon {
-        left: -2.9em;
-    }
+  /* .rd-stepper {
+       margin: 2em 0;
+       padding-right: 1.1em;
+    }  */
+  .roadmap-background {
+    height: 100%;
+    background-position: 50% 50%;
+    background-size: cover;
+    position: relative;
+  }
+  .roadmap-container {
+    padding-right: 4%;
+  }
+  .road-top {
+    position: absolute;
+    display: block;
+    right: 0%;
+    bottom: auto;
+    left: auto;
+    top: 7.5em;
+  }
+  .road-bottom {
+    position: absolute;
+    bottom: 4em;
+    display: block;
+  }
+  .roadmap-section {
+    margin-left: 10px;
+  }
+  .rd-stepper {
+    position: absolute;
+    /* width: 100%; */
+    left: 11px;
+    bottom: 4%;
+    height: 98% !important;
+  }
+  .roadmap-container {
+    /* position: relative; */
+  }
+  .roadmap-area {
+    margin-top: 0;
+    position: relative;
+  }
+  .roadmap-h1 {
+    margin: 0;
+    font-size: 1.3rem;
+    line-height: 32px;
+  }
+  .roadmap-dotted-lines {
+    display: none;
+  }
+  .roadmap-container {
+    /* padding-left: 25px; */
+    /* padding-right: 15px; */
+  }
+  .data-roadmap {
+    margin-left: 10px;
+  }
+  .disabled-roadmap-percentage {
+    margin: 15px 0 0 10px;
+    font-size: 1.5em;
+  }
+  .roadmap-percentage {
+    margin: 15px 0 0 10px;
+    font-size: 1.5em;
+  }
+  .disabled-duration {
+    font-size: 0.75em;
+    margin-bottom: 0.5em;
+  }
+  .duration {
+    font-size: 0.75em;
+    margin-bottom: 0.5em;
+  }
+  .disabled-phase {
+    font-size: 1.2em;
+  }
+  .phase {
+    font-size: 1.2em;
+  }
+  .disabled-heading {
+    font-size: 0.9em;
+  }
+  .heading {
+    font-size: 0.9em;
+  }
+  .roadmap-Dot {
+    padding: 1px 10px 10px 0;
+    font-size: 1.5em;
+    line-height: 0.3em;
+    font-weight: 600;
+  }
+  .Green-dots-icon {
+    left: -2.9em;
+  }
 }
