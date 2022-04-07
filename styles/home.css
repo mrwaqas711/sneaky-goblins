@@ -302,12 +302,15 @@
     font-family: "Rubik dirt", sans-serif;
     color: #ececec;
     letter-spacing: 0.09em;
-    font-size: 1.7em;
-    line-height: 2.27em;
-    font-weight: 400;
+
     font-style: inherit;
     text-align: center;
     text-transform: uppercase;
+}
+.desktop-h1{
+    font-size: 3.43em;
+    line-height: 1.27em;
+    font-weight: 400;
 }
 .main-heading > h1 > span {
     color: #00c555;

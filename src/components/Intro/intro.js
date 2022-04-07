@@ -12,8 +12,8 @@ return (
         <div className='second-container' id="intro">
                 <div className='inner-container'>
                     <div className='left-text-side'>
-                        <div className='h1-text'>
-                            <h1 data-aos-once="true" data-aos-delay="100" data-aos-duration="2000" data-aos="fade-up">
+                        <div>
+                            <h1 className='h1-text' data-aos-once="true" data-aos-delay="100" data-aos-duration="2000" data-aos="fade-up">
                                 WHO ARE THE <span className="text-green">SNEAKY</span><br/> <span className='text-green'>GOBLINS</span>?
                             </h1>
                         </div>

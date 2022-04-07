@@ -21,7 +21,7 @@ const Footer = () => {
                 </div>
                 <div className="footer-link-section">
                     <div className="footer-links">
-                        <Image width='26em' height="22em" layout='fixed' src="/images/socialIcon1.png" alt="plus image"/>
+                        <img style={{width: '2.15em', height: '1.75em'}} src="/images/socialIcon1.png" alt="plus image"/>
                     </div>
                     <div className="footer-links">
                         <Image width='26em' height="22em" layout='fixed' src="/images/socialIcon2.png" alt="plus image"/>
