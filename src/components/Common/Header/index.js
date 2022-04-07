@@ -52,16 +52,16 @@ const Header = ({isSidebar, setIsSidebar}) => {
                         <a href="#faqs">FAQ</a>
                         <div className='main-social-links'>
                             <div className="social-links">
-                                <Image width='23' height="18" layout='fixed' src="/images/socialIcon1.png" alt="plus image"/>
+                                <img style={{width: '1.53em', height: 'auto'}} src="/images/socialIcon1.png" alt="plus image"/>
                             </div>
                             <div className="social-links">
-                                <Image width='23' height="18" layout='fixed' src="/images/socialIcon2.png" alt="plus image"/>
+                                <img style={{width: '1.53em', height: 'auto'}} src="/images/socialIcon2.png" alt="plus image"/>
                             </div>
                             <div className="social-links">
-                                <Image width='23' height="18" layout='fixed' src="/images/socialIcon3.png" alt="plus image"/>
+                                <img style={{width: '1.53em', height: 'auto'}} src="/images/socialIcon3.png" alt="plus image"/>
                             </div>
                             <div className="social-links">
-                                <Image width='23' height="18" layout='fixed' src="/images/socialIcon4.png" alt="plus image"/>
+                                <img style={{width: '1.53em', height: 'auto'}} src="/images/socialIcon4.png" alt="plus image"/>
                             </div>
                         </div>
 

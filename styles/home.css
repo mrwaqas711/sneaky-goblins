@@ -34,8 +34,8 @@
 }
 .left-side-header {
     display: flex;
-    padding-top: 1.2em;
-    padding-bottom: 1.2em;
+    padding-top: 1.4em;
+    padding-bottom: 1.4em;
 }
 .left-side-header > a {
     margin-left: 2.27em;
@@ -51,12 +51,12 @@
     color: #00c555;
 }
 .left-menu-items {
-    height: 1px;
+    height: 0.08em;
     width: 100%;
     background-image: linear-gradient(to left, #ffba00 , transparent);
 }
 .right-menu-items {
-    height: 1px;
+    height: 0.08em;
     width: 100%;
     background-image: linear-gradient(to right, #ffba00 , transparent);
 }
@@ -270,14 +270,15 @@
     align-items: center;
     font-family: Outfit, sans-serif;
     color: #000;
-    font-size: 1.21em;
+    font-size: 1.24em;
     line-height: 1.16em;
     font-weight: 600;
     border: 1px solid #ffc748;
     border-radius: 3px;
-    padding: 0.9em 2em;
+    padding: 1.11em 2.12em;
     background-image: linear-gradient(84.07deg, #00c555 17%, #00e75e);
-    box-shadow: 0 0 10px 1px rgb(0 231 94);
+    box-shadow:  #ffc748 0px 1px 3px;
+    /*box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;*/
 }
 .custom-btn:hover {
     background-image: linear-gradient(84.07deg, #ffc748 17%, #ffc748);

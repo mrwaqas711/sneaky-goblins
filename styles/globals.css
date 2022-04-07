@@ -38,12 +38,12 @@ body {
 }
 @media only screen and (min-width: 900px) and (max-width: 1000px) {
   body {
-    font-size: 7.50167px;
+    font-size: 6.95167px;
   }
 }
 @media only screen and (min-width: 1000px) and (max-width: 1100px) {
   body {
-    font-size: 7.5016px;
+    font-size: 8.216px;
   }
 }
 @media only screen and (min-width: 1100px) and (max-width: 1200px) {
@@ -108,12 +108,12 @@ body {
 }
 @media only screen and (min-width: 2000px) and (max-width: 2100px) {
   body {
-    font-size: 15.3667px;
+    font-size: 15.4667px;
   }
 }
 @media only screen and (min-width: 2100px) {
   body {
-    font-size: 16.567px;
+    font-size: 16.2067px;
   }
 }@media only screen and (min-width: 3300px) and (max-width: 3450px) {
   body {
