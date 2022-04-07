@@ -42,10 +42,15 @@
 }
 .Green-dots-icon {
     position: absolute;
-    left: -2.15em;
+    left: -1.6em;
     margin-top: 1.5em;
     z-index: 1;
     animation: dotPulse 3s infinite ease-in-out;
+}
+@media only screen and (min-width: 1300px) and (max-width: 1600px) {
+    .Green-dots-icon {
+        left: -2em;
+    }
 }
 @keyframes dotPulse {
     0% {
