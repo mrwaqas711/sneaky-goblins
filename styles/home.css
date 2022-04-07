@@ -313,7 +313,8 @@
 }
 @media only screen and (max-width: 500px) {
     .main-heading {
-        padding-top: 70px;
+        padding-top: 130px;
+        margin-top: 0;
     }
     .desktop-h1 {
         display: none;
@@ -394,7 +395,7 @@
         z-index: 0;
     }
     .main-container-footer > p {
-        font-size: 1em;
+        font-size: 1.3em;
         font-weight: 400;
     }
     .main-container-footer {
@@ -404,7 +405,7 @@
         display: block;
     }
     .join-button {
-        padding: 1.2em 1.4em;
+        padding: 1em 1.38em;
 
     }
 }

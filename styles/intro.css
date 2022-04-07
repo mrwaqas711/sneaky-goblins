@@ -20,17 +20,18 @@
   text-align: left;
   width: 49%;
 }
-.right-image-side {
-  width: 41.81em;
-  height: 40.62em;
-}
+/*.right-image-side {*/
+/*  width: 41.81em;*/
+/*  height: 40.62em;*/
+/*}*/
 .h1-text {
   color: white;
   font-family: "Rubik dirt", sans-serif;
   font-weight: normal;
-  font-size: 2.5rem;
-  letter-spacing: 0.05em;
-  line-height: 1.27em;
+  font-size: 1.7em;
+  letter-spacing: 0.04em;
+  line-height: 2.27em;
+  font-weight: 400;
   text-transform: uppercase;
   margin-top: 0.7em;
   margin-bottom: 0.72em;
@@ -66,7 +67,14 @@
   background-image: linear-gradient(84.07deg, #ffc748 17%, #ffc748);
   cursor: pointer;
 }
-
+.avatar-1{
+  width: 41.81em;
+  height: 40.62em;
+}
+.avatar-2{
+  width: 46.56em;
+  height: 45.62em;
+}
 .third-container {
   background: #141514;
   color: white;
@@ -98,11 +106,19 @@
   width: 49%;
   margin-left: -4.3em;
 }
-.left-image-side {
-  width: 46.56em;
-  height: 45.62em;
-}
+/*.left-image-side {*/
+/*  width: 46.56em;*/
+/*  height: 45.62em;*/
+/*}*/
 @media only screen and (max-width: 500px) {
+  .avatar-1{
+    width: 351px;
+    height: 340px;
+  }
+  .avatar-2{
+    width: 351px;
+    height: 340px;
+  }
   .intro-container {
     display: block;
     padding: 5px 20px;
@@ -111,9 +127,8 @@
   .h1-text {
     color: white;
     font-family: "Rubik dirt", sans-serif;
-    font-size: 1.3rem;
+    font-size: 1em;
     line-height: 32px;
-    font-weight: normal;
     text-transform: uppercase;
   }
   .second-container {
