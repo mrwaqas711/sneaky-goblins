@@ -110,7 +110,7 @@
 /*  width: 46.56em;*/
 /*  height: 45.62em;*/
 /*}*/
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 767px) {
   .avatar-1{
     width: 351px;
     height: 340px;

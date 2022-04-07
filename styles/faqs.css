@@ -73,7 +73,7 @@
   cursor: pointer;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 767px) {
   .faq-div {
     display: grid;
     grid-template-columns: 100%;

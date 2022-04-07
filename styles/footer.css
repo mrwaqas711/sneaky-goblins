@@ -71,7 +71,7 @@
 .nft-mobile {
   display: none;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 767px) {
   .nft-mobile {
     display: block;
     width: 100%;

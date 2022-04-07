@@ -159,7 +159,7 @@
 .road-bottom {
   display: none;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 767px) {
   /* .rd-stepper {
        margin: 2em 0;
        padding-right: 1.1em;

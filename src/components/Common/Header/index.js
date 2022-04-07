@@ -76,7 +76,7 @@ const Header = ({isSidebar, setIsSidebar}) => {
                     <div className='mobile-nav-content'>
                         <div className="">
                             <div className="upper-border-mobile">
-                                <Image width={100} height={1} layout='fixed' src="/images/border.png" alt="plus image" />
+                                <img style={{width: '8em', height: '1px'}} src="/images/border.png" alt="plus image" />
                             </div>
 
                             <div className="menu-btn-left" onClick={()=> {handleSidebarClick()}}>
@@ -87,23 +87,23 @@ const Header = ({isSidebar, setIsSidebar}) => {
                                 </div>
                             </div>
                             <div className="bottom-border-mobile">
-                                <Image width={100} height={1} layout='fixed' src="/images/border.png" alt="plus image" />
+                                <img style={{width: '8em', height: '1px'}} src="/images/border.png" alt="plus image" />
                             </div>
 
                         </div>
                         <div className="mobile-logo">
-                            <Image width={105} height={70} layout='fixed' objectFit="cover" src="/images/sneaky_goblin_logo 3 copy.png" alt="plus image"/>
+                            <img style={{width: '8.25em', height: '5.625em'}}  objectFit="cover" src="/images/sneaky_goblin_logo 3 copy.png" alt="plus image"/>
                         </div>
                         <div className="">
                             <div className="upper-border-mobile">
-                                <Image width={100} height={1} layout='fixed' src="/images/BorderR.png" alt="plus image" />
+                                <img style={{width: '8em', height: '1px'}} src="/images/BorderR.png" alt="plus image" />
                             </div>
 
                             <div className="menu-btn-right">
                                 <Image width='20' height="15" layout='fixed' src="/images/socialIcon1.png" alt="plus image"/>
                             </div>
                             <div className="bottom-border-mobile">
-                                <Image width={100} height={1} layout='fixed' src="/images/BorderR.png" alt="plus image" />
+                                <img style={{width: '8em', height: '1px'}} src="/images/BorderR.png" alt="plus image" />
                             </div>
                         </div>
                     </div>
