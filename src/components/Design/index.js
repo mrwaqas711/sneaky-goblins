@@ -49,6 +49,13 @@ const properties = {
             }
         },
         {
+            breakpoint: 824,
+            settings: {
+                slidesToShow: 6,
+                slidesToScroll: 1
+            }
+        },
+        {
             breakpoint: 500,
             settings: {
                 slidesToShow: 1,

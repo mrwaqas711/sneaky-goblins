@@ -23,7 +23,7 @@ return (
                         </p>
                         <button className='btn-discord intro-btn-mobile' data-aos-delay="200" data-aos-once="true" data-aos-duration="2000" data-aos="fade-up">
                             <span className='btn-icon'>
-                                <img style={{width: '1.43em', height: 'auto' }} src="/images/btn-icon.svg" alt='btn' />
+                                <img style={{width: '1.53em', height: 'auto' }} src="/images/btn-icon.svg" alt='btn' />
                             </span>
                                 Join us on Discord
                         </button>
