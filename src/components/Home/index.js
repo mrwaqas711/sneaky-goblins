@@ -15,7 +15,7 @@ const Home = () => {
                 <img src={isMobile ? '/images/mobile-banner.jpg' : '/images/banner-bg.png'}
                         alt="Cover"
                         layout='fill'
-                        style={{width: '100%', height: '100%', objectFit: 'cover', objectPosition: '100% 100%'}}
+                        style={{width: '100%', height: '100%', objectFit: 'cover'}}
                         className="home-bg"
                 />
                 <div className='home-text'>
