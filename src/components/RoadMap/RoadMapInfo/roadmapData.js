@@ -14,7 +14,7 @@ const RoadMapInfo = ({percentage, duration, phase, heading, disabled, group }) =
                         {data.percentage}
                     </div>
                     <div className="roadmap-dotted-lines">
-                        <Image src="/images/dotted-lines.png" layout='fixed'  width={95} height={5} alt='dot border' />
+                        <Image src="/images/dotted-lines.png" layout='fixed'  width={65} height={4} alt='dot border' />
                     </div>
                     <div data-aos-once="true" data-aos-delay="100" data-aos-duration="2000" data-aos="fade-up" className="data-roadmap">
                         <p className={data.disabled ? 'disabled-duration' : 'duration'}>{data.duration}</p>

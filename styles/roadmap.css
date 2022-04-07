@@ -1,5 +1,5 @@
 .roadmap-container {
-    padding: 3% 10% 7% 10%;
+    padding: 3% 10% 5% 10%;
     display: flex;
     justify-content: space-between;
 
@@ -18,7 +18,7 @@
     margin: 100px 0 0 0;
     color: white;
     font-family: "Rubik dirt", sans-serif;
-    font-size: 2.9rem;
+    font-size: 2.8rem;
     line-height: 65px;
     font-weight: normal;
     text-transform: uppercase;
@@ -79,7 +79,7 @@
     font-weight: 900;
 }
 .data-roadmap {
-    margin-left: 30px;
+    margin-left: 20px;
 }
 .roadmap-dotted-lines {
     margin-top: 30px;
@@ -130,7 +130,7 @@
 .heading {
     font-family: Outfit, sans-serif;
     color: #fff;
-    font-size: 1.3em;
+    font-size: 1.6em;
     line-height: 1.53em;
     font-weight: 400;
 }

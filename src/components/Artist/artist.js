@@ -27,13 +27,13 @@ const artist = ({isSidebar}) => {
         </div>
 
                 <div className='img-set' >
-                    <div className={isSidebar ? 'artist-imagine avatar-set' : 'avatar-set'}><Image src="/avatar3.png" width={625} height={443} alt='avatar'/></div>
+                    <div className={isSidebar ? 'artist-imagine avatar-set' : 'avatar-set'}><Image src="/avatar3.png" width={625} height={420} alt='avatar'/></div>
                     <div className='stick-set'><Image src="/stick.png" alt="image-alt-text" width={486} height={920}/>
                     </div>
                     <div className='mobile-stick-set'><Image src="/stick.png" alt="image-alt-text" width={350} height={530}/></div>
                 </div>
         </div>
-        <div className='artist-image'><Image src="/dots.png" alt="image-alt-text" width={838} height={564} /></div>
+        <div className='artist-image'><Image src="/dots.png" alt="image-alt-text" width={838} height={550} /></div>
     </div>
   )
 }

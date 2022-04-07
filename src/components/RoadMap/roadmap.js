@@ -82,7 +82,7 @@ const RoadMap = () => {
 ]
     return (
         <div className="roadmap-area" id='roadmap'>
-            <h1 className='roadmap-h1'> <span className='text-green'>ROAD</span>MAP</h1>
+            <h1 className='roadmap-h1'> ROAD<span className='text-green'>MAP</span></h1>
             <div className="roadmap-background"
                 style={{
                     backgroundImage: "url('images/roadmap-bg.png')",
