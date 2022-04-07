@@ -53,7 +53,7 @@ body {
 }
 @media only screen and (min-width: 1200px) and (max-width: 1300px) {
   body {
-    font-size: 9.70667px;
+    font-size: 9.80667px;
   }
 }
 @media only screen and (min-width: 1300px) and (max-width: 1400px) {
@@ -98,26 +98,97 @@ body {
 }
 @media only screen and (min-width: 1800px) and (max-width: 1900px) {
   body {
-    font-size: 14.1667px;
+    font-size: 14.51667px;
   }
 }
 @media only screen and (min-width: 1900px) and (max-width: 2000px) {
   body {
-    font-size: 14.3667px;
+    font-size: 14.9667px;
   }
 }
 @media only screen and (min-width: 2000px) and (max-width: 2100px) {
   body {
-    font-size: 15.4667px;
+    font-size: 15.75667px;
   }
 }
-@media only screen and (min-width: 2100px) {
+@media only screen and (min-width: 2100px) and (max-width: 2200px) {
   body {
-    font-size: 16.2067px;
+    font-size: 16.8667px;
   }
-}@media only screen and (min-width: 3300px) and (max-width: 3450px) {
+}
+@media only screen and (min-width: 2200px) and (max-width: 2300px) {
   body {
-    font-size: 28.9583px;
+    font-size: 17.9667px;
+  }
+}
+@media only screen and (min-width: 2300px) and (max-width: 2400px) {
+  body {
+    font-size: 18.4667px;
+  }
+}
+@media only screen and (min-width: 2400px) and (max-width: 2500px) {
+  body {
+    font-size: 19.2667px;
+  }
+}
+@media only screen and (min-width: 2500px) and (max-width: 2600px) {
+  body {
+    font-size: 20.05667px;
+  }
+}
+@media only screen and (min-width: 2600px) and (max-width: 2700px) {
+  body {
+    font-size: 20.7867px;
+  }
+}
+@media only screen and (min-width: 2700px) and (max-width: 2800px) {
+  body {
+    font-size: 21.667px;
+  }
+}
+@media only screen and (min-width: 2800px) and (max-width: 2900px) {
+  body {
+    font-size: 22.4667px;
+  }
+}
+@media only screen and (min-width: 2900px) and (max-width: 3000px) {
+  body {
+    font-size: 23.667px;
+  }
+}
+@media only screen and (min-width: 3000px) and (max-width: 3100px) {
+  body {
+    font-size: 24.767px;
+  }
+}
+@media only screen and (min-width: 3100px) and (max-width: 3200px) {
+  body {
+    font-size: 25.667px;
+  }
+}
+@media only screen and (min-width: 3200px) and (max-width: 3300px) {
+  body {
+    font-size: 26.4667px;
+  }
+}
+@media only screen and (min-width: 3300px) and (max-width: 3400px) {
+  body {
+    font-size: 27.3025px;
+  }
+}
+@media only screen and (min-width: 3400px) and (max-width: 3450px) {
+  body {
+    font-size: 28.825px;
+  }
+}
+@media only screen and (min-width: 3450px) and (max-width: 3500px) {
+  body {
+    font-size: 28.90833px;
+  }
+}
+@media only screen and (min-width: 3500px) {
+  body {
+    font-size: 29.6px;
   }
 }
 a {
