@@ -12,10 +12,11 @@ const Home = () => {
     return (
         <>
             <div className="banner">
-                <Image src={isMobile ? '/images/mobile-banner.jpg' : '/images/banner-bg.png'}
-                    alt="Cover"
-                    layout='fill'
-                    className="home-bg"
+                <img src={isMobile ? '/images/mobile-banner.jpg' : '/images/banner-bg.png'}
+                        alt="Cover"
+                        layout='fill'
+                        style={{width: '100%', height: '100%', objectFit: 'cover'}}
+                        className="home-bg"
                 />
                 <div className='home-text'>
                     <Header isSidebar={isSidebar} setIsSidebar={setIsSidebar}/>
