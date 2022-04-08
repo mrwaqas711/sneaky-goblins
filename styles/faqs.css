@@ -1,21 +1,29 @@
 .faqs-container {
-  padding: 8.5em 10% 0.2em 10%;
+  padding-top: 3.8em;
+  padding-bottom: 6.06em;
+  height: 100%;
+  max-width: 100%;
+  padding-right: 10%;
+  padding-left: 10%;
 }
 .faqs-container > .faqs-heading {
-  color: white;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: "Rubik dirt", sans-serif;
   text-align: center;
-  font-family: Rubik dirt, sans-serif;
-  margin-top: 50px;
+  color: #ececec;
   font-size: 3.43em;
-  line-height: 1em;
-  font-weight: normal;
+  line-height: 1.27em;
+  font-weight: 400;
 }
 .faq-sub-heading {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: "Rubik dirt", sans-serif;
   text-align: center;
-  font-family: Rubik dirt, sans-serif;
   font-size: 3.43em;
-  line-height: 0em;
-  font-weight: normal;
+  line-height: 1.27em;
+  font-weight: 400;
 }
 .faq-div {
   margin-top: 7em;
@@ -28,13 +36,12 @@
   display: flex;
   flex-direction: column;
   background: #191b19;
-  /* padding: 20px 30px; */
-  margin: 0 0.5em 1.25em;
-  padding: 1.4em 2em;
-  border-top-right-radius: 50px;
-  border-bottom-right-radius: 50px;
+  margin-bottom: 1.25em;
+  padding: 1.5em 2em;
+  border: 1px none #000;
+  border-top-right-radius: 60px;
+  border-bottom-right-radius: 60px;
   flex: 50%;
-  /* margin: 15px 10px; */
   align-self: start;
 }
 .faq1 {
@@ -57,8 +64,10 @@
   font-weight: 600;
 }
 .collap-text {
+  margin-bottom: 0px;
   padding-top: 1em;
-  margin-bottom: 0;
+  font-family: Outfit, sans-serif;
+  color: #ececec;
   font-size: 1.2em;
   line-height: 1.7em;
   font-weight: 400;
@@ -80,23 +89,26 @@
     gap: 0 0;
   }
   .faqs-container {
-    padding: 15px 15px;
+    padding-right: 5%;
+    padding-left: 5%;
   }
   .faqs-heading {
-    font-size: 1.3rem !important;
+    font-size: 1.75em !important;
+    /* font-size: 1.3rem !important;
     line-height: 10px !important;
-    font-weight: 400 !important;
+    font-weight: 400 !important; */
   }
   .faq-sub-heading {
-    font-size: 1.3rem !important;
+    font-size: 1.75em !important;
+    /* font-size: 1.3rem !important;
     line-height: 20px !important;
-    font-weight: 400 !important;
+    font-weight: 400 !important; */
   }
   .faq-text {
-    font-size: 12px;
+    font-size: 1em;
   }
   .collap-text {
-    font-size: 11px;
+    font-size: 0.75em;
   }
   .faq {
     margin: 10px 0 !important;
