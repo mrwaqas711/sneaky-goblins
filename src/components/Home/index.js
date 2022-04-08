@@ -28,7 +28,7 @@ const Home = () => {
                     </div>
                     <div className="join-btn-container" data-aos-once="true" data-aos-delay="100" data-aos-duration="2000" data-aos="fade-up">
                         <button className="join-button">
-                        Join Sneaky Goblin</button>
+                        Join Sneaky Goblins</button>
                     </div>
                     <div className="main-container-footer">
                         <Image width={13} height={13} layout='fixed' src="/images/green-dot.svg" alt="plus image"/>

@@ -274,12 +274,12 @@
     align-items: center;
     font-family: Outfit, sans-serif;
     color: #000;
-    font-size: 1.24em;
+    font-size: 1.25em;
     line-height: 1.16em;
     font-weight: 600;
-    border: 1px solid #ffc748;
-    border-radius: 2px;
-    padding: 1em 2.12em;
+    border: 2px solid #ffc748;
+    border-radius: 3px;
+    padding: 1em 2.11em;
     background-image: linear-gradient(84.07deg, #00c555 17%, #00e75e);
     box-shadow:  #ffc748 0px 1px 3px;
     /*box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;*/
@@ -288,9 +288,7 @@
     background-image: linear-gradient(84.07deg, #ffc748 17%, #ffc748);
     cursor: pointer;
 }
-.btn-icon {
-    margin-right: 12px;
-}
+
 /*custom button*/
 
 /*Main Heading paragraph start*/
@@ -308,6 +306,8 @@
     text-transform: uppercase;
 }
 .desktop-h1{
+    margin-top: 0px;
+    margin-bottom: 0.6em;
     font-size: 3.43em;
     line-height: 1.27em;
     font-weight: 400;
@@ -325,6 +325,10 @@
     }
     .desktop-h1 {
         display: none;
+    }
+    .custom-btn{
+        padding: 1.18em 1.7em;
+        font-size:0.97em;
     }
     .mobile-h1 {
         margin-top: 0px;
@@ -365,7 +369,7 @@
     font-weight: 600;
     border: 2px solid #ffc748;
     border-radius: 3px;
-    padding: 1.5em 2.12em;
+    padding: 1.4em 2em;
     background-image: linear-gradient(84.07deg, #00c555 17%, #00e75e);
     box-shadow: 0 0 10px 1px rgb(0 231 94);
 }
@@ -394,6 +398,8 @@
     font-family: Outfit, sans-serif;
     color: #ececec;
     font-size: 1.75em;
+    line-height: 1.26em;
+    font-weight: 600;
     font-weight: 600;
     text-align: center;
 }

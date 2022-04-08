@@ -21,12 +21,7 @@ return (
                             The Sneaky Goblins are a species of world-changing tricksters. They are crafty and mischievous, at times devious, always genius. Masters of invention, they created the planes you travel in, the internet you communicate with, and the rockets that fly you to the moon.
                             Now they are coming for the Metaverse.
                         </p>
-                        <button className='btn-discord intro-btn-mobile' data-aos-delay="200" data-aos-once="true" data-aos-duration="2000" data-aos="fade-up">
-                            <span className='btn-icon'>
-                                <img style={{width: '1.53em', height: 'auto' }} src="/images/btn-icon.svg" alt='btn' />
-                            </span>
-                                Join us on Discord
-                        </button>
+                        <CustomButton/>
                     </div>
                     <div className='right-image-side' data-aos-once="true" data-aos-delay="100" data-aos-duration="2000" data-aos="fade-up">
                         <img className='avatar-1'  src='/avatar1.png' alt='avatar' />
@@ -39,8 +34,8 @@ return (
                 <img className='avatar-2' src='/avatar2.png' alt='avatar2' />
             </div>
         <div className='right-text-side'>
-            <div className='h1-text'>
-                <h1 data-aos-once="true" data-aos-delay="100" data-aos-duration="2000" data-aos="fade-up">
+            <div>
+                <h1 className='h1-text heading-align' data-aos-once="true" data-aos-delay="100" data-aos-duration="2000" data-aos="fade-up">
                     WHY DO YOU NEED A <br/> <span className="text-green">SNEAKY GOBLIN</span>?
                 </h1>
             </div>

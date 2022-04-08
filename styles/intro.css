@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 4%;
+  margin-top: 4.3em;
 }
 .inner-container {
   height: 100%;
@@ -36,7 +36,11 @@
   margin-top: 0.7em;
   margin-bottom: 0.72em;
 }
-
+.btn-icon {
+  width: 1.5em;
+  height: 1.125em;
+  margin-right: 1em;
+}
 .text-green {
   color: #00c555;
 }
@@ -82,7 +86,7 @@
   justify-content: center;
   align-items: center;
   padding-bottom: 2.4em;
-  margin-top: 2em;
+  margin-top: 3em;
   margin-bottom: 1.6em;
 }
 .inner-second-container {
@@ -127,12 +131,16 @@
   .h1-text {
     color: white;
     font-family: "Rubik dirt", sans-serif;
-    font-size: 1em;
-    line-height: 32px;
+    font-size: 1.75em;
     text-transform: uppercase;
+  }
+  .heading-align{
+    margin-top: 0;
+    margin-bottom: 0.72em;
   }
   .second-container {
     display: block;
+    margin-top: 2.5em;
   }
   .inner-container {
     display: block;
@@ -175,7 +183,7 @@
   }
   .third-container {
     margin: 10px 0 !important;
-    padding: 10px 0 !important;
+    padding: 50px 0 10px 0 !important;
   }
   .intro-btn-mobile {
     display: flex !important;
