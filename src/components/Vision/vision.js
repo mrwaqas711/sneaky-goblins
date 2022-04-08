@@ -10,7 +10,7 @@ const vision = () => {
     <div className='vision-main-div' id='vision'>
         <h1 className='vision-h1 desktop-vision' data-aos-once="true" data-aos-delay="100" data-aos-duration="2000" data-aos="fade-up">
           THE&nbsp;<span className='text-green'>VISI</span><span className='ring'>
-            <Image src='/ring.png' width={40} height={60} alt='ring' /></span>
+            <Image src='/ring.png' width={30} height={60} alt='ring' /></span>
             <span className='text-green'>N</span>
         </h1>
         <div className='vision-setter' data-aos-once="true" data-aos-delay="100" data-aos-duration="2000" data-aos="fade-up">

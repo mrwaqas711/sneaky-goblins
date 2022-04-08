@@ -18,7 +18,7 @@ const RoadMapInfo = ({percentage, duration, phase, heading, disabled, group }) =
                     </div>
                     <div data-aos-once="true" data-aos-delay="100" data-aos-duration="2000" data-aos="fade-up" className="data-roadmap">
                         <p className={data.disabled ? 'disabled-duration' : 'duration'}>{data.duration}</p>
-                        <p className={data.disabled ? 'disabled-phase' : 'phase'}>{data.phase}</p>
+                        <h1 className={data.disabled ? 'disabled-phase' : 'phase'}>{data.phase}</h1>
                         {data.subHeadings.map((heading,index) =>
                         <div className='heading-div' key={index}>
                             <div className="roadmap-Dot">.</div>

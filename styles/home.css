@@ -326,6 +326,10 @@
     .desktop-h1 {
         display: none;
     }
+    .custom-btn{
+        padding: 1.18em 1.7em;
+        font-size:0.97em;
+    }
     .mobile-h1 {
         margin-top: 0px;
         margin-bottom: 0.6em;

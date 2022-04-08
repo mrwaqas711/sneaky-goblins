@@ -17,12 +17,12 @@
 /*    */
 /*}*/
 .roadmap-h1 {
-  margin: 100px 0 0 0;
+  margin: 110px 0 0 0;
   color: white;
   font-family: "Rubik dirt", sans-serif;
-  font-size: 2.8rem;
-  line-height: 65px;
-  font-weight: normal;
+  font-size: 3.43em;
+  line-height: 1.27em;
+  font-weight: 400;
   text-transform: uppercase;
   text-align: center;
 }
@@ -110,7 +110,7 @@
   font-weight: 600;
 }
 .disabled-phase {
-  margin-top: 0px;
+  margin-top: 0;
   margin-bottom: 0.3em;
   font-family: Outfit, sans-serif;
   color: #505050;
@@ -119,7 +119,7 @@
   font-weight: 900;
 }
 .phase {
-  margin-top: 0px;
+  margin-top: 0;
   margin-bottom: 0.3em;
   font-family: Outfit, sans-serif;
   color: #00c555;
@@ -137,16 +137,16 @@
 .heading {
   font-family: Outfit, sans-serif;
   color: #fff;
-  font-size: 1.6em;
+  font-size: 1.62em;
   line-height: 1.53em;
   font-weight: 400;
 }
 .heading-div {
   display: flex;
-  margin-bottom: 16px;
+  margin-bottom: 1.8em;
 }
 .roadmap-Dot {
-  padding: 6px 10px 15px 0;
+  padding: 5px 10px 15px 0;
   font-family: Outfit, sans-serif;
   color: #fff;
   font-size: 2em;

@@ -138,6 +138,7 @@
 .react-slideshow-container + ul.indicators .each-slideshow-indicator:before {
     width: 12px !important;
     height: 12px !important;
+    margin-top: 10px;
 }
 
 .active:before {
