@@ -65,7 +65,7 @@
   right: 20%;
   width: 30em;
   height: 54.93em;
-  z-index: 0;
+  z-index: 1;
   animation: updown 6s infinite ease-in-out;
 }
 @keyframes updown {
