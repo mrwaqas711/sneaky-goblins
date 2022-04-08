@@ -71,11 +71,11 @@
   background-image: linear-gradient(84.07deg, #ffc748 17%, #ffc748);
   cursor: pointer;
 }
-.avatar-1{
+.avatar-1 {
   width: 41.81em;
   height: 40.62em;
 }
-.avatar-2{
+.avatar-2 {
   width: 46.56em;
   height: 45.62em;
 }
@@ -115,11 +115,11 @@
 /*  height: 45.62em;*/
 /*}*/
 @media only screen and (max-width: 767px) {
-  .avatar-1{
+  .avatar-1 {
     width: 351px;
     height: 340px;
   }
-  .avatar-2{
+  .avatar-2 {
     width: 351px;
     height: 340px;
   }
@@ -134,7 +134,7 @@
     font-size: 1.75em;
     text-transform: uppercase;
   }
-  .heading-align{
+  .heading-align {
     margin-top: 0;
     margin-bottom: 0.72em;
   }

@@ -101,7 +101,9 @@
 }
 .mobile .btn-desktop-only {
 }
-
+.btn-desktop-only {
+  box-shadow: 0 0 10px 5px rgb(255 199 72 / 30%);
+}
 @media only screen and (max-width: 767px) {
   .artist-main-div {
     display: block;
