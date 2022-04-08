@@ -49,9 +49,24 @@
   z-index: 1;
   animation: dotPulse 3s infinite ease-in-out;
 }
-@media only screen and (min-width: 1300px) and (max-width: 1600px) {
+@media only screen and (min-width: 1400px) and (max-width: 1800px) {
   .Green-dots-icon {
     left: -2em;
+  }
+}
+@media only screen and (min-width: 1800px) and (max-width: 2100px) {
+  .Green-dots-icon {
+    left: -1em;
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1200px) {
+  .Green-dots-icon {
+    left: -3.5em;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+  .Green-dots-icon {
+    left: -2.5em;
   }
 }
 @keyframes dotPulse {
@@ -70,7 +85,7 @@
   margin-bottom: 5em;
 }
 .roadmap-percentage {
-  margin: 0 20px;
+  margin: 0 0.8em;
   font-family: Outfit, sans-serif;
   color: #ececec;
   font-size: 2.81em;
@@ -78,7 +93,7 @@
   font-weight: 900;
 }
 .disabled-roadmap-percentage {
-  margin: 0 20px;
+  margin: 0 0.8em;
   font-family: Outfit, sans-serif;
   color: #505050;
   font-size: 2.81em;
@@ -179,19 +194,23 @@
     right: 0%;
     bottom: auto;
     left: auto;
-    top: 8.5em;
+    top: 10em;
   }
   .road-bottom {
     position: absolute;
-    bottom: 6em;
+    bottom: 8.6em;
     display: block;
   }
   .roadmap-section {
+    padding-top: 50px;
+    padding-bottom: 80px;
     margin-left: 10px;
+    margin-bottom: 1em;
   }
   .rd-stepper {
     position: absolute;
     /* width: 100%; */
+    margin-top:4em;
     left: 11px;
     bottom: 4%;
     height: 98% !important;
@@ -200,13 +219,14 @@
     /* position: relative; */
   }
   .roadmap-area {
-    margin-top: 0;
+    margin-top: 3em;
     position: relative;
   }
   .roadmap-h1 {
     margin: 0;
-    font-size: 1.3rem;
-    line-height: 32px;
+    font-size: 1.7em;
+    line-height: 1.27em;
+    font-weight: 400;
   }
   .roadmap-dotted-lines {
     display: none;
@@ -219,11 +239,11 @@
     margin-left: 10px;
   }
   .disabled-roadmap-percentage {
-    margin: 15px 0 0 25px;
+    margin: 15px 0 0 45px;
     font-size: 1.725em;
   }
   .roadmap-percentage {
-    margin: 15px 0 0 25px;
+    margin: 15px 0 0 45px;
     font-size: 1.725em;
   }
   .disabled-duration {
@@ -253,6 +273,6 @@
     font-weight: 600;
   }
   .Green-dots-icon {
-    left: 0.2em;
+    left: 1em;
   }
 }

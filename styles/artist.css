@@ -118,10 +118,9 @@
   .h1-artist {
     color: white;
     font-family: "Rubik dirt", sans-serif;
-    font-size: 1.3rem;
-    line-height: 32px;
-    font-weight: normal;
+    font-size: 1.6rem;
     text-transform: uppercase;
+    margin-top: 0;
   }
   .artist-p {
     font-size: 15px;

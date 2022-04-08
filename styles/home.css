@@ -258,7 +258,9 @@
 
 @media only screen and (max-width: 767px) {
     .mobile-header {
-        display: block;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
     }
 }
 @media only screen and (max-width: 767px) {
@@ -323,7 +325,7 @@
 }
 @media only screen and (max-width: 767px) {
     .main-heading {
-        padding-top: 130px;
+        padding-top: 135px;
         margin-top: 0;
     }
     .desktop-h1 {
@@ -340,9 +342,9 @@
         direction: ltr;
         font-family: "Rubik dirt", sans-serif;
         color: #ececec;
-        font-size: 0.9em;
-        line-height: 1.47em;
-        font-weight: 700;
+        font-size: 1.4em;
+        line-height: 1.27em;
+        font-weight: 400;
         text-align: center;
         text-transform: uppercase;
         display: block;
@@ -384,7 +386,7 @@
 /* main container footer start*/
 .main-container-footer {
     position: absolute;
-    bottom: 20px;
+    bottom: 1.8em;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -396,13 +398,12 @@
     border-bottom: 1px solid #ccc;
 }
 .main-container-footer > p {
-    padding: 0 1em;
+    padding: 0 2em;
     margin: 0;
     font-family: Outfit, sans-serif;
     color: #ececec;
     font-size: 1.75em;
     line-height: 1.26em;
-    font-weight: 600;
     font-weight: 600;
     text-align: center;
 }
@@ -411,7 +412,7 @@
         z-index: 0;
     }
     .main-container-footer > p {
-        font-size: 1.3em;
+        font-size: 0.87em;
         font-weight: 400;
     }
     .main-container-footer {
@@ -421,7 +422,7 @@
         display: block;
     }
     .join-button {
-        padding: 1em 1.38em;
-
+        padding: 1.2em 1.38em;
+        font-size: 0.89em;
     }
 }

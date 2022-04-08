@@ -32,9 +32,9 @@ const Home = () => {
                         Join Sneaky Goblins</button>
                     </div>
                     <div className="main-container-footer">
-                        <Image width={13} height={13} layout='fixed' src="/images/green-dot.svg" alt="plus image"/>
+                        <img style={{width: '1em', height: '1em'}} src="/images/green-dot.svg" alt="plus image"/>
                         <p>Stake - Yield - Upgrade - Mutate</p>
-                        <Image width={13} height={13} layout='fixed' src="/images/green-dot.svg" alt="plus image"/>
+                        <img style={{width: '1em', height: '1em'}} src="/images/green-dot.svg" alt="plus image"/>
                     </div>
                 </div>
             </div>

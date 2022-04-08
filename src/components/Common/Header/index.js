@@ -76,7 +76,7 @@ const Header = ({isSidebar, setIsSidebar}) => {
                     <div className='mobile-nav-content'>
                         <div className="">
                             <div className="upper-border-mobile">
-                                <img style={{width: '8em', height: '1px'}} src="/images/border.png" alt="plus image" />
+                                <img style={{width: '6em', height: '1px'}} src="/images/border.png" alt="plus image" />
                             </div>
 
                             <div className="menu-btn-left" onClick={()=> {handleSidebarClick()}}>
@@ -87,7 +87,7 @@ const Header = ({isSidebar, setIsSidebar}) => {
                                 </div>
                             </div>
                             <div className="bottom-border-mobile">
-                                <img style={{width: '8em', height: '1px'}} src="/images/border.png" alt="plus image" />
+                                <img style={{width: '6em', height: '1px'}} src="/images/border.png" alt="plus image" />
                             </div>
 
                         </div>
@@ -96,14 +96,14 @@ const Header = ({isSidebar, setIsSidebar}) => {
                         </div>
                         <div className="">
                             <div className="upper-border-mobile">
-                                <img style={{width: '8em', height: '1px'}} src="/images/BorderR.png" alt="plus image" />
+                                <img style={{width: '6em', height: '1px'}} src="/images/BorderR.png" alt="plus image" />
                             </div>
 
                             <div className="menu-btn-right">
                                 <Image width='20' height="15" layout='fixed' src="/images/socialIcon1.png" alt="plus image"/>
                             </div>
                             <div className="bottom-border-mobile">
-                                <img style={{width: '8em', height: '1px'}} src="/images/BorderR.png" alt="plus image" />
+                                <img style={{width: '6em', height: '1px'}} src="/images/BorderR.png" alt="plus image" />
                             </div>
                         </div>
                     </div>
