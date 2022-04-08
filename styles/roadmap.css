@@ -179,6 +179,9 @@
        margin: 2em 0;
        padding-right: 1.1em;
     }  */
+  .roadmap-text-container {
+    padding-bottom: 5em;
+  }
   .roadmap-background {
     height: 100%;
     background-position: 50% 50%;
@@ -194,16 +197,16 @@
     right: 0%;
     bottom: auto;
     left: auto;
-    top: 10em;
+    top: 8em;
   }
   .road-bottom {
     position: absolute;
-    bottom: 8.6em;
+    bottom: 6em;
     display: block;
   }
   .roadmap-section {
     padding-top: 50px;
-    padding-bottom: 80px;
+    /*padding-bottom: 80px;*/
     margin-left: 10px;
     margin-bottom: 1em;
   }
@@ -240,31 +243,31 @@
   }
   .disabled-roadmap-percentage {
     margin: 15px 0 0 45px;
-    font-size: 1.725em;
+    font-size: 1.525em;
   }
   .roadmap-percentage {
     margin: 15px 0 0 45px;
-    font-size: 1.725em;
+    font-size: 1.525em;
   }
   .disabled-duration {
-    font-size: 0.85em;
+    font-size: 0.65em;
     margin-bottom: 0.5em;
   }
   .duration {
-    font-size: 0.85em;
+    font-size: 0.65em;
     margin-bottom: 0.5em;
   }
   .disabled-phase {
-    font-size: 1.9em;
+    font-size: 1.8em;
   }
   .phase {
-    font-size: 1.9em;
+    font-size: 1.8em;
   }
   .disabled-heading {
-    font-size: 1.2em;
+    font-size: 1em;
   }
   .heading {
-    font-size: 1.2em;
+    font-size: 1em;
   }
   .roadmap-Dot {
     padding: 2px 10px 10px 0;

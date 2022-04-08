@@ -75,10 +75,11 @@
   margin-bottom: 1.5em;
   font-family: Outfit, sans-serif;
   color: #ececec;
-  font-size: 1.8em;
+  font-size: 1.7em;
   line-height: 2.14em;
   font-weight: 300;
   text-align: justify;
+  margin-top: 0;
 }
 .btn-div {
   margin-top: 1.5em;
@@ -214,11 +215,15 @@
   .community-container {
     padding-left: 15px;
     padding-right: 15px;
-    margin-top: 2em;
+    margin-top: -5em;
     display: block;
     justify-content: center;
 
     /* align-items: center; */
+  }
+  .btn-two {
+    font-size: 0.7em;
+    padding: 1.1em 1.5em
   }
   .community-text {
     width: 100%;

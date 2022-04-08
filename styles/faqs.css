@@ -6,7 +6,7 @@
   padding-right: 10%;
   padding-left: 10%;
 }
-.faqs-container > .faqs-heading {
+ .faqs-heading {
   margin-top: 0px;
   margin-bottom: 0px;
   font-family: "Rubik dirt", sans-serif;
@@ -28,7 +28,7 @@
 .faq-div {
   margin-top: 7em;
   display: grid;
-  gap: 0 1%;
+  gap: 0 2%;
   grid-template-columns: 50% 50%;
 }
 .faq {
@@ -81,9 +81,18 @@
   font-weight: 1000;
   cursor: pointer;
 }
-
+.mobile-heading-faq{
+  display: none
+}
 @media only screen and (max-width: 767px) {
+  .mobile-heading-faq{
+    display: block;
+  }
+.desktop-heading-faq{
+  display: none
+}
   .faq-div {
+    margin-top: 3em;
     display: grid;
     grid-template-columns: 100%;
     gap: 0 0;
@@ -91,9 +100,12 @@
   .faqs-container {
     padding-right: 5%;
     padding-left: 5%;
+    padding-top: 0;
+    padding-bottom: 2em;
+  ;
   }
   .faqs-heading {
-    font-size: 1.75em !important;
+    font-size: 1.35em !important;
     /* font-size: 1.3rem !important;
     line-height: 10px !important;
     font-weight: 400 !important; */
@@ -105,12 +117,13 @@
     font-weight: 400 !important; */
   }
   .faq-text {
-    font-size: 1em;
+    font-size: 0.77em;
   }
   .collap-text {
     font-size: 0.75em;
   }
   .faq {
+    padding: 0.9em 1.8em;
     margin: 10px 0 !important;
   }
 }

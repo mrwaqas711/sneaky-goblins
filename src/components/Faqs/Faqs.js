@@ -17,8 +17,11 @@ const Faqs = () => {
     ];
 return (
     <div className='faqs-container' id='faqs'>
-        <h1 className="faqs-heading" data-aos-once="true" data-aos-delay="100" data-aos-duration="2000" data-aos="fade-up">FREQUENTLY ASKED</h1>
-        <h1 className="text-green faq-sub-heading" data-aos-once="true" data-aos-delay="100" data-aos-duration="2000" data-aos="fade-up">QUESTIONS</h1>
+        <h1 className='mobile-heading-faq faqs-heading' >FREQUENTLY ASKED <span className='text-green'>QUESTIONS</span></h1>
+        <div className='desktop-heading-faq'>
+            <h1 className="faqs-heading" data-aos-once="true" data-aos-delay="100" data-aos-duration="2000" data-aos="fade-up">FREQUENTLY ASKED
+                <br/><span className='text-green'>QUESTIONS</span></h1>
+        </div>
         <div className='faq-div' data-aos-once="true" data-aos-delay="100" data-aos-duration="2000" data-aos="fade-up">
             {
                 data.map ((faq, idx) =>
