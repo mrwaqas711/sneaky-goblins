@@ -18,7 +18,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: .5em;
+  margin-bottom: 0.5em;
   margin-top: 0;
 }
 .ring {
@@ -72,13 +72,13 @@
   display: inline-block;
   position: relative;
 }
-.vision-border{
+.vision-border {
   display: none;
   margin-top: 10px;
   border-bottom: 1px solid #ccc;
 }
 @media only screen and (max-width: 767px) {
-  .vision-border{
+  .vision-border {
     display: block;
     margin-top: 10px;
     border-bottom: 1px solid #ccc;
@@ -91,7 +91,7 @@
     text-align: center;
   }
   .vision-h1 {
-    font-size: 25px;
+    font-size: 1.9em;
     line-height: 32px;
     display: block;
   }
