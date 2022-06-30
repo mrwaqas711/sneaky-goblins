@@ -41,7 +41,7 @@ const Header = ({isSidebar, setIsSidebar}) => {
                 </div>
                 </div>
                 <div className="logo">
-                   <img src="/images/sneaky_goblin_logo 3 copy.png" alt="plus image"/>
+                <img src="/images/sneaky_goblin_logo 3 copy.png" alt="plus image"/>
                 </div>
 
                 <div className="">
